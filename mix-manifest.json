@@ -1,5 +1,6 @@
 {
     "/dist/style.css": "/dist/style.css",
+    "/dist/desktop.css": "/dist/desktop.css",
     "/dist/helpers.css": "/dist/helpers.css",
     "/dist/mobile.css": "/dist/mobile.css",
     "/dist/tablet.css": "/dist/tablet.css"

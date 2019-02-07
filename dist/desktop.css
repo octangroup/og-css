@@ -1,6 +1,6 @@
-/*!
- * Copyright (c) 2018. OctanGrp. All Rights Reserved.
- * This code is proprietary and the property of OctanGrp.
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);/*!
+ * Copyright (c) 2018. Octan Grp. All Rights Reserved.
+ * This code is proprietary and the property of Octan Grp.
  */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   html {
@@ -30,6 +30,10 @@
 
   .lg\:hidden {
     display: none !important;
+  }
+
+  .lg\:block {
+    display: block !important;
   }
 
   .is-invisible-desktop-only {
@@ -1109,7 +1113,7 @@
   }
 
   .lg\:bg-primary {
-    background-color: #1b6d85 !important;
+    background-color: #003B5E !important;
   }
 
   .lg\:btn-round {
@@ -1130,12 +1134,12 @@
 
   .lg\:btn-outline-primary {
     background: white;
-    border-color: #1b6d85;
-    color: #1b6d85;
+    border-color: #003B5E;
+    color: #003B5E;
   }
 
   .lg\:text-primary {
-    color: #1b6d85 !important;
+    color: #003B5E !important;
   }
 
   .lg\:text-white {
@@ -1143,8 +1147,8 @@
   }
 
   .lg\:btn-primary {
-    background: #1b6d85;
-    border-color: #1b6d85;
+    background: #003B5E;
+    border-color: #003B5E;
     color: white;
   }
 
@@ -2289,7 +2293,7 @@
   }
 
   .xl\:bg-primary {
-    background-color: #1b6d85 !important;
+    background-color: #003B5E !important;
   }
 
   .xl\:btn-round {
@@ -2302,14 +2306,22 @@
 
   .xl\:btn-outline-primary {
     background: white;
-    border-color: #1b6d85;
-    color: #1b6d85;
+    border-color: #003B5E;
+    color: #003B5E;
   }
 
   .xl\:btn-primary {
-    background: #1b6d85;
-    border-color: #1b6d85;
+    background: #003B5E;
+    border-color: #003B5E;
     color: white;
+  }
+
+  .xl\:hidden {
+    display: none !important;
+  }
+
+  .xl\:block {
+    display: block !important;
   }
 
   img.lg\:clip-full {

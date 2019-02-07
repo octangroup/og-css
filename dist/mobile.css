@@ -1,4 +1,4 @@
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);@media screen and (min-width: 576px) and (max-width: 767px) {
   html {
     background-color: white;
     font-size: 16px;
@@ -1057,8 +1057,8 @@ textarea {
 
   .sm\:btn-outline-primary {
     background: white;
-    border-color: #1b6d85;
-    color: #1b6d85;
+    border-color: #003B5E;
+    color: #003B5E;
   }
 
   .swoosh-home {
@@ -1503,7 +1503,7 @@ textarea {
   }
 
   .sm\:bg-primary {
-    background-color: #1b6d85 !important;
+    background-color: #003B5E !important;
   }
 
   .sm\:bg-white {
@@ -2593,8 +2593,8 @@ textarea {
 
   .xs\:btn-outline-primary {
     background: white;
-    border-color: #1b6d85;
-    color: #1b6d85;
+    border-color: #003B5E;
+    color: #003B5E;
   }
 
   .swoosh-home {
@@ -3039,7 +3039,7 @@ textarea {
   }
 
   .xs\:bg-primary {
-    background-color: #1b6d85 !important;
+    background-color: #003B5E !important;
   }
 
   .xs\:bg-white {

@@ -1,4 +1,4 @@
-/*!
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);/*!
  * Copyright (c) 2018. OctanGrp. All Rights Reserved.
  * This code is proprietary and the property of OctanGrp.
  */
@@ -1116,7 +1116,7 @@
   }
 
   .md\:bg-primary {
-    background-color: #1b6d85 !important;
+    background-color: #003B5E !important;
   }
 
   .md\:btn-round {
@@ -1129,13 +1129,13 @@
 
   .md\:btn-outline-primary {
     background: white;
-    border-color: #1b6d85;
-    color: #1b6d85;
+    border-color: #003B5E;
+    color: #003B5E;
   }
 
   .md\:btn-primary {
-    background: #1b6d85;
-    border-color: #1b6d85;
+    background: #003B5E;
+    border-color: #003B5E;
     color: white;
   }
 
