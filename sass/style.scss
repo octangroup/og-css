@@ -69,19 +69,6 @@ img {
   vertical-align: middle;
 }
 
-a {
-  background-color: transparent;
-  color: $primary;
-  text-decoration: none;
-  -webkit-text-decoration-skip: objects;
-  font-family: inherit;
-}
-
-a:active,
-a:hover {
-  text-decoration: none;
-}
-
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -917,18 +904,9 @@ img.profile-icon {
   text-decoration: none;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.dropdown-content:hover .hne {
-  background-color: white;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -1446,6 +1424,7 @@ a.label:focus {
   top: -40px;
   width: 43px;
 }
+
 .lds-ring {
   display: inline-block;
   height: 64px;
@@ -1453,7 +1432,9 @@ a.label:focus {
   width: 64px;
 }
 
-.lds-ring div {
+.lds-ring div,
+.lds-ring-sm div,
+.lds-ring-xs div {
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border: 6px solid $primary;
   border-color: $primary transparent transparent transparent;
@@ -1466,15 +1447,35 @@ a.label:focus {
   width: 51px;
 }
 
-.lds-ring div:nth-child(1) {
+.lds-ring-sm div {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border-width: 2px;
+}
+
+.lds-ring-xs div {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  border-width: 2px;
+}
+
+.lds-ring div:nth-child(1),
+.lds-ring-sm div:nth-child(1),
+.lds-ring-xs div:nth-child(1) {
   animation-delay: -0.45s;
 }
 
-.lds-ring div:nth-child(2) {
+.lds-ring div:nth-child(2),
+.lds-ring-sm div:nth-child(2),
+.lds-ring-xs div:nth-child(2) {
   animation-delay: -0.3s;
 }
 
-.lds-ring div:nth-child(3) {
+.lds-ring div:nth-child(3),
+.lds-ring-sm div:nth-child(3),
+.lds-ring-xs div:nth-child(3) {
   animation-delay: -0.15s;
 }
 
@@ -1542,6 +1543,10 @@ a.label:focus {
 .form-input:disabled, .form-input[readonly] {
   background-color: #e9ecef;
   opacity: 1;
+}
+
+.container {
+  width: 100%
 }
 
 select.form-input:not([size]):not([multiple]) {
@@ -1971,25 +1976,26 @@ ul.inline-list li {
 
 .curves-pattern {
   height: 115px;
-  -webkit-mask-image: url('/img/pattern.png');
-  mask-image: url('/img/pattern.png');
-  -webkit-mask-size: 1440px;
-  mask-size: 1440px;
-  -webkit-mask-repeat: repeat-x;
-  mask-repeat: repeat-x;
+  -webkit-mask-image: url("/img/pattern.png");
+  mask-image: url("/img/pattern.png");
   -webkit-mask-position: center;
   mask-position: center;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-size: 1440px;
+  mask-size: 1440px;
 }
 
 .curves-pattern-overlay:after,
 .curves-pattern-overlay:before {
-  background: url('/img/pattern_3.png') repeat-x 50%;
+  background: url("/img/pattern_2.png") repeat-x 50%;
   background-size: 1440px;
   content: "";
   display: block;
   height: 115px;
   position: absolute;
   top: 0;
+  bottom: 0;
 }
 
 .curves-pattern-overlay:after {
@@ -2254,4 +2260,73 @@ ul.inline-block li {
   flex-shrink: 1;
   overflow: auto;
   padding: 20px;
+}
+
+nav.fill ul li a,
+nav.fill-primary ul li a {
+  position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after,
+nav.fill-primary ul li a:after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  content: '.';
+  color: transparent;
+  background: #fff;
+  height: 3px;
+}
+
+nav.fill-primary ul li a:after {
+  background: $primary;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a,
+nav.fill-primary ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after,
+nav.fill-primary ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+
+nav.fill ul li a:hover,
+nav.fill-primary ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+
+nav.fill ul li a:hover:after,
+nav.fill-primary ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 3s forwards;
+  -moz-animation: fill 3s forwards;
+  opacity: 1;
+}
+
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 3px;
+
+  }
 }

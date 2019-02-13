@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro:300,400,500,600,700|Roboto:300,400,500");
+
+/*!
+ * Copyright (c) 2018. Octan Grp. All Rights Reserved.
+ * This code is proprietary and the property of Octan Grp.
+ */
+
 
 // Typography
-$primary-font: 'Nunito', sans-serif;
-$font-family-sans-default: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+$primary-font:'Advent Pro', sans-serif;
+$font-family-sans-default: "Roboto", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
@@ -18,23 +24,23 @@ $yellow: #ffed4a;
 $green: #50c787;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
-$primary-lightest: #006ba1;
-$primary-lighter: rgba(0, 59, 94, 0.53);
-$primary-light: rgba(0, 59, 94, 0.8);
-$primary: #003B5E;
-$primary-dark: #003254;
-$primary-darker: #00274a;
-$primary-darkest: #001c40;
+$primary-lightest: #155477;
+$primary-lighter: #014a67;
+$primary-light: #013753;
+$primary: #01263f;
+$primary-dark: #011e35;
+$primary-darker: #01122b;
+$primary-darkest: #011021;
 
-$accent-lightest: #b2282d;
-$accent-lighter: #b2282d;
-$accent-light: #b2282d;
-$accent: #b2282d;
-$accent-dark: #b2282d;
-$accent-darker: #b2282d;
-$accent-darkest: #b2282d;
+$accent-lightest: #58dcd0;
+$accent-lighter: #58dcd0;
+$accent-light: #58dcd0;
+$accent: #58dcd0;
+$accent-dark: #58dcd0;
+$accent-darker: #58dcd0;
+$accent-darkest: #58dcd0;
 
-$primary-semi_transparent: rgba(27, 109, 133, 0.51);
+$primary-semi_transparent: rgba(1, 38, 63, 0.5);
 //$accent : #ec4551;
 $full-radius: 9999px;
 $white-smoke: #f7f7f7;
