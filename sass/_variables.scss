@@ -1,13 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Advent+Pro:300,400,500,600,700|Roboto:300,400,500");
-
-/*!
- * Copyright (c) 2018. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
-
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,800|Roboto:300,400,500');
 
 // Typography
-$primary-font:'Advent Pro', sans-serif;
+$primary-font: 'Nunito', sans-serif;
 $font-family-sans-default: "Roboto", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
@@ -24,23 +18,23 @@ $yellow: #ffed4a;
 $green: #50c787;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
-$primary-lightest: #155477;
-$primary-lighter: #014a67;
-$primary-light: #013753;
-$primary: #01263f;
-$primary-dark: #011e35;
-$primary-darker: #01122b;
-$primary-darkest: #011021;
+$primary-lightest: #0d8ab2;
+$primary-lighter: #1b8ba3;
+$primary-light: #1b7c94;
+$primary: #1b6d85;
+$primary-dark: #1c5d76;
+$primary-darker: #1c4e67;
+$primary-darkest: #194158;
 
-$accent-lightest: #58dcd0;
-$accent-lighter: #58dcd0;
-$accent-light: #58dcd0;
-$accent: #58dcd0;
-$accent-dark: #58dcd0;
-$accent-darker: #58dcd0;
-$accent-darkest: #58dcd0;
+$accent-lightest: #FFA500;
+$accent-lighter: #FFA500;
+$accent-light: #FFA500;
+$accent: #FFA500;
+$accent-dark: #f59e00;
+$accent-darker: #eb9400;
+$accent-darkest: #e18d00;
 
-$primary-semi_transparent: rgba(1, 38, 63, 0.5);
+$primary-semi_transparent: rgba(27, 109, 133, 0.51);
 //$accent : #ec4551;
 $full-radius: 9999px;
 $white-smoke: #f7f7f7;

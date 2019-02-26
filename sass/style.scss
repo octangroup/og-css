@@ -2330,3 +2330,80 @@ nav.fill-primary ul li a:hover:after {
 
   }
 }
+
+.sliding-left-icon, .sliding-bottom-icon {
+  position: relative;
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+}
+
+@-webkit-keyframes left-right {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -50px;
+  }
+  100% {
+    opacity: 0;
+    left: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes left-right {
+  0% {
+    left: 0;
+  }
+  50% {
+    opacity: 1;
+    left: -50px;
+  }
+  100% {
+    opacity: 0;
+    left: 0;
+  }
+}
+
+.sliding-bottom-icon {
+  position: relative;
+  -webkit-animation-name: bottom-top; /* Safari 4.0 - 8.0 */
+  animation-name: bottom-top;
+}
+
+.sliding-left-icon {
+  position: relative;
+  -webkit-animation-name: left-right; /* Safari 4.0 - 8.0 */
+  animation-name: left-right;
+}
+
+@-webkit-keyframes bottom-top {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: -50px;
+  }
+  100% {
+    opacity: 0;
+    bottom: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes bottom-top {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    opacity: 1;
+    bottom: -50px;
+  }
+  100% {
+    opacity: 0;
+    bottom: 0;
+  }
+}

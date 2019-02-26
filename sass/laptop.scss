@@ -1829,8 +1829,8 @@
   }
   .swoosh-home {
     background: url('../img/smalShape.svg') no-repeat;
-    background-size: 55% 100%;
-    background-position: 105% -30%;
+    background-position: 130% 1%;
+    background-size: 70% 140%;
   }
   .datepicker__dummy-input:first-child {
     text-indent: 10px !important;
@@ -1973,5 +1973,289 @@
   .lg\:pin-l {
     left: 0 !important;
   }
+  .lg\:text-grey-darkest {
+    color: #3d4852 !important;
+  }
+
+  .lg\:text-grey-darker {
+    color: #606f7b !important;
+  }
+
+  .lg\:text-grey-dark {
+    color: #8795a1 !important;
+  }
+
+  .lg\:text-grey {
+    color: #b8c2cc !important;
+  }
+
+  .lg\:text-grey-light {
+    color: #dae1e7 !important;
+  }
+
+  .lg\:text-grey-lighter {
+    color: #f1f5f8 !important;
+  }
+
+  .lg\:text-grey-lightest {
+    color: #f8fafc !important;
+  }
+
+  .lg\:text-white {
+    color: #fff !important;
+  }
+
+  .lg\:text-red-darkest {
+    color: #3b0d0c !important;
+  }
+
+  .lg\:text-red-darker {
+    color: #621b18 !important;
+  }
+
+  .lg\:text-red-dark {
+    color: #cc1f1a !important;
+  }
+
+  .lg\:text-red {
+    color: #e3342f !important;
+  }
+
+  .lg\:text-red-light {
+    color: #ef5753 !important;
+  }
+
+  .lg\:text-red-lighter {
+    color: #f9acaa !important;
+  }
+
+  .lg\:text-red-lightest {
+    color: #fcebea !important;
+  }
+
+  .lg\:text-orange-darkest {
+    color: #462a16 !important;
+  }
+
+  .lg\:text-orange-darker {
+    color: #613b1f !important;
+  }
+
+  .lg\:text-orange-dark {
+    color: #de751f !important;
+  }
+
+  .lg\:text-orange {
+    color: #f6993f !important;
+  }
+
+  .lg\:text-orange-light {
+    color: #faad63 !important;
+  }
+
+  .lg\:text-orange-lighter {
+    color: #fcd9b6 !important;
+  }
+
+  .lg\:text-orange-lightest {
+    color: #fff5eb !important;
+  }
+
+  .lg\:text-yellow-darkest {
+    color: #5C4813 !important;
+  }
+
+  .lg\:text-yellow-darker {
+    color: #8C6D1F !important;
+  }
+
+  .lg\:text-yellow-dark {
+    color: #CAA53D !important;
+  }
+
+  .lg\:text-yellow {
+    color: #F4CA64 !important;
+  }
+
+  .lg\:text-yellow-light {
+    color: #FBE29F !important;
+  }
+
+  .lg\:text-yellow-lighter {
+    color: #FEF3D7 !important;
+  }
+
+  .lg\:text-yellow-lightest {
+    color: #FFFCF4 !important;
+  }
+
+  .lg\:text-green-darkest {
+    color: #0f2f21 !important;
+  }
+
+  .lg\:text-green-darker {
+    color: #1a4731 !important;
+  }
+
+  .lg\:text-green-dark {
+    color: #1f9d55 !important;
+  }
+
+  .lg\:text-green {
+    color: #38c172 !important;
+  }
+
+  .lg\:text-green-light {
+    color: #51d88a !important;
+  }
+
+  .lg\:text-green-lighter {
+    color: #a2f5bf !important;
+  }
+
+  .lg\:text-green-lightest {
+    color: #e3fcec !important;
+  }
+
+  .lg\:text-teal-darkest {
+    color: #0d3331 !important;
+  }
+
+  .lg\:text-teal-darker {
+    color: #20504f !important;
+  }
+
+  .lg\:text-teal-dark {
+    color: #38a89d !important;
+  }
+
+  .lg\:text-teal {
+    color: #4dc0b5 !important;
+  }
+
+  .lg\:text-teal-light {
+    color: #64d5ca !important;
+  }
+
+  .lg\:text-teal-lighter {
+    color: #a0f0ed !important;
+  }
+
+  .lg\:text-teal-lightest {
+    color: #e8fffe !important;
+  }
+
+  .lg\:text-blue-darkest {
+    color: #12283a !important;
+  }
+
+  .lg\:text-blue-darker {
+    color: #1c3d5a !important;
+  }
+
+  .lg\:text-blue-dark {
+    color: #2779bd !important;
+  }
+
+  .lg\:text-blue {
+    color: #3490dc !important;
+  }
+
+  .lg\:text-blue-light {
+    color: #6cb2eb !important;
+  }
+
+  .lg\:text-blue-lighter {
+    color: #bcdefa !important;
+  }
+
+  .lg\:text-blue-lightest {
+    color: #eff8ff !important;
+  }
+
+  .lg\:text-indigo-darkest {
+    color: #191e38 !important;
+  }
+
+  .lg\:text-indigo-darker {
+    color: #2f365f !important;
+  }
+
+  .lg\:text-indigo-dark {
+    color: #5661b3 !important;
+  }
+
+  .lg\:text-indigo {
+    color: #6574cd !important;
+  }
+
+  .lg\:text-indigo-light {
+    color: #7886d7 !important;
+  }
+
+  .lg\:text-indigo-lighter {
+    color: #b2b7ff !important;
+  }
+
+  .lg\:text-indigo-lightest {
+    color: #e6e8ff !important;
+  }
+
+  .lg\:text-purple-darkest {
+    color: #21183c !important;
+  }
+
+  .lg\:text-purple-darker {
+    color: #382b5f !important;
+  }
+
+  .lg\:text-purple-dark {
+    color: #794acf !important;
+  }
+
+  .lg\:text-purple {
+    color: #9561e2 !important;
+  }
+
+  .lg\:text-purple-light {
+    color: #a779e9 !important;
+  }
+
+  .lg\:text-purple-lighter {
+    color: #d6bbfc !important;
+  }
+
+  .lg\:text-purple-lightest {
+    color: #f3ebff !important;
+  }
+
+  .lg\:text-pink-darkest {
+    color: #451225 !important;
+  }
+
+  .lg\:text-pink-darker {
+    color: #6f213f !important;
+  }
+
+  .lg\:text-pink-dark {
+    color: #eb5286 !important;
+  }
+
+  .lg\:text-pink {
+    color: #f66d9b !important;
+  }
+
+  .lg\:text-pink-light {
+    color: #fa7ea8 !important;
+  }
+
+  .lg\:text-pink-lighter {
+    color: #ffbbca !important;
+  }
+
+  .lg\:text-pink-lightest {
+    color: #ffebef !important;
+  }
+
 }
 
