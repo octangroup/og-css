@@ -376,9 +376,6 @@ template {
   font-family: $primary-font !important;
 }
 
-.font-primary {
-  font-family: $primary-font !important;
-}
 
 .font-roboto {
   font-family: 'Roboto', sans-serif !important;
@@ -430,8 +427,21 @@ a.btn:focus {
 .btn-outline-influenza {
   border-image: linear-gradient(to right, #EB3349, #F45C43);
   color: #EB3349;
+  border-image-slice: 1;
+  border-width: 2px;
 }
 
+.btn-outline-accent {
+  border-color: $accent !important;
+  background: transparent;
+  color: $accent;
+}
+.btn-outline-accent:hover,
+.btn-outline-accent:focus {
+  background: $accent;
+  color: white;
+  border-color: $accent;
+}
 .btn-outline-white {
   border-color: #fff !important;
   background: transparent;
@@ -880,7 +890,7 @@ img.profile-icon {
   -webkit-border-radius: 2px;
   color: #555;
   display: none;
-  min-width: 160px;
+  min-width: 200px;
   position: absolute;
   z-index: 999 !important;
 }
@@ -2406,4 +2416,49 @@ nav.fill-primary ul li a:hover:after {
     opacity: 0;
     bottom: 0;
   }
+}
+
+
+
+
+.rating {
+  width: 300px;
+}
+
+.rating span {
+  float: right;
+  position: relative;
+}
+
+.rating span input {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.rating span label {
+  background: #FFF;
+  border: 5px solid #ccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0 1px 5px #dcdcdc;
+  color: #ccc;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  margin-right: 2px;
+  text-align: center;
+  vertical-align: central;
+  width: 30px;
+}
+
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+  background: #FFF;
+  border: 5px solid $primary;
+  color: $primary;
 }
