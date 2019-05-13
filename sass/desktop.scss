@@ -1,8 +1,7 @@
-
 @import 'laptop';
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   html {
     background-color: white;
     font-size: 16px;
@@ -17,35 +16,45 @@
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }
+
   body {
     color: #4a4a4a;
     font-size: 1rem;
     line-height: 1.5;
   }
+
   .container {
     max-width: 1200px
   }
+
   .invalid-feedback {
     width: 100%;
   }
+
   .xl\:visible {
     visibility: visible !important
   }
+
   .xl\:invisible {
     visibility: hidden !important
   }
+
   .xl\:grid {
     display: grid !important;
   }
+
   .xl\:grid-2 {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+
   .xl\:grid-3 {
     grid-template-columns: repeat(3, 1fr) !important;
   }
+
   .xl\:grid-5 {
     grid-template-columns: repeat(5, 1fr) !important;
   }
+
   .xl\:inline-block {
     display: inline-block !important;
   }
@@ -86,6 +95,7 @@
   .xl\:w-30 {
     width: 30% !important;
   }
+
   .xl\:w-33 {
     width: 33% !important;
   }
@@ -93,9 +103,11 @@
   .xl\:w-35 {
     width: 35% !important;
   }
+
   .xl\:w-40 {
     width: 40% !important;
   }
+
   .xl\:w-45 {
     width: 45% !important;
   }
@@ -103,12 +115,15 @@
   .xl\:w-50 {
     width: 50% !important;
   }
+
   .xl\:w-55 {
     width: 55% !important;
   }
+
   .xl\:w-60 {
     width: 60% !important;
   }
+
   .xl\:w-65 {
     width: 65% !important;
   }
@@ -124,12 +139,15 @@
   .xl\:w-80 {
     width: 80% !important;
   }
+
   .xl\:w-85 {
     width: 85% !important;
   }
+
   .xl\:w-90 {
     width: 90% !important;
   }
+
   .xl\:w-95 {
     width: 95% !important;
   }
@@ -137,73 +155,191 @@
   .xl\:w-100 {
     width: 100% !important;
   }
+
   .xl\:max-w-5 {
     max-width: 5% !important;
   }
+
   .xl\:max-w-10 {
     max-width: 10% !important;
   }
+
   .xl\:max-w-15 {
     max-width: 15% !important;
   }
+
   .xl\:max-w-20 {
     max-width: 20% !important;
   }
+
   .xl\:max-w-25 {
     max-width: 25% !important;
   }
+
   .xl\:max-w-30 {
     max-width: 30% !important;
   }
+
   .xl\:max-w-35 {
     max-width: 35% !important;
   }
+
   .xl\:max-w-40 {
     max-width: 40% !important;
   }
+
   .xl\:max-w-45 {
     max-width: 45% !important;
   }
+
   .xl\:max-w-50 {
     max-width: 50% !important;
   }
+
   .xl\:max-w-55 {
     max-width: 55% !important;
   }
+
   .xl\:max-w-60 {
     max-width: 60% !important;
   }
+
   .xl\:max-w-65 {
     max-width: 65% !important;
   }
+
   .xl\:max-w-70 {
     max-width: 70% !important;
   }
+
   .xl\:max-w-75 {
     max-width: 75% !important;
   }
+
   .xl\:max-w-80 {
     max-width: 80% !important;
   }
+
   .xl\:max-w-85 {
     max-width: 85% !important;
   }
+
   .xl\:max-w-90 {
     max-width: 90% !important;
   }
+
   .xl\:max-w-95 {
     max-width: 95% !important;
   }
+
   .xl\:max-w-100 {
     max-width: 100% !important;
   }
+
   .xl\:w-px-15 {
     width: 15px !important;
+  }
+
+  .xl\:w-rem-05 {
+    width: .125rem !important;
+  }
+
+  .xl\:w-rem-1 {
+    width: .25rem !important;
+  }
+
+  .xl\:w-rem-2 {
+    width: .5rem !important;
+  }
+
+  .xl\:w-rem-3 {
+    width: .75rem !important;
+  }
+
+  .xl\:w-rem-4 {
+    width: 1rem !important;
+  }
+
+  .xl\:w-rem-5 {
+    width: 1.25rem !important;
+  }
+
+  .xl\:w-rem-6 {
+    width: 1.5rem !important;
+  }
+
+  .xl\:w-rem-8 {
+    width: 2rem !important;
+  }
+
+  .xl\:w-rem-10 {
+    width: 2.5rem !important;
+  }
+
+  .xl\:w-rem-12 {
+    width: 3rem !important;
+  }
+
+  .xl\:w-rem-13 {
+    width: 3.5rem !important;
+  }
+
+  .xl\:w-rem-16 {
+    width: 4rem !important;
+  }
+
+  .xl\:w-rem-18 {
+    width: 4.5rem !important;
+  }
+
+  .xl\:w-rem-24 {
+    width: 6rem !important;
+  }
+
+  .xl\:w-rem-32 {
+    width: 8rem !important;
+  }
+
+  .xl\:w-rem-40 {
+    width: 10rem !important;
+  }
+
+  .xl\:w-rem-48 {
+    width: 12rem !important;
+  }
+
+  .xl\:w-rem-54 {
+    width: 14rem !important;
+  }
+
+  .xl\:w-rem-64 {
+    width: 16rem !important;
+  }
+
+  .xl\:w-rem-74 {
+    width: 18rem !important;
+  }
+
+  .xl\:w-rem-80 {
+    width: 20rem !important;
+  }
+
+  .xl\:w-rem-84 {
+    width: 21rem !important;
+  }
+
+  .xl\:w-rem-86 {
+    width: 24rem !important;
+  }
+
+  .xl\:w-rem-88 {
+    width: 26rem !important;
   }
 
   .xl\:w-px-20 {
     width: 20px !important;
   }
+
   .xl\:w-px-30 {
     width: 30px !important;
   }
@@ -211,6 +347,7 @@
   .xl\:w-px-60 {
     width: 60px !important;
   }
+
   .xl\:h-px-15 {
     height: 15px !important;
   }
@@ -218,47 +355,233 @@
   .xl\:h-px-20 {
     height: 20px !important;
   }
+
   .xl\:h-px-30 {
     height: 30px !important;
   }
+
   .xl\:h-px-50 {
     height: 50px !important;
   }
+
   .xl\:h-px-100 {
     height: 100px !important;
   }
+
   .xl\:h-px-150 {
     height: 150px !important;
   }
+
   .xl\:h-px-200 {
     height: 350px !important;
   }
+
   .xl\:h-px-250 {
     height: 350px !important;
   }
+
   .xl\:h-px-300 {
     height: 350px !important;
   }
+
   .xl\:h-px-350 {
     height: 350px !important;
   }
+
   .xl\:h-px-400 {
     height: 400px !important;
   }
+
   .xl\:h-px-450 {
     height: 450px !important;
   }
+
   .xl\:h-px-550 {
     height: 550px !important;
   }
+
   .xl\:h-px-600 {
     height: 600px !important;
   }
+
   .xl\:h-px-650 {
     height: 650px !important;
   }
+
   .xl\:h-px-700 {
     height: 700px !important;
+  }
+
+  .xl\:h-5\% {
+    height: 5% !important;
+  }
+
+  .xl\:h-10\% {
+    height: 10% !important;
+  }
+
+  .xl\:h-15\% {
+    height: 15% !important;
+  }
+
+  .xl\:h-20\% {
+    height: 20% !important;
+  }
+
+  .xl\:h-25\% {
+    height: 25% !important;
+  }
+
+  .xl\:h-30\% {
+    height: 30% !important;
+  }
+
+  .xl\:h-35\% {
+    height: 35% !important;
+  }
+
+  .xl\:h-40\% {
+    height: 40% !important;
+  }
+
+  .xl\:h-45\% {
+    height: 45% !important;
+  }
+
+  .xl\:h-50\% {
+    height: 50% !important;
+  }
+
+  .xl\:h-55\% {
+    height: 55% !important;
+  }
+
+  .xl\:h-60\% {
+    height: 60% !important;
+  }
+
+  .xl\:h-65\% {
+    height: 65% !important;
+  }
+
+  .xl\:h-70\% {
+    height: 70% !important;
+  }
+
+  .xl\:h-75\% {
+    height: 75% !important;
+  }
+
+  .xl\:h-80\% {
+    height: 80% !important;
+  }
+
+  .xl\:h-85\% {
+    height: 85% !important;
+  }
+
+  .xl\:h-90\% {
+    height: 90% !important;
+  }
+
+  .xl\:h-95\% {
+    height: 95% !important;
+  }
+
+  .xl\:h-100\% {
+    height: 100% !important;
+  }
+
+  .xl\:min-h-1 {
+    min-height: .25rem !important;
+  }
+
+  .xl\:min-h-2 {
+    min-height: .5rem !important;
+  }
+
+  .xl\:min-h-3 {
+    min-height: .75rem !important;
+  }
+
+  .xl\:min-h-4 {
+    min-height: 1rem !important;
+  }
+
+  .xl\:min-h-5 {
+    min-height: 1.25rem !important;
+  }
+
+  .xl\:min-h-6 {
+    min-height: 1.5rem !important;
+  }
+
+  .xl\:min-h-8 {
+    min-height: 2rem !important;
+  }
+
+  .xl\:min-h-10 {
+    min-height: 2.5rem !important;
+  }
+
+  .xl\:min-h-12 {
+    min-height: 3rem !important;
+  }
+
+  .xl\:min-h-13 {
+    min-height: 3.5rem !important;
+  }
+
+  .xl\:min-h-16 {
+    min-height: 4rem !important;
+  }
+
+  .xl\:min-h-24 {
+    min-height: 6rem !important;
+  }
+
+  .xl\:min-h-32 {
+    min-height: 8rem !important;
+  }
+
+  .xl\:min-h-40 {
+    min-height: 10rem !important;
+  }
+
+  .xl\:min-h-48 {
+    min-height: 12rem !important;
+  }
+
+  .xl\:min-h-54 {
+    min-height: 14rem !important;
+  }
+
+  .xl\:min-h-58 {
+    min-height: 15rem !important;
+  }
+
+  .xl\:min-h-64 {
+    min-height: 16rem !important;
+  }
+
+  .xl\:min-h-74 {
+    min-height: 18rem !important;
+  }
+
+  .xl\:min-h-80 {
+    min-height: 20rem !important;
+  }
+
+  .xl\:min-h-84 {
+    min-height: 21rem !important;
+  }
+
+  .xl\:min-h-86 {
+    min-height: 24rem !important;
+  }
+
+  .xl\:min-h-88 {
+    min-height: 26rem !important;
   }
 
   .xl\:min-h-px-300 {
@@ -272,27 +595,52 @@
   .xl\:min-h-px-400 {
     min-height: 400px !important;
   }
+
+  .xl\:min-h-px-450 {
+    min-height: 450px !important;
+  }
+
   .xl\:min-h-px-500 {
     min-height: 500px !important;
   }
+
   .xl\:min-h-px-550 {
     min-height: 550px !important;
   }
+
   .xl\:min-h-px-600 {
     min-height: 600px !important;
   }
+
   .xl\:min-h-px-650 {
     min-height: 650px !important;
   }
+
   .xl\:min-h-px-700 {
     min-height: 700px !important;
   }
+
   .xl\:min-h-px-750 {
     min-height: 750px !important;
   }
+
   .xl\:min-h-px-800 {
     min-height: 800px !important;
   }
+
+  .xl\:min-h-px-850 {
+    min-height: 850px !important;
+  }
+
+  .xl\:min-h-px-900 {
+    min-height: 900px !important;
+  }
+
+  .xl\:min-h-px-950 {
+    min-height: 950px !important;
+  }
+
+
   .xl\:m-0 {
     margin: 0 0 !important;
   }
@@ -313,11 +661,13 @@
     margin-left: 0 !important;
   }
 
-  .xl\:ml-auto, .xl\:mx-auto {
+  .xl\:ml-auto,
+  .xl\:mx-auto {
     margin-left: auto !important;
   }
 
-  .xl\:mr-auto, .xl\:mx-auto {
+  .xl\:mr-auto,
+  .xl\:mx-auto {
     margin-right: auto !important;
   }
 
@@ -428,6 +778,7 @@
   .xl\:mt-4 {
     margin-top: 1.5rem !important;
   }
+
   .xl\:mt-5 {
     margin-top: 3rem !important;
   }
@@ -450,10 +801,12 @@
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
   }
+
   .xl\:my-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
   }
+
   .xl\:mr-5 {
     margin-right: 2rem !important;
   }
@@ -923,6 +1276,7 @@
   .xl\:-ml-px {
     margin-left: -1px !important;
   }
+
   .xl\:pt-70 {
     padding-top: 70px !important;
   }
@@ -1144,6 +1498,7 @@
     display: -ms-flexbox !important;
     display: flex !important;
   }
+
   .xl\:flex-0 {
     flex: 0 !important;
     -ms-flex: 0 !important;
@@ -1269,21 +1624,25 @@
     -ms-flex: 100% !important;
     max-width: 100% !important;
   }
+
   .xl\:flex-wrap {
     flex-wrap: wrap;
   }
+
   .xl\:hidden {
     display: none !important;
   }
+
   .xl\:hidden-temp {
     display: none;
   }
+
   .xl\:block {
     display: block !important;
   }
 
   .xl\:text-xs {
-    font-size: .75rem;
+    font-size: .75rem !important;
   }
 
   .xl\:text-sm {
@@ -1291,31 +1650,31 @@
   }
 
   .xl\:text-base {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .xl\:text-lg {
-    font-size: 1.125rem;
+    font-size: 1.125rem !important;
   }
 
   .xl\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
   }
 
   .xl\:text-2xl {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   .xl\:text-3xl {
-    font-size: 1.875rem;
+    font-size: 1.875rem !important;
   }
 
   .xl\:text-4xl {
-    font-size: 2.25rem;
+    font-size: 2.25rem !important;
   }
 
   .xl\:text-5xl {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
 
   .xl\:h-1 {
@@ -1365,6 +1724,7 @@
   .xl\:h-18 {
     height: 4.5rem !important;
   }
+
   .xl\:h-24 {
     height: 6rem !important;
   }
@@ -1372,6 +1732,11 @@
   .xl\:h-32 {
     height: 8rem !important;
   }
+
+  .xl\:h-40 {
+    height: 10rem !important;
+  }
+
   .xl\:h-48 {
     height: 12rem !important;
   }
@@ -1399,22 +1764,127 @@
   .xl\:h-84 {
     height: 21rem !important;
   }
-  .xl\:w-rem-16 {
-    width: 4rem !important;
-  }
+
   .xl\:h-px-500 {
     height: 500px !important;
   }
+
+  .xl\:h-px-300 {
+    height: 300px !important;
+  }
+
+  .xl\:max-h-16 {
+    max-height: 4rem !important;
+  }
+
+  .xl\:max-h-24 {
+    max-height: 6rem !important;
+  }
+
+  .xl\:max-h-32 {
+    max-height: 8rem !important;
+  }
+
+  .xl\:max-h-40 {
+    max-height: 10rem !important;
+  }
+
+  .xl\:max-h-48 {
+    max-height: 12rem !important;
+  }
+
+  .xl\:max-h-54 {
+    max-height: 14rem !important;
+  }
+
+  .xl\:max-h-58 {
+    max-height: 15rem !important;
+  }
+
+  .xl\:max-h-64 {
+    max-height: 16rem !important;
+  }
+
+  .xl\:max-h-74 {
+    max-height: 18rem !important;
+  }
+
+  .xl\:max-h-80 {
+    max-height: 20rem !important;
+  }
+
+  .xl\:max-h-84 {
+    max-height: 21rem !important;
+  }
+
+  .xl\:max-h-86 {
+    max-height: 24rem !important;
+  }
+
+  .xl\:max-h-88 {
+    max-height: 26rem !important;
+  }
+
   .xl\:max-h-px-300 {
     max-height: 300px !important;
   }
-  .xl\:h-px-300 {
-    height: 300px !important;
+
+  .xl\:max-h-px-350 {
+    max-height: 350px !important;
+  }
+
+  .xl\:max-h-px-400 {
+    max-height: 400px !important;
+  }
+
+  .xl\:max-h-px-450 {
+    max-height: 450px !important;
+  }
+
+  .xl\:max-h-px-500 {
+    max-height: 500px !important;
+  }
+
+  .xl\:max-h-px-550 {
+    max-height: 550px !important;
+  }
+
+  .xl\:max-h-px-600 {
+    max-height: 600px !important;
+  }
+
+  .xl\:max-h-px-650 {
+    max-height: 650px !important;
+  }
+
+  .xl\:max-h-px-700 {
+    max-height: 700px !important;
+  }
+
+  .xl\:max-h-px-750 {
+    max-height: 750px !important;
+  }
+
+  .xl\:max-h-px-800 {
+    max-height: 800px !important;
+  }
+
+  .xl\:max-h-px-850 {
+    max-height: 850px !important;
+  }
+
+  .xl\:max-h-px-900 {
+    max-height: 900px !important;
+  }
+
+  .xl\:max-h-px-950 {
+    max-height: 950px !important;
   }
 
   .xl\:h-px-500-i {
     height: 500px;
   }
+
   .xl\:h-25 {
     height: 25% !important;
   }
@@ -1430,11 +1900,42 @@
   .xl\:h-100 {
     height: 100% !important;
   }
+
+  .xl\:max-h-auto {
+    max-height: none !important;
+  }
+
   .xl\:r-5 {
     right: 5% !important
   }
 
+  .xl\:m-5 {
+    margin: 3rem 3rem !important;
+  }
+
   .xl\:mt-5 {
+    margin-top: 3rem !important;
+  }
+
+  .xl\:mr-5 {
+    margin-right: 3rem !important;
+  }
+
+  .xl\:mb-5 {
+    margin-bottom: 3rem !important;
+  }
+
+  .xl\:ml-5 {
+    margin-left: 3rem !important;
+  }
+
+  .xl\:mx-5 {
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+  }
+
+  .xl\:my-5 {
+    margin-bottom: 3rem !important;
     margin-top: 3rem !important;
   }
 
@@ -1613,6 +2114,7 @@
   .xl\:ml-px {
     margin-left: 1px
   }
+
   .xl\:border-solid {
     border-style: solid !important;
   }
@@ -1716,6 +2218,7 @@
   .xl\:border-l-8 {
     border-left-width: 8px !important;
   }
+
   .swoosh-home {
     background: url('../img/Asset 2.svg ') no-repeat, url('../img/Asset 1.svg') no-repeat;
     background-size: 25% 300px, 53% 730px;
@@ -1934,15 +2437,19 @@
   .xl\:rounded-bl-full {
     border-bottom-left-radius: 9999px !important;
   }
+
   .xl\:bg-primary {
     background-color: $primary !important;
   }
+
   .xl\:btn-round {
     border-radius: 290486px;
   }
+
   .xl\:bg-white-smoke {
     background-color: $white-smoke !important;
   }
+
   .xl\:btn-outline-primary {
     background: white;
     border-color: $primary;
@@ -1954,14 +2461,17 @@
     border-color: $primary;
     color: white;
   }
+
   img.xl\:clip-full {
     height: 100% !important;
     width: 100% !important;
     object-fit: cover !important;
   }
+
   .xl\:bg-transparent {
     background-color: transparent !important;
   }
+
   .xl\:overflow-auto {
     overflow: auto !important;
   }
@@ -2021,12 +2531,15 @@
   .xl\:smooth-scrolling {
     scroll-behavior: smooth !important;
   }
+
   .xl\:min-h-auto {
     min-height: auto !important;
   }
+
   .xl\:h-auto {
     height: auto !important;
   }
+
   .xl\:static {
     position: static !important;
   }
@@ -2087,6 +2600,7 @@
   .xl\:pin-l {
     left: 0 !important;
   }
+
   .xl\:text-grey-darkest {
     color: #3d4852 !important;
   }
@@ -2370,6 +2884,7 @@
   .xl\:text-pink-lightest {
     color: #ffebef !important;
   }
+
   .xl\:-r-100 {
     right: -100% !important;
   }
@@ -3041,5 +3556,81 @@
 
   .xl\:b-100 {
     bottom: 100% !important;
+  }
+
+  .xl\:opacity-0 {
+    opacity: 0 !important;
+  }
+
+  .xl\:opacity-5 {
+    opacity: .05 !important;
+  }
+
+  .xl\:opacity-10 {
+    opacity: .10 !important;
+  }
+
+  .xl\:opacity-20 {
+    opacity: .20 !important;
+  }
+
+  .xl\:opacity-25 {
+    opacity: .25 !important;
+  }
+
+  .xl\:opacity-30 {
+    opacity: .30 !important;
+  }
+
+  .xl\:opacity-35 {
+    opacity: .35 !important;
+  }
+
+  .xl\:opacity-40 {
+    opacity: .40 !important;
+  }
+
+  .xl\:opacity-45 {
+    opacity: .45 !important;
+  }
+
+  .xl\:opacity-50 {
+    opacity: .50 !important;
+  }
+
+  .xl\:opacity-55 {
+    opacity: .55 !important;
+  }
+
+  .xl\:opacity-60 {
+    opacity: .60 !important;
+  }
+
+  .xl\:opacity-65 {
+    opacity: .65 !important;
+  }
+
+  .xl\:opacity-70 {
+    opacity: .70 !important;
+  }
+
+  .xl\:opacity-75 {
+    opacity: .75 !important;
+  }
+
+  .xl\:opacity-80 {
+    opacity: .80 !important;
+  }
+
+  .xl\:opacity-85 {
+    opacity: .85 !important;
+  }
+
+  .xl\:opacity-95 {
+    opacity: .95 !important;
+  }
+
+  .xl\:opacity-100 {
+    opacity: 1 !important;
   }
 }

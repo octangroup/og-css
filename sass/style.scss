@@ -383,28 +383,23 @@ template {
 
 @import 'helpers';
 .Btn, .btn {
-  white-space: nowrap;
-  align-items: center;
-  border: 1px solid transparent;
-  border-radius: 0;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.04);
-  -webkit-box-shadow: none;
-  cursor: pointer;
-  -ms-flex-align: center;
-  font-size: 15px;
-  justify-content: center;
-  outline: none;
-  padding: 0.625em 1.25em;
+  display: inline-block;
+  font-weight: 400;
   text-align: center;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -webkit-box-align: center;
-  -webkit-touch-callout: none;
+  white-space: nowrap;
+  vertical-align: middle;
   -webkit-user-select: none;
-  /*min-width: 140px;*/
   -moz-user-select: none;
   -ms-user-select: none;
-  -webkit-box-pack: center;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.625em 1.25em;
+  border: 1px solid transparent;
+  font-size: .9rem;
+  line-height: 1.6;
+  border-radius: 0;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
 a.btn:hover,
@@ -1103,14 +1098,6 @@ nav.main ul li a:focus {
   text-decoration: none;
 }
 
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-
 .badge {
   background-color: #777;
   border-radius: 10px;
@@ -1525,29 +1512,19 @@ a.label:focus {
   outline: 0;
 }
 
-.form-input::-webkit-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: inherit;
+  opacity: .5
 }
 
-.form-input::-moz-placeholder {
-  color: #6c757d;
-  opacity: 1;
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: inherit;
+  opacity: .5
 }
 
-.form-input:-ms-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-
-.form-input::-ms-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-
-.form-input::placeholder {
-  color: #6c757d;
-  opacity: 1;
+input::placeholder, textarea::placeholder {
+  color: inherit;
+  opacity: .5
 }
 
 .form-input:disabled, .form-input[readonly] {

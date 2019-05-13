@@ -5,6 +5,17 @@
   width: auto !important;
 }
 
+.font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.font-serif {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+
+.font-mono {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
 
 .text-centered {
   text-align: center !important;
@@ -164,8 +175,32 @@ a.text-dark:hover, a.text-dark:focus {
   color: $accent !important;
 }
 
+.text-primary-darkest {
+  color: $primary-darkest !important;
+}
+
+.text-primary-darker {
+  color: $primary-darker !important;
+}
+
+.text-primary-dark {
+  color: $primary-dark !important;
+}
+
 .text-primary {
   color: $primary !important;
+}
+
+.text-primary-light {
+  color: $primary-light !important;
+}
+
+.text-primary-lighter {
+  color: $primary-lighter !important;
+}
+
+.text-primary-lightest {
+  color: $primary-lightest !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -584,6 +619,34 @@ a.text-danger:hover, a.text-danger:focus {
   color: $primary-lightest !important;
 }
 
+.hover\:text-accent-darkest:hover {
+  color: $accent-darkest !important;
+}
+
+.hover\:text-accent-darker:hover {
+  color: $accent-darker !important;
+}
+
+.hover\:text-accent-dark:hover {
+  color: $accent-dark !important;
+}
+
+.hover\:text-accent:hover {
+  color: $accent !important;
+}
+
+.hover\:text-accent-light:hover {
+  color: $accent-light !important;
+}
+
+.hover\:text-accent-lighter:hover {
+  color: $accent-lighter !important;
+}
+
+.hover\:text-accent-lightest:hover {
+  color: $accent-lightest !important;
+}
+
 .hover\:text-transparent:hover {
   color: transparent !important;
 }
@@ -916,6 +979,40 @@ a.text-danger:hover, a.text-danger:focus {
 .focus\:text-transparent:focus {
   color: transparent !important;
 }
+
+
+.focus\:text-accent-darkest:focus {
+  color: $accent-darkest !important;
+}
+
+.focus\:text-accent-darker:focus {
+  color: $accent-darker !important;
+}
+
+.focus\:text-accent-dark:focus {
+  color: $accent-dark !important;
+}
+
+.focus\:text-accent:focus {
+  color: $accent !important;
+}
+
+.focus\:text-accent-light:focus {
+  color: $accent-light !important;
+}
+
+.focus\:text-accent-lighter:focus {
+  color: $accent-lighter !important;
+}
+
+.focus\:text-accent-lightest:focus {
+  color: $accent-lightest !important;
+}
+
+.focus\:text-transparent:focus {
+  color: transparent !important;
+}
+
 
 .focus\:text-black:focus {
   color: #22292f !important;
@@ -1250,6 +1347,33 @@ a.text-danger:hover, a.text-danger:focus {
   position: sticky !important;
 }
 
+.inset-auto {
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+}
+
+.inset-y-0 {
+  top: 0 !important;
+  bottom: 0 !important;
+}
+
+.inset-x-0 {
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.inset-y-auto {
+  top: auto !important;
+  bottom: auto !important;
+}
+
+.inset-x-auto {
+  right: auto !important;
+  left: auto !important;
+}
+
 .pin-none {
   top: auto !important;
   right: auto !important;
@@ -1288,6 +1412,22 @@ a.text-danger:hover, a.text-danger:focus {
 
 .pin-l {
   left: 0 !important;
+}
+
+.top-auto {
+  top: auto !important;
+}
+
+.right-auto {
+  right: auto !important;
+}
+
+.bottom-auto {
+  bottom: auto !important;
+}
+
+.left-auto {
+  left: auto !important;
 }
 
 .flex {
@@ -1466,6 +1606,38 @@ a.text-danger:hover, a.text-danger:focus {
   flex-wrap: nowrap !important;
 }
 
+.flex-1 {
+  flex: 1 1 0% !important;
+}
+
+.flex-auto {
+  flex: 1 1 auto !important;
+}
+
+.flex-initial {
+  flex: 0 1 auto !important;
+}
+
+.flex-none {
+  flex: none !important;
+}
+
+.flex-grow-0 {
+  flex-grow: 0 !important;
+}
+
+.flex-grow {
+  flex-grow: 1 !important;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+
+.flex-shrink {
+  flex-shrink: 1 !important;
+}
+
 .inline {
   display: inline !important;
 }
@@ -1609,6 +1781,66 @@ a.text-danger:hover, a.text-danger:focus {
   content: "" !important;
   display: table !important;
   clear: both !important;
+}
+
+.order-1 {
+  order: 1 !important;
+}
+
+.order-2 {
+  order: 2 !important;
+}
+
+.order-3 {
+  order: 3 !important;
+}
+
+.order-4 {
+  order: 4 !important;
+}
+
+.order-5 {
+  order: 5 !important;
+}
+
+.order-6 {
+  order: 6 !important;
+}
+
+.order-7 {
+  order: 7 !important;
+}
+
+.order-8 {
+  order: 8 !important;
+}
+
+.order-9 {
+  order: 9 !important;
+}
+
+.order-10 {
+  order: 10 !important;
+}
+
+.order-11 {
+  order: 11 !important;
+}
+
+.order-12 {
+  order: 12 !important;
+}
+
+.order-first {
+  order: -9999 !important;
+}
+
+.order-last {
+  order: 9999 !important;
+}
+
+.order-none {
+  order: 0 !important;
 }
 
 .mt-min-1 {
@@ -2409,47 +2641,6 @@ a.text-danger:hover, a.text-danger:focus {
   min-height: 800px !important;
 }
 
-.w-05 {
-  width: .125rem !important;
-}
-
-.w-1 {
-  width: .25rem !important;
-}
-
-.w-2 {
-  width: .5rem !important;
-}
-
-.w-3 {
-  width: .75rem !important;
-}
-
-.w-4 {
-  width: 1rem !important;
-}
-
-.w-5 {
-  width: 1.25rem !important;
-}
-
-.w-6 {
-  width: 1.5rem !important;
-}
-
-.w-8 {
-  width: 2rem !important;
-}
-
-.w-rem-10 {
-  width: 2.5rem !important;
-}
-
-.w-rem-12 {
-  width: 3rem !important;
-}
-
-
 .min-h-1 {
   min-height: .25rem !important;
 }
@@ -2494,20 +2685,108 @@ a.text-danger:hover, a.text-danger:focus {
   min-height: 4rem !important;
 }
 
-.w-rem-13 {
-  width: 3.5rem !important;
-}
-
-.w-rem-16 {
-  width: 4rem !important;
-}
-
 .min-h-24 {
   min-height: 6rem !important;
 }
 
 .min-h-32 {
   min-height: 8rem !important;
+}
+
+.min-h-40 {
+  min-height: 10rem !important;
+}
+
+.min-h-48 {
+  min-height: 12rem !important;
+}
+
+.min-h-54 {
+  min-height: 14rem !important;
+}
+
+.min-h-58 {
+  min-height: 15rem !important;
+}
+
+.min-h-64 {
+  min-height: 16rem !important;
+}
+
+.min-h-74 {
+  min-height: 18rem !important;
+}
+
+.min-h-80 {
+  min-height: 20rem !important;
+}
+
+.min-h-84 {
+  min-height: 21rem !important;
+}
+
+.min-h-86 {
+  min-height: 24rem !important;
+}
+
+.min-h-88 {
+  min-height: 26rem !important;
+}
+
+.min-h-px-300 {
+  min-height: 300px !important;
+}
+
+.min-h-px-350 {
+  min-height: 350px !important;
+}
+
+.min-h-px-400 {
+  min-height: 400px !important;
+}
+
+.min-h-px-450 {
+  min-height: 450px !important;
+}
+
+.min-h-px-500 {
+  min-height: 500px !important;
+}
+
+.min-h-px-550 {
+  min-height: 550px !important;
+}
+
+.min-h-px-600 {
+  min-height: 600px !important;
+}
+
+.min-h-px-650 {
+  min-height: 650px !important;
+}
+
+.min-h-px-700 {
+  min-height: 700px !important;
+}
+
+.min-h-px-750 {
+  min-height: 750px !important;
+}
+
+.min-h-px-800 {
+  min-height: 800px !important;
+}
+
+.min-h-px-850 {
+  min-height: 850px !important;
+}
+
+.min-h-px-900 {
+  min-height: 900px !important;
+}
+
+.min-h-px-950 {
+  min-height: 950px !important;
 }
 
 .max-h-16 {
@@ -2520,6 +2799,50 @@ a.text-danger:hover, a.text-danger:focus {
 
 .max-h-32 {
   max-height: 8rem !important;
+}
+
+.max-h-40 {
+  max-height: 10rem !important;
+}
+
+.max-h-48 {
+  max-height: 12rem !important;
+}
+
+.max-h-52 {
+  max-height: 13rem !important;
+}
+
+.max-h-54 {
+  max-height: 14rem !important;
+}
+
+.max-h-58 {
+  max-height: 15rem !important;
+}
+
+.max-h-64 {
+  max-height: 16rem !important;
+}
+
+.max-h-74 {
+  max-height: 18rem !important;
+}
+
+.max-h-80 {
+  max-height: 20rem !important;
+}
+
+.max-h-84 {
+  max-height: 21rem !important;
+}
+
+.max-h-86 {
+  max-height: 24rem !important;
+}
+
+.max-h-88 {
+  max-height: 26rem !important;
 }
 
 .max-h-px-300 {
@@ -2626,19 +2949,6 @@ a.text-danger:hover, a.text-danger:focus {
   height: 4.5rem !important;
 }
 
-.w-rem-13 {
-  width: 3.5rem !important;
-}
-
-.w-rem-16 {
-  width: 4rem !important;
-}
-
-.w-rem-18 {
-  width: 4.5rem !important;
-}
-
-
 .h-24 {
   height: 6rem !important;
 }
@@ -2647,36 +2957,8 @@ a.text-danger:hover, a.text-danger:focus {
   height: 8rem !important;
 }
 
-.w-rem-24 {
-  width: 6rem !important;
-}
-
-.w-rem-32 {
-  width: 8rem !important;
-}
-
-.w-rem-48 {
-  width: 12rem !important;
-}
-
-.w-rem-64 {
-  width: 16rem !important;
-}
-
-.w-rem-74 {
-  width: 18rem !important;
-}
-
-.w-rem-80 {
-  width: 20rem !important;
-}
-
-.w-rem-84 {
-  width: 21rem !important;
-}
-
-.w-rem-86 {
-  width: 24rem !important;
+.h-40 {
+  height: 10rem !important;
 }
 
 .h-48 {
@@ -2684,6 +2966,10 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .h-54 {
+  height: 14rem !important;
+}
+
+.h-56 {
   height: 14rem !important;
 }
 
@@ -2710,6 +2996,107 @@ a.text-danger:hover, a.text-danger:focus {
 .h-86 {
   height: 24rem !important;
 }
+
+.h-88 {
+  height: 26rem !important;
+}
+
+.w-05 {
+  width: .125rem !important;
+}
+
+.w-1 {
+  width: .25rem !important;
+}
+
+.w-2 {
+  width: .5rem !important;
+}
+
+.w-3 {
+  width: .75rem !important;
+}
+
+.w-4 {
+  width: 1rem !important;
+}
+
+.w-5 {
+  width: 1.25rem !important;
+}
+
+.w-6 {
+  width: 1.5rem !important;
+}
+
+.w-8 {
+  width: 2rem !important;
+}
+
+.w-rem-10 {
+  width: 2.5rem !important;
+}
+
+.w-rem-12 {
+  width: 3rem !important;
+}
+
+.w-rem-13 {
+  width: 3.5rem !important;
+}
+
+.w-rem-16 {
+  width: 4rem !important;
+}
+
+.w-rem-18 {
+  width: 4.5rem !important;
+}
+
+.w-rem-24 {
+  width: 6rem !important;
+}
+
+.w-rem-32 {
+  width: 8rem !important;
+}
+
+.w-rem-40 {
+  width: 10rem !important;
+}
+
+.w-rem-48 {
+  width: 12rem !important;
+}
+
+.w-rem-54 {
+  width: 14rem !important;
+}
+
+.w-rem-64 {
+  width: 16rem !important;
+}
+
+.w-rem-74 {
+  width: 18rem !important;
+}
+
+.w-rem-80 {
+  width: 20rem !important;
+}
+
+.w-rem-84 {
+  width: 21rem !important;
+}
+
+.w-rem-86 {
+  width: 24rem !important;
+}
+
+.w-rem-88 {
+  width: 26rem !important;
+}
+
 
 .h-0 {
   height: 0 !important;
@@ -2802,6 +3189,10 @@ a.text-danger:hover, a.text-danger:focus {
 
 .h-auto {
   height: auto !important;
+}
+
+.max-h-auto {
+  max-height: none !important;
 }
 
 .w-15 {
@@ -2924,9 +3315,25 @@ a.text-danger:hover, a.text-danger:focus {
   height: 100% !important;
 }
 
+.w-screen {
+  width: 100vw !important;
+}
+
 .w-fit {
   width: auto;
   width: fit-content !important;
+}
+
+.w-vh-8 {
+  width: 8vh !important;
+}
+
+.w-vh-20 {
+  width: 20vh !important;
+}
+
+.w-vh-40 {
+  width: 40vh !important;
 }
 
 .max-w-5 {
@@ -3023,6 +3430,54 @@ a.text-danger:hover, a.text-danger:focus {
 
 .mr-0 {
   margin-right: 0 !important;
+}
+
+.mt-vw-1 {
+  margin-top: 1vw !important;
+}
+
+.mt-vw-2 {
+  margin-top: 2vw !important;
+}
+
+.mt-vw-3 {
+  margin-top: 3vw !important;
+}
+
+.mb-vw-1 {
+  margin-bottom: 1vw !important;
+}
+
+.mb-vw-2 {
+  margin-bottom: 2vw !important;
+}
+
+.mb-vw-3 {
+  margin-bottom: 3vw !important;
+}
+
+.mr-vw-1 {
+  margin-right: 1vw !important;
+}
+
+.mr-vw-2 {
+  margin-right: 2vw !important;
+}
+
+.mr-vw-3 {
+  margin-right: 3vw !important;
+}
+
+.ml-vw-1 {
+  margin-left: 1vw !important;
+}
+
+.ml-vw-2 {
+  margin-left: 2vw !important;
+}
+
+.ml-vw-3 {
+  margin-left: 3vw !important;
 }
 
 .-l-4-rem {
@@ -4089,6 +4544,18 @@ a.text-danger:hover, a.text-danger:focus {
   max-height: 100%;
 }
 
+.min-h-screen {
+  min-height: 100vh !important;
+}
+
+.min-h-full {
+  min-height: 100% !important;
+}
+
+.min-w-full {
+  min-width: 100% !important;
+}
+
 .h-screen {
   height: 100vh !important;
 }
@@ -4099,6 +4566,22 @@ a.text-danger:hover, a.text-danger:focus {
 
 .z-0 {
   z-index: 0 !important;
+}
+
+.z-1 {
+  z-index: 1 !important;
+}
+
+.z-2 {
+  z-index: 2 !important;
+}
+
+.z-4 {
+  z-index: 4 !important;
+}
+
+.z-8 {
+  z-index: 8 !important;
 }
 
 .z-10 {
@@ -4289,12 +4772,12 @@ a.text-danger:hover, a.text-danger:focus {
   border-bottom-right-radius: .5rem !important;
 }
 
-.rounded-l-xl {
+.rounded-r-xl {
   border-top-right-radius: .75rem !important;
   border-bottom-right-radius: .75rem !important;
 }
 
-.rounded-l-xlg {
+.rounded-r-xlg {
   border-top-right-radius: 1.5625rem !important;
   border-bottom-right-radius: 1.5625rem !important;
 }
@@ -6667,6 +7150,10 @@ a.text-danger:hover, a.text-danger:focus {
   background-color: $accent !important;
 }
 
+.text-xxs {
+  font-size: .625rem !important
+}
+
 .text-xs {
   font-size: .75rem !important;
 }
@@ -7033,12 +7520,40 @@ a.text-danger:hover, a.text-danger:focus {
   opacity: 0 !important;
 }
 
+.opacity-5 {
+  opacity: .05 !important;
+}
+
+.opacity-10 {
+  opacity: .10 !important;
+}
+
+.opacity-20 {
+  opacity: .20 !important;
+}
+
 .opacity-25 {
   opacity: .25 !important;
 }
 
+.opacity-30 {
+  opacity: .30 !important;
+}
+
+.opacity-35 {
+  opacity: .35 !important;
+}
+
+.opacity-40 {
+  opacity: .40 !important;
+}
+
+.opacity-45 {
+  opacity: .45 !important;
+}
+
 .opacity-50 {
-  opacity: .5 !important;
+  opacity: .50 !important;
 }
 
 .opacity-55 {
@@ -7224,6 +7739,10 @@ input:checked + .input-slider:before {
   cursor: not-allowed !important;
 }
 
+.cursor-text {
+  cursor: text !important;
+}
+
 .outline-none {
   outline: 0 !important;
 }
@@ -7298,6 +7817,76 @@ img.clip-full {
   object-fit: cover !important;
 }
 
+.object-contain {
+  -o-object-fit: contain !important;
+  object-fit: contain !important;
+}
+
+.object-cover {
+  -o-object-fit: cover !important;
+  object-fit: cover !important;
+}
+
+.object-fill {
+  -o-object-fit: fill !important;
+  object-fit: fill !important;
+}
+
+.object-none {
+  -o-object-fit: none !important;
+  object-fit: none !important;
+}
+
+.object-scale-down {
+  -o-object-fit: scale-down !important;
+  object-fit: scale-down !important;
+}
+
+.object-bottom {
+  -o-object-position: bottom !important;
+  object-position: bottom !important;
+}
+
+.object-center {
+  -o-object-position: center !important;
+  object-position: center !important;
+}
+
+.object-left {
+  -o-object-position: left !important;
+  object-position: left !important;
+}
+
+.object-left-bottom {
+  -o-object-position: left bottom !important;
+  object-position: left bottom !important;
+}
+
+.object-left-top {
+  -o-object-position: left top !important;
+  object-position: left top !important;
+}
+
+.object-right {
+  -o-object-position: right !important;
+  object-position: right !important;
+}
+
+.object-right-bottom {
+  -o-object-position: right bottom !important;
+  object-position: right bottom !important;
+}
+
+.object-right-top {
+  -o-object-position: right top !important;
+  object-position: right top !important;
+}
+
+.object-top {
+  -o-object-position: top !important;
+  object-position: top !important;
+}
+
 .shadow-none {
   box-shadow: none !important;
 }
@@ -7320,8 +7909,16 @@ img.clip-full {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08) !important;
 }
 
+.shadow-lg-lighter {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .06), 0 5px 15px 0 rgba(0, 0, 0, .08) !important;
+}
+
 .shadow-xl {
   box-shadow: 0 25px 45px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.35) !important;
+}
+
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25) !important;
 }
 
 .shadow-inner {
@@ -7348,6 +7945,14 @@ img.clip-full {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08) !important;
 }
 
+.hover\:shadow-xl:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04) !important;
+}
+
+.hover\:shadow-2xl:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25) !important
+}
+
 .hover\:shadow-inner:hover {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06) !important;
 }
@@ -7370,6 +7975,14 @@ img.clip-full {
 
 .focus\:shadow-lg:focus {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08) !important;
+}
+
+.focus\:shadow-xl:focus {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04) !important
+}
+
+.focus\:shadow-2xl:focus {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25) !important;
 }
 
 .focus\:shadow-inner:focus {
@@ -7519,10 +8132,28 @@ img.clip-full {
   transition: height 5s !important;
 }
 
+.rotate-15deg {
+  -ms-transform: rotate(15deg) !important; /* IE 9 */
+  -webkit-transform: rotate(15deg) !important; /* Safari */
+  transform: rotate(15deg) !important;
+}
+
+.rotate-30deg {
+  -ms-transform: rotate(30deg) !important; /* IE 9 */
+  -webkit-transform: rotate(30deg) !important; /* Safari */
+  transform: rotate(30deg) !important;
+}
+
 .rotate-45deg {
   -ms-transform: rotate(45deg) !important; /* IE 9 */
   -webkit-transform: rotate(45deg) !important; /* Safari */
   transform: rotate(45deg) !important;
+}
+
+.rotate-60deg {
+  -ms-transform: rotate(60deg) !important; /* IE 9 */
+  -webkit-transform: rotate(60deg) !important; /* Safari */
+  transform: rotate(60deg) !important;
 }
 
 .rotate-90deg {
@@ -7531,10 +8162,41 @@ img.clip-full {
   transform: rotate(90deg) !important;
 }
 
+.rotate-120deg {
+  -ms-transform: rotate(120deg) !important; /* IE 9 */
+  -webkit-transform: rotate(120deg) !important; /* Safari */
+  transform: rotate(120deg) !important;
+}
+
+.rotate-135deg {
+  -ms-transform: rotate(135deg) !important; /* IE 9 */
+  -webkit-transform: rotate(135deg) !important; /* Safari */
+  transform: rotate(135deg) !important;
+}
+
+.rotate-150deg {
+  -ms-transform: rotate(150deg) !important; /* IE 9 */
+  -webkit-transform: rotate(150deg) !important; /* Safari */
+  transform: rotate(150deg) !important;
+}
+
+
 .rotate-180deg {
   -ms-transform: rotate(180deg) !important; /* IE 9 */
   -webkit-transform: rotate(180deg) !important; /* Safari */
   transform: rotate(180deg) !important;
+}
+
+.-rotate-15deg {
+  -ms-transform: rotate(-15deg) !important; /* IE 9 */
+  -webkit-transform: rotate(-15deg) !important; /* Safari */
+  transform: rotate(-15deg) !important;
+}
+
+.-rotate-30deg {
+  -ms-transform: rotate(-30deg) !important; /* IE 9 */
+  -webkit-transform: rotate(-30deg) !important; /* Safari */
+  transform: rotate(-30deg) !important;
 }
 
 .-rotate-45deg {
@@ -7544,11 +8206,35 @@ img.clip-full {
   transform: rotate(-45deg) !important;
 }
 
+.-rotate-60deg {
+  -ms-transform: rotate(-60deg) !important; /* IE 9 */
+  -webkit-transform: rotate(-60deg) !important; /* Safari */
+  transform: rotate(-60deg) !important;
+}
+
 .-rotate-90deg {
   /* IE 9 */
   -webkit-transform: rotate(-90deg) !important;
   /* Safari */
   transform: rotate(-90deg) !important;
+}
+
+.-rotate-120deg {
+  -ms-transform: rotate(-120deg) !important; /* IE 9 */
+  -webkit-transform: rotate(-120deg) !important; /* Safari */
+  transform: rotate(-120deg) !important;
+}
+
+.-rotate-135deg {
+  -ms-transform: rotate(-135deg) !important; /* IE 9 */
+  -webkit-transform: rotate(-135deg) !important; /* Safari */
+  transform: rotate(-135deg) !important;
+}
+
+.-rotate-150deg {
+  -ms-transform: rotate(-150deg) !important; /* IE 9 */
+  -webkit-transform: rotate(-150deg) !important; /* Safari */
+  transform: rotate(-150deg) !important;
 }
 
 .-rotate-180deg {
@@ -7561,4 +8247,48 @@ img.clip-full {
 .filter-grayscale {
   -webkit-filter: grayscale(100%) !important; /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) !important;
+}
+
+.transform-0-50-origin {
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+
+.transform-50-100-origin {
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+.transform-3d {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.transform-style-3d {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.transform-45deg-3d {
+  flex: 0 auto;
+  justify-content: space-between;
+  -webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg) translate(-14vw, -23vh);
+  transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg) translate(-14vw, -23vh);
+  -webkit-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+
+.translate-3d-0-0-1 {
+  -webkit-transform: translate3d(0px, 0px, 1px);
+  transform: translate3d(0px, 0px, 1px);
+}
+
+.translate-3d-0-0-5 {
+  -webkit-transform: translate3d(0px, 0px, 5px);
+  transform: translate3d(0px, 0px, 5px);
+}
+
+.translate-3d-0-0-9 {
+  -webkit-transform: translate3d(0px, 0px, 9px);
+  transform: translate3d(0px, 0px, 9px);
 }
