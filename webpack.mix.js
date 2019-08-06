@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const tailwindcss = require('tailwindcss')
 
 /*
  |--------------------------------------------------------------------------
@@ -16,12 +17,14 @@ mix.sass('sass/style.scss', 'dist/')
     .sass('sass/helpers.scss', 'dist/')
     .sass('sass/mobile.scss', 'dist/')
     .sass('sass/tablet.scss', 'dist/')
+    .sass('sass/tailwind.scss', 'dist/')
     .options({
         processCssUrls: false,
         postCss: [
             require('postcss-sorting')({
                 'properties-order': 'alphabetical'
-            })
+            }),
+            tailwindcss('tailwind.config.js'),
         ]
     })
     .version();

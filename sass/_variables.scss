@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Nunito:300,400,600,700|Roboto:300,400,500');
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Varela+Round&display=swap');
 // Typography
-$primary-font: 'Quicksand', sans-serif;
-$secondary-font: 'Nunito', sans-serif;
+$primary-font: 'Noto Sans', sans-serif;
+$secondary-font: 'Varela Round', sans-serif;
 $font-family-sans-default: 'Roboto', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
@@ -20,21 +19,21 @@ $green: #50c787;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
 
-$primary-lightest: #656464;
-$primary-lighter: #515050;
-$primary-light: #3d3c3c;
-$primary: #292828;
-$primary-dark: #1f1e1e;
-$primary-darker: #151414;
-$primary-darkest: #0b0a0a;
+$primary-lightest:  #F4F7F9;
+$primary-lighter: #eef1f3;
+$primary-light: #e8ebed;
+$primary: #e2e5e7;
+$primary-dark: #d6d9db;
+$primary-darker: #cacdcf;
+$primary-darkest: #bec1c3;
 
-$accent-lightest: #ff3530;
-$accent-lighter: #f5332e;
-$accent-light: #eb332e;
-$accent: #E3342F;
-$accent-dark: #cf342f;
-$accent-darker: #bb332e;
-$accent-darkest: #a7332e;
+$accent-lightest: #a1dbff;
+$accent-lighter: #98caff;
+$accent-light: #95baff;
+$accent: #889EFF;
+$accent-dark: #7a8feb;
+$accent-darker: #6e7bd7;
+$accent-darkest: #6267c3;
 
 $primary-semi_transparent: rgba(41, 40, 40, 0.5);
 //$accent : #ec4551;

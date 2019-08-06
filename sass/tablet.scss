@@ -68,6 +68,13 @@
   .md\:text-center {
     text-align: center !important;
   }
+  .md\:text-right {
+    text-align: right !important;
+  }
+
+  .md\:text-left {
+    text-align: left !important;
+  }
   .md\:w-rem-05 {
     width: .125rem !important;
   }
@@ -1583,6 +1590,9 @@
 
   .md\:h-84 {
     height: 21rem !important;
+  }
+  .md\:h-88 {
+    height: 26rem !important;
   }
   .md\:h-px-500 {
     height: 500px !important;
@@ -3517,5 +3527,8 @@
 
   .md\:opacity-100 {
     opacity: 1 !important;
+  }
+  ul.md\:inline-list li {
+    display: inline-block !important;
   }
 }

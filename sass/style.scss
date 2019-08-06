@@ -56,7 +56,7 @@ button,
 input,
 select,
 textarea {
-  font-family: $font-family-sans-default;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 input, select {
@@ -383,23 +383,28 @@ template {
 
 @import 'helpers';
 .Btn, .btn {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
   white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 0;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: none;
   cursor: pointer;
+  -ms-flex-align: center;
+  font-size: 15px;
+  justify-content: center;
   outline: none;
   padding: 0.625em 1.25em;
-  border: 1px solid transparent;
-  font-size: .9rem;
-  line-height: 1.6;
-  border-radius: 0;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+  text-align: center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  /*min-width: 140px;*/
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-box-pack: center;
 }
 
 a.btn:hover,
@@ -431,12 +436,14 @@ a.btn:focus {
   background: transparent;
   color: $accent;
 }
+
 .btn-outline-accent:hover,
 .btn-outline-accent:focus {
   background: $accent;
   color: white;
   border-color: $accent;
 }
+
 .btn-outline-white {
   border-color: #fff !important;
   background: transparent;
@@ -607,6 +614,13 @@ a.btn:focus {
   border-color: $primary;
   color: white;
 }
+
+.btn-primary:hover {
+  background: $primary-dark;
+  border-color: $primary-dark;
+  color: white;
+}
+
 
 .btn-rounded-edges {
   border-radius: 8px;
@@ -910,13 +924,10 @@ img.profile-icon {
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content,
+.dropdown:focus-within .dropdown-content {
   display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 .rounded-edges {
@@ -1097,6 +1108,14 @@ nav.main ul li a:focus {
   color: $primary;
   text-decoration: none;
 }
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 
 .badge {
   background-color: #777;
@@ -1336,76 +1355,6 @@ a.label:focus {
   left: 5px;
   top: 5px;
   width: 8px;
-}
-
-.checkcontainer {
-  cursor: pointer;
-  display: block;
-  font-size: 14px;
-  padding-left: 35px;
-  position: relative;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Hide the browser's default checkbox */
-.checkcontainer input {
-  cursor: pointer;
-  opacity: 0;
-  position: absolute;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-  background-color: white;
-  border: 1px #c2c2c2 solid;
-  height: 20px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 20px;
-}
-
-.checkmark-machine {
-  margin-left: 220px;
-}
-
-
-/* On mouse-over, add a grey background color */
-.checkcontainer:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the checkbox is checked, add a blue background */
-.checkcontainer input:checked ~ .checkmark {
-  background-color: $primary;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  display: none;
-  position: absolute;
-}
-
-/* Show the checkmark when checked */
-.checkcontainer input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style the checkmark/indicator */
-.checkcontainer .checkmark:after {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  height: 11px;
-  left: 6px;
-  top: 2.3px;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  width: 6px;
 }
 
 .btn-options {
@@ -2141,18 +2090,6 @@ ul.inline-block li {
   }
 }
 
-.theme-primary .vdatetime-popup__header,
-.theme-primary .vdatetime-calendar__month__day--selected > span > span,
-.theme-primary .vdatetime-calendar__month__day--selected:hover > span > span {
-  background: $primary;
-}
-
-.theme-primary .vdatetime-year-picker__item--selected,
-.theme-primary .vdatetime-time-picker__item--selected,
-.theme-primary .vdatetime-popup__actions__button {
-  color: $primary;
-}
-
 .modal, .modal-background {
   bottom: 0;
   left: 0;
@@ -2396,8 +2333,6 @@ nav.fill-primary ul li a:hover:after {
 }
 
 
-
-
 .rating {
   width: 300px;
 }
@@ -2438,4 +2373,96 @@ nav.fill-primary ul li a:hover:after {
   background: #FFF;
   border: 5px solid $primary;
   color: $primary;
+}
+
+$animation-duration: 0.4s;
+
+@mixin label-inactive() {
+  font-size: 1.2rem;
+  transform: translateY(0);
+}
+
+@mixin label-active() {
+  font-size: 0.75rem;
+  transform: translateY(-14px);
+}
+
+.form-field-label {
+  @include label-active();
+  display: block;
+  font-weight: normal;
+  left: 0;
+  margin: 0;
+  padding: 18px 12px 0;
+  position: absolute;
+  top: 0;
+  transition: all $animation-duration;
+  width: 100%;
+}
+
+.form-field-control {
+  background: #eee;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.form-field-bar {
+  border-bottom: 2px solid $primary;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  transform: scaleX(0);
+  transition: all $animation-duration;
+  width: 1%;
+}
+
+.form-field-input,
+.form-field-textarea {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #999;
+  color: #333;
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 24px;
+  outline: 0;
+  padding: 0 12px 10px 12px;
+  width: 100%;
+
+  // IE 10-11
+  &:-ms-input-placeholder {
+    ~ .form-field-label {
+      @include label-inactive();
+    }
+  }
+
+  // All other browsers except Edge
+  &:placeholder-shown {
+    ~ .form-field-label {
+      @include label-inactive();
+    }
+  }
+
+  &:focus {
+    ~ .form-field-label {
+      color: $primary;
+      @include label-active();
+    }
+
+    ~ .form-field-bar {
+      border-bottom: 2px solid $primary;
+      transform: scaleX(150);
+    }
+  }
+}
+
+.form-field-textarea {
+  height: 150px;
 }

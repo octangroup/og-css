@@ -1,8 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Nunito:300,400,600,700|Roboto:300,400,500);/*!
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap|Nunito:300,400,600,700|Roboto:100,300,400,500);/*!
  * Copyright (c) 2018. Octan Grp. All Rights Reserved.
  * This code is proprietary and the property of Octan Grp.
  */
-@media screen and (min-width: 576px) and (max-width: 767px) {
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
   html {
     background-color: white;
     font-size: 16px;
@@ -1435,50 +1436,6 @@ textarea {
     max-width: 100% !important;
   }
 
-  .sm\:text-xs {
-    font-size: 0.75rem !important;
-  }
-
-  .sm\:text-xs2 {
-    font-size: 0.55rem !important;
-  }
-
-  .sm\:text-xs3 {
-    font-size: 0.45rem !important;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem !important;
-  }
-
-  .sm\:text-base {
-    font-size: 1rem !important;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem !important;
-  }
-
-  .sm\:text-sm {
-    font-size: 1.25rem !important;
-  }
-
-  .sm\:text-2sm {
-    font-size: 1.5rem !important;
-  }
-
-  .sm\:text-3sm {
-    font-size: 1.875rem !important;
-  }
-
-  .sm\:text-4sm {
-    font-size: 2.25rem !important;
-  }
-
-  .sm\:text-5sm {
-    font-size: 3rem !important;
-  }
-
   .sm\:h-px-20 {
     height: 20px !important;
   }
@@ -1769,6 +1726,10 @@ textarea {
 
   .sm\:h-84 {
     height: 21rem !important;
+  }
+
+  .sm\:h-88 {
+    height: 26rem !important;
   }
 
   .sm\:max-h-16 {
@@ -2350,8 +2311,8 @@ textarea {
 
   .sm\:btn-outline-primary {
     background: white;
-    border-color: #292828;
-    color: #292828;
+    border-color: #e2e5e7;
+    color: #e2e5e7;
   }
 
   .swoosh-home {
@@ -2796,7 +2757,7 @@ textarea {
   }
 
   .sm\:bg-primary {
-    background-color: #292828 !important;
+    background-color: #e2e5e7 !important;
   }
 
   .sm\:bg-white {
@@ -3986,8 +3947,53 @@ textarea {
   .sm\:opacity-100 {
     opacity: 1 !important;
   }
+
+  .sm\:text-xs {
+    font-size: 0.75rem !important;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem !important;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem !important;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem !important;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem !important;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem !important;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem !important;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem !important;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem !important;
+  }
+
+  .sm\:text-6xl {
+    font-size: 4rem !important;
+  }
+
+  ul.sm\:inline-list li {
+    display: inline-block !important;
+  }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   html {
     background-color: white;
     font-size: 16px;
@@ -5948,6 +5954,10 @@ textarea {
     height: 21rem !important;
   }
 
+  .xs\:h-88 {
+    height: 26rem !important;
+  }
+
   .xs\:r-0 {
     right: 0 !important;
   }
@@ -6335,8 +6345,8 @@ textarea {
 
   .xs\:btn-outline-primary {
     background: white;
-    border-color: #292828;
-    color: #292828;
+    border-color: #e2e5e7;
+    color: #e2e5e7;
   }
 
   .swoosh-home {
@@ -6781,7 +6791,7 @@ textarea {
   }
 
   .xs\:bg-primary {
-    background-color: #292828 !important;
+    background-color: #e2e5e7 !important;
   }
 
   .xs\:bg-white {
@@ -6811,7 +6821,8 @@ textarea {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 576px) and (max-width: 350px) {
+
+@media screen and (max-width: 639px) and (max-width: 350px) {
   .xxs\:w-20 {
     width: 20% !important;
   }
@@ -6904,7 +6915,8 @@ textarea {
     visibility: hidden !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .datepicker__input {
     font-size: 15px !important;
     letter-spacing: 0 !important;
@@ -6914,118 +6926,141 @@ textarea {
     word-spacing: 3px !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-auto {
     overflow: auto !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-hidden {
     overflow: hidden !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-visible {
     overflow: visible !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-scroll {
     overflow: scroll !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-x-auto {
     overflow-x: auto !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-y-auto {
     overflow-y: auto !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-x-hidden {
     overflow-x: hidden !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-y-hidden {
     overflow-y: hidden !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-x-visible {
     overflow-x: visible !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-y-visible {
     overflow-y: visible !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-x-scroll {
     overflow-x: scroll !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:overflow-y-scroll {
     overflow-y: scroll !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:scrolling-touch {
     -webkit-overflow-scrolling: touch !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:scrolling-auto {
     -webkit-overflow-scrolling: auto !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:smooth-scrolling {
     scroll-behavior: smooth !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:min-h-auto {
     min-height: auto !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:h-auto {
     height: auto !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:static {
     position: static !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:fixed {
     position: fixed !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:absolute {
     position: absolute !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:relative {
     position: relative !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:sticky {
     position: -webkit-sticky !important;
     position: sticky !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin-none {
     bottom: auto !important;
     left: auto;
@@ -7033,7 +7068,8 @@ textarea {
     top: auto !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin {
     bottom: 0 !important;
     left: 0 !important;
@@ -7041,1325 +7077,1595 @@ textarea {
     top: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin-y {
     bottom: 0 !important;
     top: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin-x {
     left: 0 !important;
     right: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin-t {
     top: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin-r {
     right: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin-b {
     bottom: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:pin-l {
     left: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-grey-darkest {
     color: #3d4852 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-grey-darker {
     color: #606f7b !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-grey-dark {
     color: #8795a1 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-grey {
     color: #b8c2cc !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-grey-light {
     color: #dae1e7 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-grey-lighter {
     color: #f1f5f8 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-grey-lightest {
     color: #f8fafc !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-white {
     color: #fff !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-red-darkest {
     color: #3b0d0c !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-red-darker {
     color: #621b18 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-red-dark {
     color: #cc1f1a !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-red {
     color: #e3342f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-red-light {
     color: #ef5753 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-red-lighter {
     color: #f9acaa !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-red-lightest {
     color: #fcebea !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-orange-darkest {
     color: #462a16 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-orange-darker {
     color: #613b1f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-orange-dark {
     color: #de751f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-orange {
     color: #f6993f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-orange-light {
     color: #faad63 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-orange-lighter {
     color: #fcd9b6 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-orange-lightest {
     color: #fff5eb !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-yellow-darkest {
     color: #5C4813 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-yellow-darker {
     color: #8C6D1F !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-yellow-dark {
     color: #CAA53D !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-yellow {
     color: #F4CA64 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-yellow-light {
     color: #FBE29F !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-yellow-lighter {
     color: #FEF3D7 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-yellow-lightest {
     color: #FFFCF4 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-green-darkest {
     color: #0f2f21 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-green-darker {
     color: #1a4731 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-green-dark {
     color: #1f9d55 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-green {
     color: #38c172 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-green-light {
     color: #51d88a !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-green-lighter {
     color: #a2f5bf !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-green-lightest {
     color: #e3fcec !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-teal-darkest {
     color: #0d3331 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-teal-darker {
     color: #20504f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-teal-dark {
     color: #38a89d !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-teal {
     color: #4dc0b5 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-teal-light {
     color: #64d5ca !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-teal-lighter {
     color: #a0f0ed !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-teal-lightest {
     color: #e8fffe !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-blue-darkest {
     color: #12283a !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-blue-darker {
     color: #1c3d5a !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-blue-dark {
     color: #2779bd !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-blue {
     color: #3490dc !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-blue-light {
     color: #6cb2eb !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-blue-lighter {
     color: #bcdefa !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-blue-lightest {
     color: #eff8ff !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-indigo-darkest {
     color: #191e38 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-indigo-darker {
     color: #2f365f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-indigo-dark {
     color: #5661b3 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-indigo {
     color: #6574cd !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-indigo-light {
     color: #7886d7 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-indigo-lighter {
     color: #b2b7ff !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-indigo-lightest {
     color: #e6e8ff !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-purple-darkest {
     color: #21183c !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-purple-darker {
     color: #382b5f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-purple-dark {
     color: #794acf !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-purple {
     color: #9561e2 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-purple-light {
     color: #a779e9 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-purple-lighter {
     color: #d6bbfc !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-purple-lightest {
     color: #f3ebff !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-pink-darkest {
     color: #451225 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-pink-darker {
     color: #6f213f !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-pink-dark {
     color: #eb5286 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-pink {
     color: #f66d9b !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-pink-light {
     color: #fa7ea8 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-pink-lighter {
     color: #ffbbca !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:text-pink-lightest {
     color: #ffebef !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-100 {
     right: -100% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-95 {
     right: -95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-90 {
     right: -90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-85 {
     right: -85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-80 {
     right: -80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-75 {
     right: -75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-70 {
     right: -70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-65 {
     right: -65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-60 {
     right: -60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-55 {
     right: -55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-50 {
     right: -50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-45 {
     right: -45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-40 {
     right: -40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-35 {
     right: -35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-30 {
     right: -30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-25 {
     right: -25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-20 {
     right: -20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-15 {
     right: -15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-10 {
     right: -10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-r-5 {
     right: -5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-0 {
     right: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-2 {
     right: 2% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-5 {
     right: 5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-10 {
     right: 10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-15 {
     right: 15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-20 {
     right: 20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-25 {
     right: 25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-30 {
     right: 30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-35 {
     right: 35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-40 {
     right: 40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-45 {
     right: 45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-50 {
     right: 50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-55 {
     right: 55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-60 {
     right: 60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-65 {
     right: 65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-70 {
     right: 70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-75 {
     right: 75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-80 {
     right: 80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-85 {
     right: 85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-90 {
     right: 90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-95 {
     right: 95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:r-100 {
     right: 95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-100 {
     left: -100% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-95 {
     left: -95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-90 {
     left: -90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-85 {
     left: -85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-80 {
     left: -80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-75 {
     left: -75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-70 {
     left: -70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-65 {
     left: -65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-60 {
     left: -60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-55 {
     left: -55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-50 {
     left: -50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-45 {
     left: -45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-40 {
     left: -40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-35 {
     left: -35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-30 {
     left: -30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-25 {
     left: -25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-20 {
     left: -20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-15 {
     left: -15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-10 {
     left: -10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-l-5 {
     left: -5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-0 {
     left: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-2 {
     left: 2% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-5 {
     left: 5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-10 {
     left: 10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-15 {
     left: 15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-20 {
     left: 20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-25 {
     left: 25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-30 {
     left: 30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-35 {
     left: 35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-40 {
     left: 40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-45 {
     left: 45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-50 {
     left: 50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-55 {
     left: 55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-60 {
     left: 60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-65 {
     left: 65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-70 {
     left: 70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-75 {
     left: 75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-80 {
     left: 80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-85 {
     left: 85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-90 {
     left: 90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-95 {
     left: 95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:l-100 {
     left: 100% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-100 {
     top: -100% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-95 {
     top: -95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-90 {
     top: -90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-85 {
     top: -85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-80 {
     top: -80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-75 {
     top: -75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-70 {
     top: -70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-65 {
     top: -65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-60 {
     top: -60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-55 {
     top: -55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-50 {
     top: -50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-45 {
     top: -45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-40 {
     top: -40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-35 {
     top: -35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-30 {
     top: -30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-25 {
     top: -25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-20 {
     top: -20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-15 {
     top: -15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-10 {
     top: -10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-t-5 {
     top: -5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-0 {
     top: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-2 {
     top: 2% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-5 {
     top: 5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-10 {
     top: 10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-15 {
     top: 15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-20 {
     top: 20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-25 {
     top: 25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-30 {
     top: 30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-35 {
     top: 35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-40 {
     top: 40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-45 {
     top: 45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-50 {
     top: 50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-55 {
     top: 55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-60 {
     top: 60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-65 {
     top: 65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-70 {
     top: 70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-75 {
     top: 75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-80 {
     top: 80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-85 {
     top: 85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-90 {
     top: 90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-95 {
     top: 95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:t-100 {
     top: 100% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-100 {
     bottom: -100% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-95 {
     bottom: -95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-90 {
     bottom: -90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-85 {
     bottom: -85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-80 {
     bottom: -80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-75 {
     bottom: -75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-70 {
     bottom: -70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-65 {
     bottom: -65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-60 {
     bottom: -60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-55 {
     bottom: -55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-50 {
     bottom: -50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-45 {
     bottom: -45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-40 {
     bottom: -40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-35 {
     bottom: -35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-30 {
     bottom: -30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-25 {
     bottom: -25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-20 {
     bottom: -20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-15 {
     bottom: -15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-10 {
     bottom: -10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:-b-5 {
     bottom: -5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-0 {
     bottom: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-2 {
     bottom: 2% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-5 {
     bottom: 5% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-10 {
     bottom: 10% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-15 {
     bottom: 15% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-20 {
     bottom: 20% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-25 {
     bottom: 25% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-30 {
     bottom: 30% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-35 {
     bottom: 35% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-40 {
     bottom: 40% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-45 {
     bottom: 45% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-50 {
     bottom: 50% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-55 {
     bottom: 55% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-60 {
     bottom: 60% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-65 {
     bottom: 65% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-70 {
     bottom: 70% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-75 {
     bottom: 75% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-80 {
     bottom: 80% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-85 {
     bottom: 85% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-90 {
     bottom: 90% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-95 {
     bottom: 95% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:b-100 {
     bottom: 100% !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-0 {
     opacity: 0 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-5 {
     opacity: 0.05 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-10 {
     opacity: 0.1 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-20 {
     opacity: 0.2 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-25 {
     opacity: 0.25 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-30 {
     opacity: 0.3 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-35 {
     opacity: 0.35 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-40 {
     opacity: 0.4 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-45 {
     opacity: 0.45 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-50 {
     opacity: 0.5 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-55 {
     opacity: 0.55 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-60 {
     opacity: 0.6 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-65 {
     opacity: 0.65 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-70 {
     opacity: 0.7 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-75 {
     opacity: 0.75 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-80 {
     opacity: 0.8 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-85 {
     opacity: 0.85 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-95 {
     opacity: 0.95 !important;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 639px) {
   .xs\:opacity-100 {
     opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  ul.xs\:inline-list li {
+    display: inline-block !important;
   }
 }

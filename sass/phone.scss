@@ -1898,7 +1898,10 @@
     height: 21rem !important;
   }
 
-
+  .xs\:h-88 {
+    height: 26rem !important;
+  }
+  
   .xs\:r-0 {
     right: 0 !important;
   }
@@ -3975,5 +3978,8 @@
 
   .xs\:opacity-100 {
     opacity: 1 !important;
+  }
+  ul.xs\:inline-list li {
+    display: inline-block !important;
   }
 }

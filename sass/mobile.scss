@@ -1394,49 +1394,7 @@
     -ms-flex: 100% !important;
     max-width: 100% !important;
   }
-  .sm\:text-xs {
-    font-size: .75rem !important;
-  }
-  .sm\:text-xs2 {
-    font-size: .55rem !important;
-  }
-
-  .sm\:text-xs3 {
-    font-size: .45rem !important;
-  }
-
-  .sm\:text-sm {
-    font-size: .875rem !important;
-  }
-
-  .sm\:text-base {
-    font-size: 1rem !important;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem !important;
-  }
-
-  .sm\:text-sm {
-    font-size: 1.25rem !important;
-  }
-
-  .sm\:text-2sm {
-    font-size: 1.5rem !important;
-  }
-
-  .sm\:text-3sm {
-    font-size: 1.875rem !important;
-  }
-
-  .sm\:text-4sm {
-    font-size: 2.25rem !important;
-  }
-
-  .sm\:text-5sm {
-    font-size: 3rem !important;
-  }
-
+  
   .sm\:h-px-20 {
     height: 20px !important;
   }
@@ -1708,6 +1666,10 @@
 
   .sm\:h-84 {
     height: 21rem !important;
+  }
+  
+  .sm\:h-88 {
+    height: 26rem !important;
   }
   .sm\:max-h-16 {
     max-height: 4rem !important;
@@ -3890,6 +3852,39 @@
 
   .sm\:opacity-100 {
     opacity: 1 !important;
+  }
+  .sm\:text-xs {
+    font-size: .75rem !important;
+  }
+  .sm\:text-sm {
+    font-size: .875rem !important;
+  }
+  .sm\:text-base {
+    font-size: 1rem !important;
+  }
+  .sm\:text-lg {
+    font-size: 1.125rem !important;
+  }
+  .sm\:text-xl {
+    font-size: 1.25rem !important;
+  }
+  .sm\:text-2xl {
+    font-size: 1.5rem !important;
+  }
+  .sm\:text-3xl {
+    font-size: 1.875rem !important;
+  }
+  .sm\:text-4xl {
+    font-size: 2.25rem !important;
+  }
+  .sm\:text-5xl {
+    font-size: 3rem !important;
+  }
+  .sm\:text-6xl {
+    font-size: 4rem !important;
+  }
+  ul.sm\:inline-list li {
+    display: inline-block !important;
   }
 }
 
