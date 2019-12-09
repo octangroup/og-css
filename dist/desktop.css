@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap|Nunito:300,400,600,700|Roboto:100,300,400,500);/*!
- * Copyright (c) 2018. Octan Grp. All Rights Reserved.
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Varela+Round&display=swap);/*!
+ * Copyright (c) 2019.  Octan Grp. All Rights Reserved.
  * This code is proprietary and the property of Octan Grp.
+ *
  */
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -80,14 +81,6 @@
 
   .lg\:text-center {
     text-align: center !important;
-  }
-
-  .lg\:text-right {
-    text-align: right !important;
-  }
-
-  .lg\:text-left {
-    text-align: left !important;
   }
 
   .lg\:w-7 {
@@ -1771,10 +1764,6 @@
     height: 21rem !important;
   }
 
-  .lg\:h-88 {
-    height: 26rem !important;
-  }
-
   .lg\:h-px-300 {
     height: 300px !important;
   }
@@ -2458,7 +2447,7 @@
   }
 
   .lg\:bg-primary {
-    background-color: #e2e5e7 !important;
+    background-color: #4a8bc3 !important;
   }
 
   .lg\:btn-round {
@@ -2479,12 +2468,12 @@
 
   .lg\:btn-outline-primary {
     background: white;
-    border-color: #e2e5e7;
-    color: #e2e5e7;
+    border-color: #4a8bc3;
+    color: #4a8bc3;
   }
 
   .lg\:text-primary {
-    color: #e2e5e7 !important;
+    color: #4a8bc3 !important;
   }
 
   .lg\:text-white {
@@ -2492,8 +2481,8 @@
   }
 
   .lg\:btn-primary {
-    background: #e2e5e7;
-    border-color: #e2e5e7;
+    background: #4a8bc3;
+    border-color: #4a8bc3;
     color: white;
   }
 
@@ -3689,10 +3678,6 @@
   .lg\:opacity-100 {
     opacity: 1 !important;
   }
-
-  ul.lg\:inline-list li {
-    display: inline-block !important;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -3758,16 +3743,16 @@
     margin-right: auto !important;
   }
 
+  .xl\:text-left {
+    text-align: left !important;
+  }
+
   .xl\:text-center {
     text-align: center !important;
   }
 
   .xl\:text-right {
     text-align: right !important;
-  }
-
-  .xl\:text-left {
-    text-align: left !important;
   }
 
   .xl\:w-7 {
@@ -5442,10 +5427,6 @@
     height: 21rem !important;
   }
 
-  .xl\:h-88 {
-    height: 26rem !important;
-  }
-
   .xl\:h-px-500 {
     height: 500px !important;
   }
@@ -6120,7 +6101,7 @@
   }
 
   .xl\:bg-primary {
-    background-color: #e2e5e7 !important;
+    background-color: #4a8bc3 !important;
   }
 
   .xl\:btn-round {
@@ -6133,13 +6114,13 @@
 
   .xl\:btn-outline-primary {
     background: white;
-    border-color: #e2e5e7;
-    color: #e2e5e7;
+    border-color: #4a8bc3;
+    color: #4a8bc3;
   }
 
   .xl\:btn-primary {
-    background: #e2e5e7;
-    border-color: #e2e5e7;
+    background: #4a8bc3;
+    border-color: #4a8bc3;
     color: white;
   }
 
@@ -7313,9 +7294,5 @@
 
   .xl\:opacity-100 {
     opacity: 1 !important;
-  }
-
-  ul.xl\:inline-list li {
-    display: inline-block !important;
   }
 }
