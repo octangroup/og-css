@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 .w-auto {
   min-width: auto !important;
   width: auto !important;
+  max-width: max-content !important;
 }
 
 .font-sans {
@@ -6500,7 +6501,11 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .bg-primary-semi-transparent {
-  background-color: $primary-semi_transparent !important;
+  background-color: $primary-semi-transparent !important;
+}
+
+.bg-primary-tiny-transparent {
+  background-color: $primary-tiny-transparent !important;
 }
 
 .hover\:bg-primary-darkest:hover {
@@ -7671,11 +7676,10 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .input-loading-left-right {
-  animation-delay: 250ms;
   animation-direction: initial;
   -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
-  animation-duration: 2s;
-  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
   animation-iteration-count: infinite;
   animation-name: input-loading-left-right;
   -webkit-animation-name: input-loading-left-right; /* Safari 4.0 - 8.0 */
@@ -7683,6 +7687,8 @@ a.text-danger:hover, a.text-danger:focus {
   position: relative;
   width: 0;
 }
+
+
 
 .text-muted {
   color: #6c757d !important;

@@ -1,351 +1,268 @@
 @import 'variables';
 
-html,
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%
+}
+
 body {
-  margin: 0;
+  margin: 0
+}
+
+main {
+  display: block
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+a {
+  background-color: transparent
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted
+}
+
+b, strong {
+  font-weight: bolder
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+small {
+  font-size: 80%
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -.25em
+}
+
+sup {
+  top: -.5em
+}
+
+img {
+  border-style: none
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0
+}
+
+button, input {
+  overflow: visible
+}
+
+button, select {
+  text-transform: none
+}
+
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+fieldset {
+  padding: .35em .75em .625em
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
   padding: 0;
+  white-space: normal
+}
+
+progress {
+  vertical-align: baseline
+}
+
+textarea {
+  overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+details {
+  display: block
+}
+
+summary {
+  display: list-item
+}
+
+template {
+  display: none
+}
+
+[hidden] {
+  display: none
 }
 
 html {
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+  font-family: sans-serif
 }
 
-* {
-  box-sizing: inherit;
-  -webkit-box-sizing: inherit;
+*, ::after, ::before {
+  box-sizing: inherit
 }
 
-*:before, *:after {
-  box-sizing: inherit;
-  -webkit-box-sizing: inherit;
-}
-
-img,
-embed,
-object,
-audio,
-div,
-p,
-body,
-ul,
-li, input, select,
-nav,
-video {
-  max-width: 100%;
-}
-
-iframe {
-  border: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
-  text-align: left;
-}
-
-a,
-body,
-button,
-input,
-select,
-textarea {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-input, select {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-abbr[title],
-abbr[data-original-title] {
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
-  cursor: help;
-  border-bottom: 0;
-}
-
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit;
-}
-
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-ol ol,
-ul ul,
-ol ul,
-ul ol {
-  margin-bottom: 0;
-}
-
-dt {
-  font-weight: 700;
-}
-
-dd {
-  margin-bottom: .5rem;
-  margin-left: 0;
-}
-
-blockquote {
-  margin: 0 0 1rem;
-}
-
-dfn {
-  font-style: italic;
-}
-
-b,
-strong {
-  font-weight: bolder;
-}
-
-small {
-  font-size: 80%;
-}
-
-sub,
-sup {
-  position: relative;
-  font-size: 75%;
-  line-height: 0;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-sup {
-  top: -.5em;
-}
-
-a {
-  color: $primary;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
-a:hover {
-  color: $primary-darker;
-  text-decoration: underline;
-}
-
-a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):focus {
-  outline: 0;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em;
-}
-
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  -ms-overflow-style: scrollbar;
-}
-
-figure {
-  margin: 0 0 1rem;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
-}
-
-svg {
-  overflow: hidden;
-  vertical-align: middle;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-caption {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  color: #6c757d;
-  text-align: left;
-  caption-side: bottom;
-}
-
-th {
-  text-align: inherit;
-}
-
-label {
-  display: inline-block;
-  margin-bottom: 0.5rem;
+blockquote, dd, dl, figure, hr, pre {
+  margin: 0
 }
 
 button {
-  border-radius: 0;
+  background: 0 0;
+  padding: 0
 }
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-input,
-button,
-select,
-optgroup,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-button,
-input {
-  overflow: visible;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  padding: 0;
-  border-style: none;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
-}
-
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox;
-}
-
-textarea {
-  overflow: auto;
-  resize: vertical;
+  outline: 5px auto -webkit-focus-ring-color
 }
 
 fieldset {
-  min-width: 0;
-  padding: 0;
   margin: 0;
-  border: 0;
+  padding: 0
 }
 
-legend {
-  display: block;
-  width: 100%;
-  max-width: 100%;
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5
+}
+
+*, ::after, ::before {
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0
+}
+
+hr {
+  border-top-width: 1px
+}
+
+img {
+  border-style: solid
+}
+
+textarea {
+  resize: vertical
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #a0aec0
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #a0aec0
+}
+
+input::placeholder, textarea::placeholder {
+  color: #a0aec0
+}
+
+[role=button], button {
+  cursor: pointer
+}
+
+table {
+  border-collapse: collapse
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit
+}
+
+button, input, optgroup, select, textarea {
   padding: 0;
-  margin-bottom: .5rem;
-  font-size: 1.5rem;
   line-height: inherit;
-  color: inherit;
-  white-space: normal;
+  color: inherit
 }
 
-progress {
-  vertical-align: baseline;
+code, kbd, pre, samp {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
+audio, canvas, embed, iframe, img, object, svg, video {
+  //display: block;
+  vertical-align: middle
 }
 
-[type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none;
+img, video {
+  max-width: 100%;
+  height: auto
 }
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  font: inherit;
-  -webkit-appearance: button;
-}
-
-output {
-  display: inline-block;
-}
-
-summary {
-  display: list-item;
-  cursor: pointer;
-}
-
-template {
-  display: none;
-}
-
-[hidden] {
-  display: none !important;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  /*margin-bottom: .5rem;*/
-  color: inherit;
-  font-weight: 500;
-  font-family: inherit;
-  line-height: 1.2;
+.container {
+  width: 100%
 }
 
 .h1, h1 {
@@ -1316,13 +1233,13 @@ a.label:focus {
 /* Create a custom radio button */
 .radiomark {
   background-color: white;
-  border: 1px #c2c2c2 solid;
+  border: 2px #c2c2c2 solid;
   border-radius: 50%;
-  height: 20px;
+  height: 25px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 20px;
+  width: 25px;
 }
 
 /* On mouse-over, add a grey background color */
@@ -1351,10 +1268,10 @@ a.label:focus {
 .radiocontainer .radiomark:after {
   background: white;
   border-radius: 50%;
-  height: 8px;
-  left: 5px;
-  top: 5px;
-  width: 8px;
+  height: 13px;
+  left: 4px;
+  top: 4px;
+  width: 13px;
 }
 
 .btn-options {
@@ -2051,6 +1968,19 @@ ul.inline-block li {
   display: none;
 }
 
+.progress-loader {
+  animation-delay: 250ms;
+  animation-direction: initial;
+  -webkit-animation-direction: initial; /* Safari 4.0 - 8.0 */
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-iteration-count: infinite;
+  animation-name: progress-loader;
+  -webkit-animation-name: progress-loader; /* Safari 4.0 - 8.0 */
+  opacity: 1;
+  position: absolute;
+}
+
 @-webkit-keyframes input-loading-left-right {
   0% {
     width: 0;
@@ -2087,6 +2017,25 @@ ul.inline-block li {
   100% {
     width: 0;
     opacity: 0;
+  }
+}
+
+@-webkit-keyframes progress-loader {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Standard syntax */
+@keyframes progress-loader {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
   }
 }
 
