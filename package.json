@@ -1,9 +1,9 @@
 {
-  "name": "octan-css",
+  "name": "og-css",
   "version": "2.0.0",
   "description": "",
   "keywords": [],
-  "author": "Octan Grp",
+  "author": "Octan Group",
   "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,7 @@
     "laravel-mix": "^4.0.7",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.15.2",
+    "sass-lint": "^1.13.1",
     "sass-loader": "^7.1.0",
     "tailwindcss": "^1.0.1"
   },
