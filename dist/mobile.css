@@ -1,7 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Varela+Round&display=swap);/*!
- * Copyright (c) 2019.  Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- *
+/*!
+ * Copyright (c) 2019. TripperSteer. All Rights Reserved.
+ * This code is proprietary and the property of TripperSteer.
  */
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -3505,6 +3504,49 @@ textarea {
 }
 
 @media screen and (max-width: 639px) {
+  html {
+    background-color: white;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  input[type=color],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select:focus,
+textarea {
+    font-size: 16px !important;
+  }
+
   .xs\:hidden-temp {
     display: none;
   }

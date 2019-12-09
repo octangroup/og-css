@@ -4,5 +4,6 @@
     "/dist/helpers.css": "/dist/helpers.css",
     "/dist/mobile.css": "/dist/mobile.css",
     "/dist/tablet.css": "/dist/tablet.css",
+    "/dist/og.css": "/dist/og.css",
     "/dist/tailwind.css": "/dist/tailwind.css"
 }

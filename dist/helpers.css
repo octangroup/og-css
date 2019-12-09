@@ -1,8 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Varela+Round&display=swap);h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Sans", sans-serif !important;
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif !important;
 }
 
 .w-auto {
+  max-width: -webkit-max-content !important;
+  max-width: -moz-max-content !important;
+  max-width: max-content !important;
   min-width: auto !important;
   width: auto !important;
 }
@@ -74,11 +77,11 @@
 }
 
 .font-primary {
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: sans-serif !important;
 }
 
 .font-secondary {
-  font-family: "Varela Round", sans-serif !important;
+  font-family: sans-serif !important;
 }
 
 .font-hairline {
@@ -6464,7 +6467,11 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .bg-primary-semi-transparent {
-  background-color: rgba(41, 40, 40, 0.5) !important;
+  background-color: rgba(94, 203, 216, 0.51) !important;
+}
+
+.bg-primary-tiny-transparent {
+  background-color: rgba(242, 211, 203, 0.1) !important;
 }
 
 .hover\:bg-primary-darkest:hover {
@@ -7618,13 +7625,11 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .input-loading-left-right {
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
   -webkit-animation-direction: reverse;
   animation-direction: initial;
   /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
