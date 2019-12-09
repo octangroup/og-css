@@ -64,16 +64,18 @@
     margin-right: auto !important;
   }
 
+  .xl\:text-left {
+    text-align: left !important;
+  }
+
   .xl\:text-center {
     text-align: center !important;
   }
+
   .xl\:text-right {
     text-align: right !important;
   }
 
-  .xl\:text-left {
-    text-align: left !important;
-  }
   .xl\:w-7 {
     width: 7% !important;
   }
@@ -1770,10 +1772,7 @@
   .xl\:h-84 {
     height: 21rem !important;
   }
-  
-  .xl\:h-88 {
-    height: 26rem !important;
-  }
+
   .xl\:h-px-500 {
     height: 500px !important;
   }
@@ -3641,8 +3640,5 @@
 
   .xl\:opacity-100 {
     opacity: 1 !important;
-  }
-  ul.xl\:inline-list li {
-    display: inline-block !important;
   }
 }

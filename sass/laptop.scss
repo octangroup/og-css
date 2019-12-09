@@ -1,7 +1,10 @@
 /*!
- * Copyright (c) 2018. Octan Grp. All Rights Reserved.
+ * Copyright (c) 2019.  Octan Grp. All Rights Reserved.
  * This code is proprietary and the property of Octan Grp.
+ *
  */
+
+
 @import "variables";
 
 
@@ -84,13 +87,6 @@
     text-align: center !important;
   }
 
-  .lg\:text-right {
-    text-align: right !important;
-  }
-
-  .lg\:text-left {
-    text-align: left !important;
-  }
   .lg\:w-7 {
     width: 7% !important;
   }
@@ -1794,11 +1790,7 @@
   .lg\:h-84 {
     height: 21rem !important;
   }
-  
-  .lg\:h-88 {
-    height: 26rem !important;
-  }
-  
+
   .lg\:h-px-300 {
     height: 300px !important;
   }
@@ -3712,8 +3704,5 @@
 
   .lg\:opacity-100 {
     opacity: 1 !important;
-  }
-  ul.lg\:inline-list li {
-    display: inline-block !important;
   }
 }
