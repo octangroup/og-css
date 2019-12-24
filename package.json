@@ -1,7 +1,9 @@
 {
-  "name": "@octangrp/og-css",
+  "name": "og-css",
   "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
   "version": "2.0.5",
+  "version_short": "4.3",
+  "author": "Octan Group (https://octangrp.com)",
   "keywords": [
     "css",
     "sass",
@@ -11,17 +13,13 @@
     "framework",
     "web"
   ],
-  "author": "Octan Group",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/octangrp/og-css.git"
   },
-  "style": "dist/css/bootstrap.css",
-  "sass": "scss/bootstrap.scss",
+  "style": "dist/css/og.css",
+  "sass": "sass/og.scss",
   "bugs": {
     "url": "https://github.com/octangrp/og-css/issues"
   },
@@ -33,7 +31,8 @@
     "watch-poll": "npm run watch -- --watch-poll",
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "stylelint": "stylelint 'sass/*.scss'"
   },
   "devDependencies": {
     "laravel-mix": "^4.0.7",
@@ -46,8 +45,5 @@
     "cross-env": "^5.2.0",
     "postcss-sorting": "^4.0.1",
     "stylelint": "^12.0.0"
-  },
-  "scripts": {
-    "stylelint": "stylelint 'sass/*.scss'"
   }
 }
