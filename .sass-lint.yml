@@ -3,8 +3,4 @@ files:
   ignore:
     - 'sass/vendor/**/*.scss'
     - 'sass/tests/**/*.scss'
-  rules:
-    indentation:
-      - 2
-      -
-        size: 2
+    
