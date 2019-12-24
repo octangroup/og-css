@@ -9,5 +9,4 @@ cache:
 
 script:
   - npm install
-  - npm test
   - sass-lint -v -q

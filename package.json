@@ -1,10 +1,30 @@
 {
-  "name": "og-css",
-  "version": "2.0.4",
-  "description": "",
-  "keywords": [],
+  "name": "@octangrp/og-css",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+  "version": "2.0.5",
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
   "author": "Octan Group",
-  "license": "ISC",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octangrp/og-css.git"
+  },
+  "style": "dist/css/bootstrap.css",
+  "sass": "scss/bootstrap.scss",
+  "bugs": {
+    "url": "https://github.com/octangrp/og-css/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run development",
