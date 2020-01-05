@@ -1431,6 +1431,7 @@
   }
 
   .lg\:flex {
+    display: -webkit-box !important;
     display: flex !important;
   }
 
@@ -1439,107 +1440,128 @@
   }
 
   .lg\:flex-0 {
-    flex: 0 !important;
+    -webkit-box-flex: 0 !important;
+            flex: 0 !important;
     max-width: 0 !important;
   }
 
   .lg\:flex-5 {
-    flex: 5% !important;
+    -webkit-box-flex: 5% !important;
+            flex: 5% !important;
     max-width: 5% !important;
   }
 
   .lg\:flex-10 {
-    flex: 10% !important;
+    -webkit-box-flex: 10% !important;
+            flex: 10% !important;
     max-width: 10% !important;
   }
 
   .lg\:flex-15 {
-    flex: 15% !important;
+    -webkit-box-flex: 15% !important;
+            flex: 15% !important;
     max-width: 15% !important;
   }
 
   .lg\:flex-20 {
-    flex: 20% !important;
+    -webkit-box-flex: 20% !important;
+            flex: 20% !important;
     max-width: 20% !important;
   }
 
   .lg\:flex-25 {
-    flex: 25% !important;
+    -webkit-box-flex: 25% !important;
+            flex: 25% !important;
     max-width: 25% !important;
   }
 
   .lg\:flex-30 {
-    flex: 30% !important;
+    -webkit-box-flex: 30% !important;
+            flex: 30% !important;
     max-width: 30% !important;
   }
 
   .lg\:flex-35 {
-    flex: 35% !important;
+    -webkit-box-flex: 35% !important;
+            flex: 35% !important;
     max-width: 35% !important;
   }
 
   .lg\:flex-40 {
-    flex: 40% !important;
+    -webkit-box-flex: 40% !important;
+            flex: 40% !important;
     max-width: 40% !important;
   }
 
   .lg\:flex-45 {
-    flex: 45% !important;
+    -webkit-box-flex: 45% !important;
+            flex: 45% !important;
     max-width: 45% !important;
   }
 
   .lg\:flex-50 {
-    flex: 50% !important;
+    -webkit-box-flex: 50% !important;
+            flex: 50% !important;
     max-width: 50% !important;
   }
 
   .lg\:flex-55 {
-    flex: 55% !important;
+    -webkit-box-flex: 55% !important;
+            flex: 55% !important;
     max-width: 54% !important;
   }
 
   .lg\:flex-60 {
-    flex: 60% !important;
+    -webkit-box-flex: 60% !important;
+            flex: 60% !important;
     max-width: 60% !important;
   }
 
   .lg\:flex-65 {
-    flex: 65% !important;
+    -webkit-box-flex: 65% !important;
+            flex: 65% !important;
     max-width: 65% !important;
   }
 
   .lg\:flex-70 {
-    flex: 70% !important;
+    -webkit-box-flex: 70% !important;
+            flex: 70% !important;
     max-width: 70% !important;
   }
 
   .lg\:flex-75 {
-    flex: 75% !important;
+    -webkit-box-flex: 75% !important;
+            flex: 75% !important;
     max-width: 75% !important;
   }
 
   .lg\:flex-80 {
-    flex: 80% !important;
+    -webkit-box-flex: 80% !important;
+            flex: 80% !important;
     max-width: 80% !important;
   }
 
   .lg\:flex-85 {
-    flex: 85% !important;
+    -webkit-box-flex: 85% !important;
+            flex: 85% !important;
     max-width: 85% !important;
   }
 
   .lg\:flex-90 {
-    flex: 90% !important;
+    -webkit-box-flex: 90% !important;
+            flex: 90% !important;
     max-width: 90% !important;
   }
 
   .lg\:flex-95 {
-    flex: 95% !important;
+    -webkit-box-flex: 95% !important;
+            flex: 95% !important;
     max-width: 95% !important;
   }
 
   .lg\:flex-100 {
-    flex: 100% !important;
+    -webkit-box-flex: 100% !important;
+            flex: 100% !important;
     max-width: 100% !important;
   }
 
@@ -5178,111 +5200,133 @@
   }
 
   .xl\:flex {
+    display: -webkit-box !important;
     display: flex !important;
   }
 
   .xl\:flex-0 {
-    flex: 0 !important;
+    -webkit-box-flex: 0 !important;
+            flex: 0 !important;
     max-width: 0 !important;
   }
 
   .xl\:flex-5 {
-    flex: 5% !important;
+    -webkit-box-flex: 5% !important;
+            flex: 5% !important;
     max-width: 5% !important;
   }
 
   .xl\:flex-10 {
-    flex: 10% !important;
+    -webkit-box-flex: 10% !important;
+            flex: 10% !important;
     max-width: 10% !important;
   }
 
   .xl\:flex-15 {
-    flex: 15% !important;
+    -webkit-box-flex: 15% !important;
+            flex: 15% !important;
     max-width: 15% !important;
   }
 
   .xl\:flex-20 {
-    flex: 20% !important;
+    -webkit-box-flex: 20% !important;
+            flex: 20% !important;
     max-width: 20% !important;
   }
 
   .xl\:flex-25 {
-    flex: 25% !important;
+    -webkit-box-flex: 25% !important;
+            flex: 25% !important;
     max-width: 25% !important;
   }
 
   .xl\:flex-30 {
-    flex: 30% !important;
+    -webkit-box-flex: 30% !important;
+            flex: 30% !important;
     max-width: 30% !important;
   }
 
   .xl\:flex-35 {
-    flex: 35% !important;
+    -webkit-box-flex: 35% !important;
+            flex: 35% !important;
     max-width: 35% !important;
   }
 
   .xl\:flex-40 {
-    flex: 40% !important;
+    -webkit-box-flex: 40% !important;
+            flex: 40% !important;
     max-width: 40% !important;
   }
 
   .xl\:flex-45 {
-    flex: 45% !important;
+    -webkit-box-flex: 45% !important;
+            flex: 45% !important;
     max-width: 45% !important;
   }
 
   .xl\:flex-50 {
-    flex: 50% !important;
+    -webkit-box-flex: 50% !important;
+            flex: 50% !important;
     max-width: 50% !important;
   }
 
   .xl\:flex-55 {
-    flex: 55% !important;
+    -webkit-box-flex: 55% !important;
+            flex: 55% !important;
     max-width: 54% !important;
   }
 
   .xl\:flex-60 {
-    flex: 60% !important;
+    -webkit-box-flex: 60% !important;
+            flex: 60% !important;
     max-width: 60% !important;
   }
 
   .xl\:flex-65 {
-    flex: 65% !important;
+    -webkit-box-flex: 65% !important;
+            flex: 65% !important;
     max-width: 65% !important;
   }
 
   .xl\:flex-70 {
-    flex: 70% !important;
+    -webkit-box-flex: 70% !important;
+            flex: 70% !important;
     max-width: 70% !important;
   }
 
   .xl\:flex-75 {
-    flex: 75% !important;
+    -webkit-box-flex: 75% !important;
+            flex: 75% !important;
     max-width: 75% !important;
   }
 
   .xl\:flex-80 {
-    flex: 80% !important;
+    -webkit-box-flex: 80% !important;
+            flex: 80% !important;
     max-width: 80% !important;
   }
 
   .xl\:flex-85 {
-    flex: 85% !important;
+    -webkit-box-flex: 85% !important;
+            flex: 85% !important;
     max-width: 85% !important;
   }
 
   .xl\:flex-90 {
-    flex: 90% !important;
+    -webkit-box-flex: 90% !important;
+            flex: 90% !important;
     max-width: 90% !important;
   }
 
   .xl\:flex-95 {
-    flex: 95% !important;
+    -webkit-box-flex: 95% !important;
+            flex: 95% !important;
     max-width: 95% !important;
   }
 
   .xl\:flex-100 {
-    flex: 100% !important;
+    -webkit-box-flex: 100% !important;
+            flex: 100% !important;
     max-width: 100% !important;
   }
 
