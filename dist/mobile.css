@@ -1298,111 +1298,133 @@ textarea {
   }
 
   .sm\:flex {
+    display: -webkit-box !important;
     display: flex !important;
   }
 
   .sm\:flex-0 {
-    flex: 0 !important;
+    -webkit-box-flex: 0 !important;
+            flex: 0 !important;
     max-width: 0 !important;
   }
 
   .sm\:flex-5 {
-    flex: 5% !important;
+    -webkit-box-flex: 5% !important;
+            flex: 5% !important;
     max-width: 5% !important;
   }
 
   .sm\:flex-10 {
-    flex: 10% !important;
+    -webkit-box-flex: 10% !important;
+            flex: 10% !important;
     max-width: 10% !important;
   }
 
   .sm\:flex-15 {
-    flex: 15% !important;
+    -webkit-box-flex: 15% !important;
+            flex: 15% !important;
     max-width: 15% !important;
   }
 
   .sm\:flex-20 {
-    flex: 20% !important;
+    -webkit-box-flex: 20% !important;
+            flex: 20% !important;
     max-width: 20% !important;
   }
 
   .sm\:flex-25 {
-    flex: 25% !important;
+    -webkit-box-flex: 25% !important;
+            flex: 25% !important;
     max-width: 25% !important;
   }
 
   .sm\:flex-30 {
-    flex: 30% !important;
+    -webkit-box-flex: 30% !important;
+            flex: 30% !important;
     max-width: 30% !important;
   }
 
   .sm\:flex-35 {
-    flex: 35% !important;
+    -webkit-box-flex: 35% !important;
+            flex: 35% !important;
     max-width: 35% !important;
   }
 
   .sm\:flex-40 {
-    flex: 40% !important;
+    -webkit-box-flex: 40% !important;
+            flex: 40% !important;
     max-width: 40% !important;
   }
 
   .sm\:flex-45 {
-    flex: 45% !important;
+    -webkit-box-flex: 45% !important;
+            flex: 45% !important;
     max-width: 45% !important;
   }
 
   .sm\:flex-50 {
-    flex: 50% !important;
+    -webkit-box-flex: 50% !important;
+            flex: 50% !important;
     max-width: 50% !important;
   }
 
   .sm\:flex-55 {
-    flex: 55% !important;
+    -webkit-box-flex: 55% !important;
+            flex: 55% !important;
     max-width: 54% !important;
   }
 
   .sm\:flex-60 {
-    flex: 60% !important;
+    -webkit-box-flex: 60% !important;
+            flex: 60% !important;
     max-width: 60% !important;
   }
 
   .sm\:flex-65 {
-    flex: 65% !important;
+    -webkit-box-flex: 65% !important;
+            flex: 65% !important;
     max-width: 65% !important;
   }
 
   .sm\:flex-70 {
-    flex: 70% !important;
+    -webkit-box-flex: 70% !important;
+            flex: 70% !important;
     max-width: 70% !important;
   }
 
   .sm\:flex-75 {
-    flex: 75% !important;
+    -webkit-box-flex: 75% !important;
+            flex: 75% !important;
     max-width: 75% !important;
   }
 
   .sm\:flex-80 {
-    flex: 80% !important;
+    -webkit-box-flex: 80% !important;
+            flex: 80% !important;
     max-width: 80% !important;
   }
 
   .sm\:flex-85 {
-    flex: 85% !important;
+    -webkit-box-flex: 85% !important;
+            flex: 85% !important;
     max-width: 85% !important;
   }
 
   .sm\:flex-90 {
-    flex: 90% !important;
+    -webkit-box-flex: 90% !important;
+            flex: 90% !important;
     max-width: 90% !important;
   }
 
   .sm\:flex-95 {
-    flex: 95% !important;
+    -webkit-box-flex: 95% !important;
+            flex: 95% !important;
     max-width: 95% !important;
   }
 
   .sm\:flex-100 {
-    flex: 100% !important;
+    -webkit-box-flex: 100% !important;
+            flex: 100% !important;
     max-width: 100% !important;
   }
 
@@ -1805,6 +1827,7 @@ textarea {
   .home-index {
     /*background: linear-gradient(rgba(64, 144, 153, 0.7), rgba(27, 109, 133, 0.62)), url("./style/elephant.jpg");*/
     /*background: linear-gradient(rgba(243, 144, 79, 0.71), rgba(59, 67, 113, 0.7)), url("./style/elephant.jpg");*/
+    background: -webkit-gradient(linear, left top, right top, from(rgba(243, 144, 79, 0.71)), to(rgba(59, 67, 113, 0.7))), url("./style/elephant-m.jpg");
     background: linear-gradient(to right, rgba(243, 144, 79, 0.71), rgba(59, 67, 113, 0.7)), url("./style/elephant-m.jpg");
     color: white;
     height: 550px;
@@ -4824,6 +4847,7 @@ textarea {
   }
 
   .xs\:flex {
+    display: -webkit-box !important;
     display: flex !important;
   }
 
@@ -4832,107 +4856,128 @@ textarea {
   }
 
   .xs\:flex-0 {
-    flex: 0 !important;
+    -webkit-box-flex: 0 !important;
+            flex: 0 !important;
     max-width: 0 !important;
   }
 
   .xs\:flex-5 {
-    flex: 5% !important;
+    -webkit-box-flex: 5% !important;
+            flex: 5% !important;
     max-width: 5% !important;
   }
 
   .xs\:flex-10 {
-    flex: 10% !important;
+    -webkit-box-flex: 10% !important;
+            flex: 10% !important;
     max-width: 10% !important;
   }
 
   .xs\:flex-15 {
-    flex: 15% !important;
+    -webkit-box-flex: 15% !important;
+            flex: 15% !important;
     max-width: 15% !important;
   }
 
   .xs\:flex-20 {
-    flex: 20% !important;
+    -webkit-box-flex: 20% !important;
+            flex: 20% !important;
     max-width: 20% !important;
   }
 
   .xs\:flex-25 {
-    flex: 25% !important;
+    -webkit-box-flex: 25% !important;
+            flex: 25% !important;
     max-width: 25% !important;
   }
 
   .xs\:flex-30 {
-    flex: 30% !important;
+    -webkit-box-flex: 30% !important;
+            flex: 30% !important;
     max-width: 30% !important;
   }
 
   .xs\:flex-35 {
-    flex: 35% !important;
+    -webkit-box-flex: 35% !important;
+            flex: 35% !important;
     max-width: 35% !important;
   }
 
   .xs\:flex-40 {
-    flex: 40% !important;
+    -webkit-box-flex: 40% !important;
+            flex: 40% !important;
     max-width: 40% !important;
   }
 
   .xs\:flex-45 {
-    flex: 45% !important;
+    -webkit-box-flex: 45% !important;
+            flex: 45% !important;
     max-width: 45% !important;
   }
 
   .xs\:flex-50 {
-    flex: 50% !important;
+    -webkit-box-flex: 50% !important;
+            flex: 50% !important;
     max-width: 50% !important;
   }
 
   .xs\:flex-55 {
-    flex: 55% !important;
+    -webkit-box-flex: 55% !important;
+            flex: 55% !important;
     max-width: 54% !important;
   }
 
   .xs\:flex-60 {
-    flex: 60% !important;
+    -webkit-box-flex: 60% !important;
+            flex: 60% !important;
     max-width: 60% !important;
   }
 
   .xs\:flex-65 {
-    flex: 65% !important;
+    -webkit-box-flex: 65% !important;
+            flex: 65% !important;
     max-width: 65% !important;
   }
 
   .xs\:flex-70 {
-    flex: 70% !important;
+    -webkit-box-flex: 70% !important;
+            flex: 70% !important;
     max-width: 70% !important;
   }
 
   .xs\:flex-75 {
-    flex: 75% !important;
+    -webkit-box-flex: 75% !important;
+            flex: 75% !important;
     max-width: 75% !important;
   }
 
   .xs\:flex-80 {
-    flex: 80% !important;
+    -webkit-box-flex: 80% !important;
+            flex: 80% !important;
     max-width: 80% !important;
   }
 
   .xs\:flex-85 {
-    flex: 85% !important;
+    -webkit-box-flex: 85% !important;
+            flex: 85% !important;
     max-width: 85% !important;
   }
 
   .xs\:flex-90 {
-    flex: 90% !important;
+    -webkit-box-flex: 90% !important;
+            flex: 90% !important;
     max-width: 90% !important;
   }
 
   .xs\:flex-95 {
-    flex: 95% !important;
+    -webkit-box-flex: 95% !important;
+            flex: 95% !important;
     max-width: 95% !important;
   }
 
   .xs\:flex-100 {
-    flex: 100% !important;
+    -webkit-box-flex: 100% !important;
+            flex: 100% !important;
     max-width: 100% !important;
   }
 
@@ -5715,6 +5760,7 @@ textarea {
   .home-index {
     /*background: linear-gradient(rgba(64, 144, 153, 0.7), rgba(27, 109, 133, 0.62)), url("./style/elephant.jpg");*/
     /*background: linear-gradient(rgba(243, 144, 79, 0.71), rgba(59, 67, 113, 0.7)), url("./style/elephant.jpg");*/
+    background: -webkit-gradient(linear, left top, right top, from(rgba(243, 144, 79, 0.71)), to(rgba(59, 67, 113, 0.7))), url("./style/elephant-m.jpg");
     background: linear-gradient(to right, rgba(243, 144, 79, 0.71), rgba(59, 67, 113, 0.7)), url("./style/elephant-m.jpg");
     color: white;
     height: 550px;
