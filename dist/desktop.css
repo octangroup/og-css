@@ -14,9 +14,9 @@
     overflow-y: scroll;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+       -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
   }
 
   body {
@@ -2720,26 +2720,6 @@
     -o-object-fit: cover !important;
        object-fit: cover !important;
     width: 100% !important;
-  }
-
-  .swoosh-home {
-    background: url("../img/smalShape.svg") no-repeat;
-    background-position: 130% 1%;
-    -webkit-background-size: 70% 140%;
-       -moz-background-size: 70% 140%;
-            background-size: 70% 140%;
-  }
-
-  .datepicker__dummy-input:first-child {
-    text-indent: 10px !important;
-  }
-
-  .datepicker__input {
-    font-size: 13px !important;
-    letter-spacing: 0 !important;
-    line-height: 4 !important;
-    padding: 0 20px !important;
-    word-spacing: 3px !important;
   }
 
   .modal-content,

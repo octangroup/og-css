@@ -632,11 +632,6 @@ a.btn:focus {
 	/*margin: 0 0 15px;*/
 }
 
-input.date {
-	background: white url("../img/calendrie.png") no-repeat left 10px center;
-	background-size: 20px;
-	padding-left: 35px;
-}
 
 ul.list {
 	display: block;
@@ -648,154 +643,6 @@ ul.list {
 ul.list li {
 	margin-top: 10px;
 }
-
-.trip-budget {
-	width: 15%;
-}
-
-select.trip-start, input.trip-start {
-	border-bottom-left-radius: 6px;
-	border-top-left-radius: 6px;
-}
-
-.trip-end {
-	border-bottom-right-radius: 6px;
-	border-top-right-radius: 6px;
-}
-
-input.trip-destination {
-	background: white url("../images/ic-map-marker.svg") no-repeat left 16px center;
-	background-size: 15px;
-	padding-left: 35px;
-	width: 40%;
-}
-
-/*.type-person {*/
-/*width: 15%;*/
-/*}*/
-select.trip_person-icon, .trip_person-icon {
-	background-image: url("../img/person2.png"), url("../img/arrowd.svg");
-	background-position: left 10px center, right 10px center;
-	background-repeat: no-repeat, no-repeat;
-	background-size: 20px;
-	padding-left: 35px;
-	-webkit-appearance: none;
-}
-
-select.time, .time {
-	background-image: url("../img/clock.png"), url("../img/arrowd.svg");
-	background-position: left 10px center, right 10px center;
-	background-repeat: no-repeat, no-repeat;
-	background-size: 20px;
-	padding-left: 35px;
-	-webkit-appearance: none;
-}
-
-select.down-arrow {
-	background-image: url("../img/arrowd.svg");
-	background-position: right 10px center;
-	background-repeat: no-repeat, no-repeat;
-	background-size: 20px;
-}
-
-nav.nav-home {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-flow: row nowrap;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-	margin: 0;
-	position: relative;
-	-ms-flex-flow: row nowrap;
-}
-
-nav.nav-home ul {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: row;
-	-ms-flex-direction: row;
-	-webkit-flex-direction: column;
-	list-style: none;
-	margin-bottom: 2px;
-	margin-top: 5px;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-
-}
-
-nav.nav-home ul li {
-	flex: 1 1 auto;
-	flex-basis: 0;
-	flex-grow: 1;
-	padding-left: .5rem;
-	padding-right: .5rem;
-	text-align: center;
-	text-align: center;
-	-ms-flex-preferred-size: 0;
-	-ms-flex-positive: 1;
-	-ms-flex: 1 1 auto;
-}
-
-nav.nav-home ul li a {
-	color: white;
-	display: block;
-	font-family: sans-serif;
-	font-size: 17px;
-	font-weight: normal;
-	padding: .5rem 1rem;
-	text-decoration: none;
-}
-
-nav.nav-home ul li a:focus, nav.nav-home ul li a:hover {
-	text-decoration: none;
-}
-
-.ml-auto, .mx-auto {
-	margin-left: auto !important;
-}
-
-.mr-auto, .mx-auto {
-	margin-right: auto !important;
-}
-
-.mt-auto, .my-auto {
-	margin-top: auto !important;
-}
-
-.mb-auto, .my-auto {
-	margin-bottom: auto !important;
-}
-
-.brand {
-	font-size: 25px;
-	font-weight: 300;
-}
-
-.brand img {
-	height: 35px;
-	vertical-align: top;
-	width: 35px;
-}
-
-.brand > .colored {
-	color: $primary;
-}
-
-.bottom-aligned {
-	bottom: 10%;
-	position: absolute;
-}
-
-.back-arrow-desktop {
-	margin-left: -3%;
-	margin-top: 18px !important;
-	position: absolute;
-}
-
 
 img.profile-icon {
 	border-radius: 100%;
@@ -849,21 +696,6 @@ img.profile-icon {
 .dropdown:focus-within .dropdown-content {
 	display: block;
 }
-
-.rounded-edges {
-	border-radius: 290486px !important;
-}
-
-.rounded-left-edges {
-	border-bottom-left-radius: 290486px !important;
-	border-top-left-radius: 290486px !important;
-}
-
-.rounded-right-edges {
-	border-bottom-right-radius: 290486px !important;
-	border-top-right-radius: 290486px !important;
-}
-
 .notification-card {
 	background-color: #fff;
 	border-radius: .25rem;
@@ -905,136 +737,7 @@ img.profile-icon {
 	margin: 0;
 }
 
-.delete {
-	float: right;
-}
 
-.delete {
-	background-color: rgba(10, 10, 10, 0.2);
-	border: none;
-	border-radius: 290486px;
-	cursor: pointer;
-	display: inline-block;
-	flex-grow: 0;
-	flex-shrink: 0;
-	font-size: 0;
-	height: 20px;
-	max-height: 20px;
-	max-width: 20px;
-	min-height: 20px;
-	min-width: 20px;
-	outline: none;
-	position: relative;
-	vertical-align: top;
-	width: 20px;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-webkit-box-flex: 0;
-	-ms-flex-positive: 0;
-	-ms-flex-negative: 0;
-}
-
-.delete:before, .delete:after {
-	background-color: white;
-	content: "";
-	display: block;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	transform-origin: center center;
-	-webkit-transform-origin: center center;
-}
-
-.delete:before {
-	height: 2px;
-	width: 50%;
-}
-
-.delete:after {
-	height: 50%;
-	width: 2px;
-}
-
-.delete:hover, .delete:focus {
-	background-color: rgba(10, 10, 10, 0.3);
-}
-
-.delete:active {
-	background-color: rgba(10, 10, 10, 0.4);
-}
-
-.delete.small {
-	height: 16px;
-	max-height: 16px;
-	max-width: 16px;
-	min-height: 16px;
-	min-width: 16px;
-	width: 16px;
-}
-
-.delete.medium {
-	height: 24px;
-	max-height: 24px;
-	max-width: 24px;
-	min-height: 24px;
-	min-width: 24px;
-	width: 24px;
-}
-
-.delete.large {
-	height: 32px;
-	max-height: 32px;
-	max-width: 32px;
-	min-height: 32px;
-	min-width: 32px;
-	width: 32px;
-}
-
-nav.main {
-	background-color: white;
-	box-shadow: rgba(10, 10, 10, 0.15) 0 1px 5px;
-	font-family: "Roboto", BlinkMacSystemFont, -apple-system, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
-	margin: -5px 0;
-	position: relative;
-	z-index: 100;
-}
-
-nav.main ul {
-	list-style: none;
-	margin: 5px 5% 2px;
-	padding: 1px 0;
-	text-align: center;
-
-}
-
-nav.main ul li {
-	display: inline-block;
-	padding: 3px 10px;
-}
-
-nav.main ul li a {
-	color: rgba(0, 0, 0, .75);
-}
-
-nav.main ul li a:hover,
-nav.main ul li a:focus {
-	color: $primary;
-	text-decoration: none;
-}
-
-
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
 
 
 .badge {
@@ -1598,14 +1301,6 @@ select.form-input:focus::-ms-value {
 	color: #040505;
 }
 
-button.hamburger_menu {
-
-	background: none;
-	border: none;
-	margin: 0;
-
-}
-
 div.hum-menu_but {
 	background-color: #ffffff;
 	height: 2px;
@@ -1621,30 +1316,6 @@ div.hum-menu_but {
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
 }
 
-
-ul.vl li.active-vl,
-ul.vl li.active-vl:hover {
-	background-color: whitesmoke;
-	border-right: 3px solid $primary;
-}
-
-ul.vl li.active-vl a,
-ul.vl li.active-vl:hover a {
-	color: inherit;
-}
-
-ul.vl li a {
-	color: inherit;
-}
-
-ul.vl li:hover {
-	background-color: $primary;
-	color: white;
-}
-
-ul.vl li:hover a {
-	color: white;
-}
 
 .spinner {
 	margin: 50px auto 0;
@@ -1664,32 +1335,18 @@ ul.vl li:hover a {
 
 .spinner .bounce1 {
 	animation-delay: -0.32s;
-	-webkit-animation-delay: -0.32s;
 }
 
 .spinner .bounce2 {
 	animation-delay: -0.16s;
-	-webkit-animation-delay: -0.16s;
-}
-
-@-webkit-keyframes sk-bouncedelay {
-	0%, 80%, 100% {
-		-webkit-transform: scale(0);
-	}
-
-	40% {
-		-webkit-transform: scale(1.0);
-	}
 }
 
 @keyframes sk-bouncedelay {
 	0%, 80%, 100% {
-		-webkit-transform: scale(0);
 		transform: scale(0);
 	}
 
 	40% {
-		-webkit-transform: scale(1.0);
 		transform: scale(1.0);
 	}
 }
@@ -1796,77 +1453,6 @@ ul.inline-list li {
 	border-top-right-radius: .2rem;
 }
 
-.datepicker__dummy-wrapper {
-	border: none !important;
-}
-
-.datepicker__wrapper {
-	background: transparent url("../images/calendar_icon.regular.svg") no-repeat 17px/17px !important;;
-}
-
-.datepicker__month-button {
-	background: transparent url("../images/ic-arrow-right-green.regular.svg") no-repeat 100%/8px !important;
-}
-
-.datepicker__dummy-input--is-active {
-	color: $primary !important;;
-}
-
-.datepicker__month-day--selected {
-	background-color: $primary !important;;
-}
-
-.datepicker__month-day--first-day-selected, .datepicker__month-day--last-day-selected {
-	background-color: $primary !important;;
-}
-
-.not_filled {
-	border: 2px solid red !important;
-}
-
-.datepicker__dummy-wrapper {
-	float: none !important;
-}
-
-.datepicker__dummy-input {
-	float: none !important;
-}
-
-
-.curves-pattern {
-	height: 115px;
-	-webkit-mask-image: url("/img/pattern.png");
-	mask-image: url("/img/pattern.png");
-	-webkit-mask-position: center;
-	mask-position: center;
-	-webkit-mask-repeat: repeat-x;
-	mask-repeat: repeat-x;
-	-webkit-mask-size: 1440px;
-	mask-size: 1440px;
-}
-
-.curves-pattern-overlay:after,
-.curves-pattern-overlay:before {
-	background: url("/img/pattern_2.png") repeat-x 50%;
-	background-size: 1440px;
-	content: "";
-	display: block;
-	height: 115px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-}
-
-.curves-pattern-overlay:after {
-	left: -660px;
-	width: calc(100% + 2000px);
-}
-
-.curves-pattern-overlay:before {
-	left: -900px;
-	width: calc(100% + 930px);
-}
-
 .sliding-down-icon {
 	animation-direction: initial;
 	-webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
@@ -1904,15 +1490,6 @@ ul.inline-list li {
 ul.inline-block li {
 	display: inline-block !important;
 }
-
-
-.swoosh-home {
-	background: url('../img/Asset 2.svg ') no-repeat, url('../img/Asset 1.svg') no-repeat;
-	background-size: 25% 300px, 53% 730px;
-	background-position: left top, right center;
-}
-
-
 // process flow steps
 
 .steps {
@@ -1979,38 +1556,12 @@ ul.inline-block li {
 .progress-loader {
 	animation-delay: 250ms;
 	animation-direction: initial;
-	-webkit-animation-direction: initial; /* Safari 4.0 - 8.0 */
 	animation-duration: 2s;
-	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
 	animation-iteration-count: infinite;
 	animation-name: progress-loader;
-	-webkit-animation-name: progress-loader; /* Safari 4.0 - 8.0 */
 	opacity: 1;
 	position: absolute;
 }
-
-@-webkit-keyframes input-loading-left-right {
-	0% {
-		width: 0;
-		opacity: 0.5;
-	}
-
-	50% {
-		width: 100%;
-		opacity: 0;
-	}
-
-	51% {
-		width: 99%;
-		opacity: 0.4;
-	}
-
-	100% {
-		width: 0;
-		opacity: 0;
-	}
-}
-
 /* Standard syntax */
 @keyframes input-loading-left-right {
 	0% {
@@ -2031,16 +1582,6 @@ ul.inline-block li {
 	100% {
 		width: 0;
 		opacity: 0;
-	}
-}
-
-@-webkit-keyframes progress-loader {
-	0% {
-		left: 0;
-	}
-
-	100% {
-		left: 100%;
 	}
 }
 
@@ -2104,7 +1645,6 @@ ul.inline-block li {
 	flex-direction: column;
 	max-height: calc(100vh - 40px);
 	overflow: hidden;
-	-ms-overflow-y: visible;
 }
 
 .modal-card-head,
@@ -2149,76 +1689,6 @@ ul.inline-block li {
 	flex-shrink: 1;
 	overflow: auto;
 	padding: 20px;
-}
-
-nav.fill ul li a,
-nav.fill-primary ul li a {
-	position: relative;
-}
-
-nav.stroke ul li a:after,
-nav.fill ul li a:after,
-nav.fill-primary ul li a:after {
-	position: absolute;
-	bottom: -5px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	width: 0;
-	content: '.';
-	color: transparent;
-	background: #fff;
-	height: 3px;
-}
-
-nav.fill-primary ul li a:after {
-	background: $primary;
-}
-
-nav.stroke ul li a:hover:after {
-	width: 100%;
-}
-
-nav.fill ul li a,
-nav.fill-primary ul li a {
-	transition: all 2s;
-}
-
-nav.fill ul li a:after,
-nav.fill-primary ul li a:after {
-	text-align: left;
-	content: '.';
-	margin: 0;
-	opacity: 0;
-}
-
-nav.fill ul li a:hover,
-nav.fill-primary ul li a:hover {
-	color: #fff;
-	z-index: 1;
-}
-
-nav.fill ul li a:hover:after,
-nav.fill-primary ul li a:hover:after {
-	z-index: -10;
-	animation: fill 1s forwards;
-	-webkit-animation: fill 3s forwards;
-	-moz-animation: fill 3s forwards;
-	opacity: 1;
-}
-
-
-@-webkit-keyframes fill {
-	0% {
-		width: 0;
-		height: 1px;
-	}
-
-	100% {
-		width: 100%;
-		height: 3px;
-
-	}
 }
 
 .sliding-left-icon, .sliding-bottom-icon {
@@ -2270,24 +1740,9 @@ nav.fill-primary ul li a:hover:after {
 
 .sliding-left-icon {
 	position: relative;
-	-webkit-animation-name: left-right; /* Safari 4.0 - 8.0 */
 	animation-name: left-right;
 }
 
-@-webkit-keyframes bottom-top {
-	0% {
-		bottom: 0;
-	}
-
-	50% {
-		bottom: -50px;
-	}
-
-	100% {
-		opacity: 0;
-		bottom: 0;
-	}
-}
 
 /* Standard syntax */
 @keyframes bottom-top {
@@ -2306,48 +1761,6 @@ nav.fill-primary ul li a:hover:after {
 	}
 }
 
-
-.rating {
-	width: 300px;
-}
-
-.rating span {
-	float: right;
-	position: relative;
-}
-
-.rating span input {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 0;
-}
-
-.rating span label {
-	background: #FFF;
-	border: 5px solid #ccc;
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	box-shadow: 0 1px 5px #dcdcdc;
-	color: #ccc;
-	display: inline-block;
-	font-size: 14px;
-	font-weight: bold;
-	height: 30px;
-	margin-right: 2px;
-	text-align: center;
-	vertical-align: central;
-	width: 30px;
-}
-
-.rating span:hover ~ span label,
-.rating span:hover label,
-.rating span.checked label,
-.rating span.checked ~ span label {
-	background: #FFF;
-	border: 5px solid $primary;
-	color: $primary;
-}
 
 $animation-duration: 0.4s;
 
@@ -2440,3 +1853,189 @@ $animation-duration: 0.4s;
 .form-field-textarea {
 	height: 150px;
 }
+.input-loading-left-right {
+	animation-direction: initial;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: input-loading-left-right;
+	opacity: 0.5;
+	position: relative;
+	width: 0;
+}
+.input-loading-left-right {
+	animation-direction: initial;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: input-loading-left-right;
+	opacity: 0.5;
+	position: relative;
+	width: 0;
+}
+
+
+.input-switch {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	display: none;
+}
+
+/* The slider */
+.input-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.input-slider:before {
+	position: absolute;
+	content: "";
+	height: 13px;
+	width: 13px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .input-slider {
+	background-color: $primary;
+}
+
+input:focus + .input-slider {
+	box-shadow: 0 0 1px $primary-darker;
+}
+
+input:checked + .input-slider:before {
+	transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.input-slider.round {
+	border-radius: 17px;
+}
+
+.input-slider.round:before {
+	border-radius: 50%;
+}
+
+
+.loading-spinner {
+	height: 40px;
+	margin: 100px auto;
+	position: relative;
+	width: 40px;
+}
+
+.double-bounce1, .double-bounce2 {
+	animation: sk-bounce 2.0s infinite ease-in-out;
+	background-color: $primary;
+	border-radius: 50%;
+	height: 100%;
+	left: 0;
+	opacity: 0.6;
+	position: absolute;
+
+	top: 0;
+	width: 100%;
+}
+
+.double-bounce2 {
+	animation-delay: -1.0s;
+}
+
+@keyframes sk-bounce {
+	0%, 100% {
+		transform: scale(0.0);
+	}
+
+	50% {
+		transform: scale(1.0);
+	}
+}
+
+.checkcontainer,
+.check-container {
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	padding-left: 35px;
+	position: relative;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkcontainer input,
+.check-container input {
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+}
+
+/* Create a custom checkbox */
+.checkmark,
+.check-mark {
+	background-color: white;
+	border: 1px #c2c2c2 solid;
+	height: 20px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 20px;
+}
+
+.checkmark-machine {
+	margin-left: 220px;
+}
+
+
+/* On mouse-over, add a grey background color */
+.checkcontainer:hover input ~ .checkmark,
+.check-container:hover input ~ .check-mark {
+	background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkcontainer input:checked ~ .checkmark,
+.check-container input:checked ~ .check-mark {
+	background-color: $primary;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after,
+.check-mark:after {
+	content: "";
+	display: none;
+	position: absolute;
+}
+
+/* Show the checkmark when checked */
+.checkcontainer input:checked ~ .checkmark:after,
+.check-container input:checked ~ .check-mark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkcontainer .checkmark:after,
+.check-container .check-mark:after {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	height: 11px;
+	left: 6px;
+	top: 2.3px;
+	transform: rotate(45deg);
+	width: 6px;
+}
+
