@@ -1429,9 +1429,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .flex {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+	display: flex !important;
 }
 
 .grid {
@@ -1443,7 +1441,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .flex-wrap {
-	flex-wrap: wrap;
+	flex-wrap: wrap !important;
 }
 
 .flex-0 {
