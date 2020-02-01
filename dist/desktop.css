@@ -14,9 +14,9 @@
     overflow-y: scroll;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+       -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
   }
 
   body {
@@ -2722,26 +2722,6 @@
     width: 100% !important;
   }
 
-  .swoosh-home {
-    background: url("../img/smalShape.svg") no-repeat;
-    background-position: 130% 1%;
-    -webkit-background-size: 70% 140%;
-       -moz-background-size: 70% 140%;
-            background-size: 70% 140%;
-  }
-
-  .datepicker__dummy-input:first-child {
-    text-indent: 10px !important;
-  }
-
-  .datepicker__input {
-    font-size: 13px !important;
-    letter-spacing: 0 !important;
-    line-height: 4 !important;
-    padding: 0 20px !important;
-    word-spacing: 3px !important;
-  }
-
   .modal-content,
 .modal-card {
     margin: 0 auto;
@@ -3924,9 +3904,9 @@
     overflow-y: scroll;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+       -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
   }
 
   body {
@@ -5413,197 +5393,197 @@
 
   .xl\:flex {
     display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: -webkit-flex !important;
     display: -moz-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
   }
 
   .xl\:flex-0 {
-    -ms-flex: 0 !important;
     -webkit-box-flex: 0 !important;
     -webkit-flex: 0 !important;
        -moz-box-flex: 0 !important;
+        -ms-flex: 0 !important;
             flex: 0 !important;
     max-width: 0 !important;
   }
 
   .xl\:flex-5 {
-    -ms-flex: 5% !important;
     -webkit-box-flex: 5% !important;
     -webkit-flex: 5% !important;
        -moz-box-flex: 5% !important;
+        -ms-flex: 5% !important;
             flex: 5% !important;
     max-width: 5% !important;
   }
 
   .xl\:flex-10 {
-    -ms-flex: 10% !important;
     -webkit-box-flex: 10% !important;
     -webkit-flex: 10% !important;
        -moz-box-flex: 10% !important;
+        -ms-flex: 10% !important;
             flex: 10% !important;
     max-width: 10% !important;
   }
 
   .xl\:flex-15 {
-    -ms-flex: 15% !important;
     -webkit-box-flex: 15% !important;
     -webkit-flex: 15% !important;
        -moz-box-flex: 15% !important;
+        -ms-flex: 15% !important;
             flex: 15% !important;
     max-width: 15% !important;
   }
 
   .xl\:flex-20 {
-    -ms-flex: 20% !important;
     -webkit-box-flex: 20% !important;
     -webkit-flex: 20% !important;
        -moz-box-flex: 20% !important;
+        -ms-flex: 20% !important;
             flex: 20% !important;
     max-width: 20% !important;
   }
 
   .xl\:flex-25 {
-    -ms-flex: 25% !important;
     -webkit-box-flex: 25% !important;
     -webkit-flex: 25% !important;
        -moz-box-flex: 25% !important;
+        -ms-flex: 25% !important;
             flex: 25% !important;
     max-width: 25% !important;
   }
 
   .xl\:flex-30 {
-    -ms-flex: 30% !important;
     -webkit-box-flex: 30% !important;
     -webkit-flex: 30% !important;
        -moz-box-flex: 30% !important;
+        -ms-flex: 30% !important;
             flex: 30% !important;
     max-width: 30% !important;
   }
 
   .xl\:flex-35 {
-    -ms-flex: 35% !important;
     -webkit-box-flex: 35% !important;
     -webkit-flex: 35% !important;
        -moz-box-flex: 35% !important;
+        -ms-flex: 35% !important;
             flex: 35% !important;
     max-width: 35% !important;
   }
 
   .xl\:flex-40 {
-    -ms-flex: 40% !important;
     -webkit-box-flex: 40% !important;
     -webkit-flex: 40% !important;
        -moz-box-flex: 40% !important;
+        -ms-flex: 40% !important;
             flex: 40% !important;
     max-width: 40% !important;
   }
 
   .xl\:flex-45 {
-    -ms-flex: 45% !important;
     -webkit-box-flex: 45% !important;
     -webkit-flex: 45% !important;
        -moz-box-flex: 45% !important;
+        -ms-flex: 45% !important;
             flex: 45% !important;
     max-width: 45% !important;
   }
 
   .xl\:flex-50 {
-    -ms-flex: 50% !important;
     -webkit-box-flex: 50% !important;
     -webkit-flex: 50% !important;
        -moz-box-flex: 50% !important;
+        -ms-flex: 50% !important;
             flex: 50% !important;
     max-width: 50% !important;
   }
 
   .xl\:flex-55 {
-    -ms-flex: 55% !important;
     -webkit-box-flex: 55% !important;
     -webkit-flex: 55% !important;
        -moz-box-flex: 55% !important;
+        -ms-flex: 55% !important;
             flex: 55% !important;
-    max-width: 54% !important;
+    max-width: 55% !important;
   }
 
   .xl\:flex-60 {
-    -ms-flex: 60% !important;
     -webkit-box-flex: 60% !important;
     -webkit-flex: 60% !important;
        -moz-box-flex: 60% !important;
+        -ms-flex: 60% !important;
             flex: 60% !important;
     max-width: 60% !important;
   }
 
   .xl\:flex-65 {
-    -ms-flex: 65% !important;
     -webkit-box-flex: 65% !important;
     -webkit-flex: 65% !important;
        -moz-box-flex: 65% !important;
+        -ms-flex: 65% !important;
             flex: 65% !important;
     max-width: 65% !important;
   }
 
   .xl\:flex-70 {
-    -ms-flex: 70% !important;
     -webkit-box-flex: 70% !important;
     -webkit-flex: 70% !important;
        -moz-box-flex: 70% !important;
+        -ms-flex: 70% !important;
             flex: 70% !important;
     max-width: 70% !important;
   }
 
   .xl\:flex-75 {
-    -ms-flex: 75% !important;
     -webkit-box-flex: 75% !important;
     -webkit-flex: 75% !important;
        -moz-box-flex: 75% !important;
+        -ms-flex: 75% !important;
             flex: 75% !important;
     max-width: 75% !important;
   }
 
   .xl\:flex-80 {
-    -ms-flex: 80% !important;
     -webkit-box-flex: 80% !important;
     -webkit-flex: 80% !important;
        -moz-box-flex: 80% !important;
+        -ms-flex: 80% !important;
             flex: 80% !important;
     max-width: 80% !important;
   }
 
   .xl\:flex-85 {
-    -ms-flex: 85% !important;
     -webkit-box-flex: 85% !important;
     -webkit-flex: 85% !important;
        -moz-box-flex: 85% !important;
+        -ms-flex: 85% !important;
             flex: 85% !important;
     max-width: 85% !important;
   }
 
   .xl\:flex-90 {
-    -ms-flex: 90% !important;
     -webkit-box-flex: 90% !important;
     -webkit-flex: 90% !important;
        -moz-box-flex: 90% !important;
+        -ms-flex: 90% !important;
             flex: 90% !important;
     max-width: 90% !important;
   }
 
   .xl\:flex-95 {
-    -ms-flex: 95% !important;
     -webkit-box-flex: 95% !important;
     -webkit-flex: 95% !important;
        -moz-box-flex: 95% !important;
+        -ms-flex: 95% !important;
             flex: 95% !important;
     max-width: 95% !important;
   }
 
   .xl\:flex-100 {
-    -ms-flex: 100% !important;
     -webkit-box-flex: 100% !important;
     -webkit-flex: 100% !important;
        -moz-box-flex: 100% !important;
+        -ms-flex: 100% !important;
             flex: 100% !important;
     max-width: 100% !important;
   }
@@ -6202,15 +6182,6 @@
 
   .xl\:border-l-8 {
     border-left-width: 8px !important;
-  }
-
-  .swoosh-home {
-    background: url("../img/Asset 2.svg ") no-repeat, url("../img/Asset 1.svg") no-repeat;
-    background-position: left -10%, 110% 45%;
-    background-position: left -11%, 110% 160%;
-    -webkit-background-size: 25% 300px, 53% 730px;
-       -moz-background-size: 25% 300px, 53% 730px;
-            background-size: 25% 300px, 53% 730px;
   }
 
   .xl\:rounded-none {
