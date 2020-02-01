@@ -18,7 +18,6 @@ mix.sass('sass/_style.scss', 'dist/style.css')
     .sass('sass/_mobile.scss', 'dist/mobile.css')
     .sass('sass/_tablet.scss', 'dist/tablet.css')
     .sass('sass/og.scss', 'dist/')
-    .sass('sass/tailwind.scss', 'dist/')
     .options({
         processCssUrls: false,
         postCss: [
@@ -27,5 +26,4 @@ mix.sass('sass/_style.scss', 'dist/style.css')
             }),
             tailwindcss('tailwind.config.js'),
         ]
-    })
-    .version();
+    }).setPublicPath('dist');
