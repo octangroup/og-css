@@ -11,9 +11,6 @@
 		overflow-x: hidden;
 		overflow-y: scroll;
 		text-rendering: optimizeLegibility;
-		-webkit-text-size-adjust: 100%;
-		-moz-text-size-adjust: 100%;
-		-ms-text-size-adjust: 100%;
 		text-size-adjust: 100%;
 	}
 
@@ -1502,134 +1499,111 @@
 	}
 
 	.xl\:flex {
-		display: -webkit-box !important;
-		display: -ms-flexbox !important;
 		display: flex !important;
 	}
 
 	.xl\:flex-0 {
 		flex: 0 !important;
-		-ms-flex: 0 !important;
 		max-width: 0 !important;
 	}
 
 	.xl\:flex-5 {
 		flex: 5% !important;
-		-ms-flex: 5% !important;
 		max-width: 5% !important;
 	}
 
 	.xl\:flex-10 {
 		flex: 10% !important;
-		-ms-flex: 10% !important;
 		max-width: 10% !important;
 	}
 
 	.xl\:flex-15 {
 		flex: 15% !important;
-		-ms-flex: 15% !important;
 		max-width: 15% !important;
 	}
 
 	.xl\:flex-20 {
 		flex: 20% !important;
-		-ms-flex: 20% !important;
 		max-width: 20% !important;
 	}
 
 	.xl\:flex-25 {
 		flex: 25% !important;
-		-ms-flex: 25% !important;
 		max-width: 25% !important;
 	}
 
 	.xl\:flex-30 {
 		flex: 30% !important;
-		-ms-flex: 30% !important;
 		max-width: 30% !important;
 	}
 
 	.xl\:flex-35 {
 		flex: 35% !important;
-		-ms-flex: 35% !important;
 		max-width: 35% !important;
 	}
 
 	.xl\:flex-40 {
 		flex: 40% !important;
-		-ms-flex: 40% !important;
 		max-width: 40% !important;
 	}
 
 	.xl\:flex-45 {
 		flex: 45% !important;
-		-ms-flex: 45% !important;
 		max-width: 45% !important;
 	}
 
 	.xl\:flex-50 {
 		flex: 50% !important;
-		-ms-flex: 50% !important;
 		max-width: 50% !important;
 	}
 
 	.xl\:flex-55 {
 		flex: 55% !important;
-		-ms-flex: 55% !important;
-		max-width: 54% !important;
+		max-width: 55% !important;
 	}
 
 	.xl\:flex-60 {
 		flex: 60% !important;
-		-ms-flex: 60% !important;
 		max-width: 60% !important;
 	}
 
 	.xl\:flex-65 {
 		flex: 65% !important;
-		-ms-flex: 65% !important;
 		max-width: 65% !important;
 	}
 
 	.xl\:flex-70 {
 		flex: 70% !important;
-		-ms-flex: 70% !important;
 		max-width: 70% !important;
 	}
 
 	.xl\:flex-75 {
 		flex: 75% !important;
-		-ms-flex: 75% !important;
 		max-width: 75% !important;
 	}
 
 	.xl\:flex-80 {
 		flex: 80% !important;
-		-ms-flex: 80% !important;
 		max-width: 80% !important;
 	}
 
 	.xl\:flex-85 {
 		flex: 85% !important;
-		-ms-flex: 85% !important;
 		max-width: 85% !important;
 	}
 
 	.xl\:flex-90 {
 		flex: 90% !important;
-		-ms-flex: 90% !important;
 		max-width: 90% !important;
 	}
 
 	.xl\:flex-95 {
 		flex: 95% !important;
-		-ms-flex: 95% !important;
 		max-width: 95% !important;
 	}
 
 	.xl\:flex-100 {
 		flex: 100% !important;
-		-ms-flex: 100% !important;
 		max-width: 100% !important;
 	}
 
@@ -2227,13 +2201,6 @@
 		border-left-width: 8px !important;
 	}
 
-	.swoosh-home {
-		background: url('../img/Asset 2.svg ') no-repeat, url('../img/Asset 1.svg') no-repeat;
-		background-size: 25% 300px, 53% 730px;
-		background-position: left -10%, 110% 45%;
-		background-position: left -11%, 110% 160%;
-	}
-
 	.xl\:rounded-none {
 		border-radius: 0 !important;
 	}
@@ -2565,7 +2532,6 @@
 	}
 
 	.xl\:sticky {
-		position: -webkit-sticky !important;
 		position: sticky !important;
 	}
 
