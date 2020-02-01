@@ -1,0 +1,95 @@
+@import "functions";
+
+@mixin dimensions {
+    @include widths();
+    @include heights();
+}
+
+// define all the width properties 
+
+@mixin widths {
+
+    @include definePercentagesClassList(w, width);
+    @include definePercentagesClassList(min-w, min-width);
+    @include definePercentagesClassList(max-w, max-width);
+
+    @include defineDimensionInRem(w-rem, width);
+    @include defineDimensionInRem(min-w-rem, min-width);
+    @include defineDimensionInRem(max-w-rem, max-width);
+
+    @include defineDimensionInPixels(w-rem, width);
+    @include defineDimensionInPixels(min-w-rem, min-width);
+    @include defineDimensionInPixels(max-w-rem, max-width);
+
+    @include genericWidthClasses();
+}
+
+
+
+
+@mixin heights {
+
+    @include definePercentagesClassList(min-h, min-height);
+    @include definePercentagesClassList(h, height);
+    @include definePercentagesClassList(max-h, max-height);
+
+    @include defineDimensionInRem(h-rem, height);
+    @include defineDimensionInRem(min-h-rem, min-height);
+    @include defineDimensionInRem(max-h-rem, max-height);
+
+    @include defineDimensionInPixels(h-px, height);
+    @include defineDimensionInPixels(min-h-px, min-height);
+    @include defineDimensionInPixels(max-h-px, max-height); 
+    
+    @include genericHeightClasses();
+}
+
+@mixin defineDimensionInRem($class-name, $css-property) {
+    $array: 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 16, 18, 20, 24, 27, 28, 30, 32, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 64, 66, 74, 84, 86, 88;
+
+    @each $size in $array {
+        $val: $size * 0.5;
+        @include defineClass(unquote($class-name+"-"+$size), $css-property, $val, 'rem');
+    }
+}
+
+
+@mixin defineDimensionInPixels($class-name, $css-property) {
+    @for $i from 0 through 20 {
+        $i: $i * 50;
+        @include defineClass(unquote($class-name+"-"+$i), $css-property, $i, 'px');
+    }
+}
+
+@mixin genericWidthClasses {
+
+    // vw classes
+    @include defineClass(min-w-screen, min-width, 100, 'vw');
+    @include defineClass(w-screen, width, 100, 'vw');
+    @include defineClass(max-w-screen, max-width, 100, 'vw');
+    @include defineClass(w-fit, width, auto);
+    @include defineClass(w-fit, width, fit-content);
+
+    @include defineClass(w-auto, min-width, auto);
+    @include defineClass(w-auto, width, auto);
+    @include defineClass(w-auto, max-width, auto);
+    $w-vw-list: 1, 2, 4, 5, 8, 20, 40, 50, 100;
+
+    @include defineClassList($w-vw-list, w-vw-, width, 'vw');
+}
+
+
+@mixin genericHeightClasses {
+
+    // vh classes and auto
+    @include defineClass(min-h-screen, min-height, 100, 'vh');
+    @include defineClass(h-screen, height, 100, 'vh');
+    @include defineClass(max-h-screen, max-height, 100, 'vh');
+
+    @include defineClass(h-auto, min-height, auto);
+    @include defineClass(h-auto, height, auto);
+    @include defineClass(h-auto, max-height, auto);
+
+    $h-vh-list: 1, 2, 4, 5, 8, 20, 40, 50, 100;
+    @include defineClassList($h-vh-list, w-vh-, height, 'vh');
+}

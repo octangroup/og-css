@@ -1,0 +1,26 @@
+@import "functions";
+
+
+@mixin positionTypes {
+    $list: 'absolute','relative','fixed','static','sticky';
+    @include defineClassList($list, null, position);
+}
+
+@mixin positions {
+
+    @include setPositonClasses(t, top);
+    @include setPositonClasses(r, right);
+    @include setPositonClasses(b, bottom);
+    @include setPositonClasses(l, left);
+
+}
+
+
+@mixin setPositonClasses($class-name, $css-property) {
+    
+    @include defineClass(unquote("-"+$class-name+"-"+2), $css-property, -2, '%');
+    @include defineClass(unquote($class-name+"-"+2), $css-property, 2, '%');
+
+    @include definePercentagesClassList($class-name, $css-property);
+    @include definePercentagesClassList(unquote("-"+$class-name), $css-property, true);
+}

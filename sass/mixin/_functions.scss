@@ -1,0 +1,49 @@
+@mixin class($class-name) {
+    .#{$screen-type-tag}#{$class-name} {
+       @content;
+    }
+}
+
+@mixin defineClass($class-name, $css-property, $value, $unit : null) {
+    @if $value == 0{
+        $unit: null;
+    }
+
+    @include class($class-name){
+        @include setProperty($css-property, unquote($value+""+$unit));
+    }
+}
+
+@mixin definePercentagesClassList($class-name, $css-property, $negative: false) {
+    @for $i from 0 through 20 {
+        $i: $i * 5;
+        $val: $i;
+        @if $negative{
+            $val: -$val;
+        }
+        @include defineClass(unquote($class-name+"-"+$i), $css-property, $val, '%');
+    }
+}
+
+@mixin setProperty($property,$value) {
+    #{$property}: #{$value}  !important;
+}
+
+@mixin defineClassList($list, $class-name, $css-property, $unit: null) {
+    @each $element in $list {
+        @include defineClass(unquote($class-name+""+$element), $css-property, $element, $unit);
+    }
+}
+
+@mixin defineClassWithEvents($class-name, $css-property, $value, $unit : null){
+    @include defineClass($class-name, $css-property, $value, $unit);
+    @include defineClass(unquote("hover\\:"+$class-name+":hover"), $css-property, $value, $unit);
+    @include defineClass(unquote("focus\\:"+$class-name+":focus"), $css-property, $value, $unit);
+    @include defineClass(unquote("group:focus ."+$screen-type-tag+"group-focus\\:"+$class-name), $css-property, $value, $unit);
+}
+
+@mixin defineClassListUsingMap($class-map){
+    @each $label, $map in $class-map {
+        @include defineClass($label, map-get($map, property), map-get($map, value));
+    }
+}

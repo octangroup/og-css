@@ -1,0 +1,12 @@
+$screen-type-tag: sm\:;
+
+@import "variables";
+@import "mixin/positions";
+@import "mixin/dimensions";
+@import "mixin/display";
+@import "mixin/typography";
+
+// @include displayStyle();
+// @include positions();
+// @include flex();
+@include fontStyle();

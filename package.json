@@ -1,8 +1,8 @@
 {
   "name": "og-css",
   "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
-  "version": "2.1.0",
-  "version_short": "2.1",
+  "version": "3.0.0",
+  "version_short": "3.0",
   "author": "Octan Group (https://octangrp.com)",
   "keywords": [
     "css",
