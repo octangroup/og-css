@@ -1,4 +1,4 @@
-@import "../util";
+@import "../toolkits/util";
 
 @mixin definePercentagesClassList($class-name, $css-property, $negative: false) {
   @include defineLoopingClassList($class-name, $css-property, 20, 5, 0, '%', 1, $negative);

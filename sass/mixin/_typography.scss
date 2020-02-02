@@ -5,9 +5,10 @@
   @include textAlignment;
   @include textSize;
   @include lineHeights;
-  @include break-words;
+  @include breakWords;
   @include whitespaces;
-  @include extra;
+  @include typographyExtra;
+  @include letterSpacing;
 }
 
 
@@ -83,7 +84,7 @@
 
 }
 
-@mixin break-words {
+@mixin breakWords {
   @include defineClass(break-words, word-wrap, break-word);
   @include defineClass(break-words, word-break, break-all);
   @include defineClass(break-all, word-break, break-all);
@@ -102,7 +103,32 @@
 
 }
 
-@mixin extra{
+@mixin typographyExtra {
   @include defineClass(text-muted, color, #6c757d);
   @include defineClass(inherit-color, color, inherit);
+}
+
+@mixin letterSpacing {
+  $map: (
+          tracking-tighter:(
+                  property: letter-spacing,
+                  value: -.05em
+          ), tracking-tight:(
+                  property: letter-spacing,
+                  value: -.025em
+          ), tracking-normal:(
+                  property: letter-spacing,
+                  value: 0
+          ), tracking-wide:(
+                  property: letter-spacing,
+                  value: .025em
+          ), tracking-wider:(
+                  property: letter-spacing,
+                  value: .05em
+          ), tracking-widest:(
+                  property: letter-spacing,
+                  value: .1em
+          )
+  );
+  @include defineClassListUsingMap($map);
 }

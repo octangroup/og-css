@@ -1,11 +1,22 @@
 @import "functions";
 
+@mixin utilities{
+  @include cursors;
+  @include objectFit;
+  @include objectPosition;
+  @include transitions;
+  @include zIndexes;
+  @include opacities;
+  @include overflowProperties;
+  @include extra;
+}
+
 @mixin cursors {
   @include defineClassList(list('auto', 'default', 'pointer', 'wait', 'move', 'not-allowed', 'text'), cursor-, cursor);
 }
 
 
-@mixin object-fit {
+@mixin objectFit {
   @include defineClassList(list('contain', 'cover', 'fill', 'none', 'scale-down'), object-, object-fit);
 }
 
@@ -58,4 +69,8 @@
   @include defineClass(resize-y, resize, vertical);
   @include defineClass(resize-x, resize, horizontal);
   @include defineClass(resize, resize, both);
+}
+
+@mixin selections{
+  @include defineClassList(list('none','auto','all'),select-,user-select);
 }

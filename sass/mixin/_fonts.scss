@@ -1,3 +1,10 @@
+@import "functions";
+
+@mixin fonts{
+    @include fontStyle;
+    @include fontWeight;
+}
+
 @mixin fontStyle {
     $font-map: (
         font-sans:(
@@ -27,6 +34,6 @@
 
     @for $i from 1 through length($list){
         $value: 100 * $i;
-        @include defineClass(unquote("font-"+nth($list, $i)), font-weight, $value);
+        @include defineClassWithEvents(unquote("font-"+nth($list, $i)), font-weight, $value);
     }
 }

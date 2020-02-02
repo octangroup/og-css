@@ -1,14 +1,98 @@
-$colors-map:(
-    grey:(
-        value: #b8c2cc
-    ),
-    red: (
-        value: #e3342f
-    ),
-    primary: (
-        value: $primary
-    ),
-    accent: (
-        value: $accent
-    )
+@import "../variables";
+
+$colors-map: (
+        'grey':(
+                value: $color-grey,
+                multiple: true
+        ),
+        'red': (
+                value: $color-red,
+                multiple: true
+        ),
+        'white': (
+                value: $color-white,
+                multiple: false
+        ),
+        'black': (
+                value: $color-black,
+                multiple: true
+        ),
+        'transparent': (
+                value: transparent,
+                multiple: false
+        ),
+        'orange': (
+                value: $color-orange,
+                multiple: true
+        ),
+        'yellow': (
+                value: $color-yellow,
+                multiple: true
+        ),
+        'green': (
+                value: $color-green,
+                multiple: true
+        ),
+        'blue': (
+                value: $color-blue,
+                multiple: true
+        ),
+        'pink': (
+                value: $color-pink,
+                multiple: true
+        ),
+        'teal': (
+                value: $color-teal,
+                multiple: true
+        ),
+        'indigo': (
+                value: $color-indigo,
+                multiple: true
+        ),
+        'purple': (
+                value: $color-purple,
+                multiple: true
+        ),'primary-lightest': (
+                value: $color-primary-lightest,
+                multiple: false
+        ),'primary-lighter': (
+                value: $color-primary-lighter,
+                multiple: false
+        ),'primary-light': (
+                value: $color-primary-light,
+                multiple: false
+        ),'primary': (
+                value: $color-primary,
+                multiple: false
+        ),'primary-dark': (
+                value: $color-primary-dark,
+                multiple: false
+        ),'primary-darker': (
+                value: $color-primary-darker,
+                multiple: false
+        ),'primary-darkest': (
+                value: $color-primary-darkest,
+                multiple: false
+        ),'accent-lightest': (
+                value: $color-accent-lightest,
+                multiple: false
+        ),'accent-lighter': (
+                value: $color-accent-lighter,
+                multiple: false
+        ),'accent-light': (
+                value: $color-accent-light,
+                multiple: false
+        ),'accent': (
+                value: $color-accent,
+                multiple: false
+        ),'accent-dark': (
+                value: $color-accent-dark,
+                multiple: false
+        ),'accent-darker': (
+                value: $color-accent-darker,
+                multiple: false
+        ),'accent-darkest': (
+                value: $color-accent-darkest,
+                multiple: false
+        )
 );

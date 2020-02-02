@@ -2,13 +2,13 @@
 
 
 @mixin backgroundProperties {
-  @include positions;
-  @include attachments;
-  @include repeats;
-  @include sizes;
+  @include backgroundPositions;
+  @include backgroundAttachments;
+  @include backgroundRepeats;
+  @include backgroundSizes;
 }
 
-@mixin positions {
+@mixin backgroundPositions {
   @include defineClassList(list(
                   'bottom',
                   'left',
@@ -22,15 +22,15 @@
   ), bg-, background-position);
 }
 
-@mixin attachments {
+@mixin backgroundAttachments {
   @include defineClassList(list('fixed', 'local', 'scroll'), bg-, background-attachment);
 }
 
-@mixin repeats {
+@mixin backgroundRepeats {
   @include defineClassList(list('repeat', 'no-repeat', 'repeat-x', 'repeat-y'), bg-, background-repeat);
   @include defineClassList(list('round', 'space'), bg-repeat, background-repeat);
 }
 
-@mixin sizes {
+@mixin backgroundSizes {
   @include defineClassList(list('auto', 'cover', 'contain'), bg-, background-size);
 }

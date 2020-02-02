@@ -1,3 +1,4 @@
+@import "toolkits/colors";
 // Typography
 $primary-font: sans-serif !default;
 $secondary-font: sans-serif !default;
@@ -5,38 +6,53 @@ $default-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica
 $font-size-base: 0.9rem !default;
 $line-height-base: 1.6 !default;
 
-// Colors
-$body-bg: #f8fafc !default;
-$blue: #3490dc !default;
-$indigo: #6574cd !default;
-$purple: #9561e2 !default;
-$pink: #f66D9b !default;
-$red: #e3342f !default;
-$orange: #f6993f !default;
-$yellow: #ffed4a !default;
-$green: #50c787 !default;
-$teal: #4dc0b5 !default;
-$cyan: #6cb2eb !default;
 
-$primary-lightest: #48aae1 !default;
-$primary-lighter: #48a0d7 !default;
-$primary-light: #4a95cd !default;
-$primary: #4a8bc3 !default;
-$primary-dark: #457baf !default;
-$primary-darker: #49649b !default;
-$primary-darkest: #445187 !default;
-
-$accent-lightest: #ff9e46 !default;
-$accent-lighter: #fc9c45 !default;
-$accent-light: #f99846 !default;
-$accent: #f79646 !default;
-$accent-dark: #e38345 !default;
-$accent-darker: #cf6e46 !default;
-$accent-darkest: #bb5e46 !default;
-
-$primary-semi-transparent: rgba(94, 203, 216, 0.51) !default;
-$primary-tiny-transparent: rgba(242, 211, 203, 0.10) !default;
 //$accent : #ec4551 !default;
 $full-radius: 9999px !default;
 $white-smoke: #f7f7f7 !default;
 
+// colors
+$color-black: #22292f !default;
+$color-grey: #b8c2cc !default;
+$color-white: #ffffff !default;
+$color-red: #e3342f !default;
+$color-orange: #f6993f !default;
+$color-yellow: #ffed4a !default;
+$color-green: #38c172 !default;
+$color-teal: #4dc0b5 !default;
+$color-blue: #3490dc !default;
+$color-indigo: #6574cd !default;
+$color-purple: #9561e2 !default;
+$color-pink: #f66d9b !default;
+
+// platform colors
+
+$color-primary: #38a89d !default;
+
+$color-primary-darkest: colorDarkest($color-primary) !default;
+$color-primary-darker: colorDarker($color-primary) !default;
+$color-primary-dark: colorDark($color-primary) !default;
+$color-primary-light: colorLight($color-primary) !default;
+$color-primary-lighter: colorLighter($color-primary) !default;
+$color-primary-lightest: colorLightest($color-primary) !default;
+
+$color-accent: #de751f !default;
+
+$color-accent-darkest: colorDarkest($color-accent) !default;
+$color-accent-darker: colorDarker($color-accent) !default;
+$color-accent-dark: colorDark($color-accent) !default;
+$color-accent-light: colorLight($color-accent) !default;
+$color-accent-lighter: colorLighter($color-accent) !default;
+$color-accent-lightest: colorLightest($color-accent) !default;
+
+$primary-semi-transparent: opacify($color-primary, .51) !default;
+$primary-tiny-transparent: opacify($color-primary, .1) !default;
+
+// shadows
+$shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !default;
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06) !default;
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05) !default;
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04) !default;
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, .25) !default;
+$shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, .06) !default;
+$shadow-outline: 0 0 0 3px rgba(66, 153, 225, .5) !default;
