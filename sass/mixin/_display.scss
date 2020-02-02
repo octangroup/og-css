@@ -1,79 +1,105 @@
- //  a mixin defined for flex properties
+@mixin display {
+  @include displayStyle();
+  @include flex();
+  @include tables();
+  @include visibility();
+  @include float;
+}
 
- @mixin displayStyle {
-     $list: 'block', 'flex', 'grid', 'inline', 'inline-block', 'inline-flex', 'table', 'table-row', 'table-cell';
-     @include defineClassList($list, null, display);
- }
 
- @mixin flex {
+@mixin displayStyle {
+  $list: 'block', 'flex', 'grid', 'inline', 'inline-block', 'inline-flex', 'table', 'table-row', 'table-cell';
+  @include defineClassList($list, null, display);
+}
 
-     @include class(flex-wrap) {
-         flex-wrap: wrap !important;
-     }
+//  a mixin defined for flex properties
+@mixin flex {
 
-     @include definePercentagesClassList(flex, flex);
+  @include class(flex-wrap) {
+    flex-wrap: wrap !important;
+  }
 
-     @include class(inline-flex) {
-         display: inline-flex !important;
-     }
+  @include definePercentagesClassList(flex, flex);
 
-     @include class(flex-row) {
-         flex-direction: row !important;
-     }
+  @include class(inline-flex) {
+    display: inline-flex !important;
+  }
 
-     @include class(flex-row-reverse) {
-         flex-direction: row-reverse !important;
-     }
+  @include class(flex-row) {
+    flex-direction: row !important;
+  }
 
-     @include class(flex-col) {
-         flex-direction: column !important;
-     }
+  @include class(flex-row-reverse) {
+    flex-direction: row-reverse !important;
+  }
 
-     @include class(flex-col-reverse) {
-         flex-direction: column-reverse !important;
-     }
+  @include class(flex-col) {
+    flex-direction: column !important;
+  }
 
-     @include class(flex-wrap) {
-         flex-wrap: wrap !important;
-     }
+  @include class(flex-col-reverse) {
+    flex-direction: column-reverse !important;
+  }
 
-     @include class(flex-wrap-reverse) {
-         flex-wrap: wrap-reverse !important;
-     }
+  @include class(flex-wrap) {
+    flex-wrap: wrap !important;
+  }
 
-     @include class(flex-no-wrap) {
-         flex-wrap: nowrap !important;
-     }
+  @include class(flex-wrap-reverse) {
+    flex-wrap: wrap-reverse !important;
+  }
 
-     @include class(flex-1) {
-         flex: 1 1 0% !important;
-     }
+  @include class(flex-no-wrap) {
+    flex-wrap: nowrap !important;
+  }
 
-     @include class(flex-auto) {
-         flex: 1 1 auto !important;
-     }
+  @include class(flex-1) {
+    flex: 1 1 0% !important;
+  }
 
-     @include class(flex-initial) {
-         flex: 0 1 auto !important;
-     }
+  @include class(flex-auto) {
+    flex: 1 1 auto !important;
+  }
 
-     @include class(flex-none) {
-         flex: none !important;
-     }
+  @include class(flex-initial) {
+    flex: 0 1 auto !important;
+  }
 
-     @include class(flex-grow-0) {
-         flex-grow: 0 !important;
-     }
+  @include class(flex-none) {
+    flex: none !important;
+  }
 
-     @include class(flex-grow) {
-         flex-grow: 1 !important;
-     }
+  @include class(flex-grow-0) {
+    flex-grow: 0 !important;
+  }
 
-     @include class(flex-shrink-0) {
-         flex-shrink: 0 !important;
-     }
+  @include class(flex-grow) {
+    flex-grow: 1 !important;
+  }
 
-     @include class(flex-shrink) {
-         flex-shrink: 1 !important;
-     }
- }
+  @include class(flex-shrink-0) {
+    flex-shrink: 0 !important;
+  }
+
+  @include class(flex-shrink) {
+    flex-shrink: 1 !important;
+  }
+}
+
+@mixin tables {
+  $list: 'auto', 'fixed';
+  @include defineClassList($list, table-, table-layout);
+}
+
+@mixin visibility {
+  @include defineClass(visible, visibility, visible);
+  @include defineClass(invisible, visibility, hidden);
+
+  @include defineClass(hidden, display, none);
+  @include defineClass(hidden-temp, display, none, null, false);
+}
+
+@mixin float {
+  $list: 'none', 'right', 'left';
+  @include defineClassList($list, float-, float);
+}

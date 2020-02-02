@@ -1,0 +1,47 @@
+@import "functions";
+@mixin cursors {
+  $list: 'auto', 'default', 'pointer', 'wait', 'move', 'not-allowed', 'text';
+
+  @include defineClassList($list, cursor-, cursor);
+}
+
+
+@mixin object-fit {
+  $list: 'contain', 'cover', 'fill', 'none', 'scale-down';
+
+  @include defineClassList($list, object-, object-fit);
+}
+
+
+@mixin objectPosition {
+  $list: 'bottom', 'center', 'left', 'left top', 'left bottom', 'right', 'right bottom', 'right top', 'top';
+
+  @include defineClassList($list, object-, object-position);
+
+}
+
+
+@mixin transitions {
+  $list: '250ms', '500ms', '750ms', '1s','1.5s', '2s', '3s', '4s','5s';
+
+  @include defineClassList($list, transition-, transition-duration);
+}
+
+
+@mixin transitions {
+  $list: '250ms', '500ms', '750ms', '1s','1.5s', '2s', '3s', '4s','5s';
+
+  @include defineClassList($list, transition-, transition-duration);
+}
+
+@mixin zIndexes{
+  @include defineLoopingClassList(z, z-index, 9, 1);
+  @include defineLoopingClassList(z, z-index, 10, 10, 1);
+  @include defineLoopingClassList(z, z-index, 10, 100, 2);
+  @include defineClass(z-auto,z-index,auto);
+}
+
+
+@mixin opacities{
+  @include defineLoopingClassList(opacity, opacity, 20, 0.05, 0, null,100);
+}

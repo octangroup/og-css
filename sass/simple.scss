@@ -2,11 +2,20 @@ $screen-type-tag: sm\:;
 
 @import "variables";
 @import "mixin/positions";
+@import "mixin/backgroundColors";
 @import "mixin/dimensions";
+@import "mixin/alignments";
 @import "mixin/display";
 @import "mixin/typography";
+@import "mixin/utilities";
 
 // @include displayStyle();
-// @include positions();
+ @include positions();
 // @include flex();
-@include fontStyle();
+// @include alignments();
+//@include opacities();
+//@include rotationAngles();
+//@include tables();
+//@include visibility();
+//@include typography();
+//@include verticalAlignments;

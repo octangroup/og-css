@@ -1,0 +1,46 @@
+.no-break-out {
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  word-break: break-all !important;
+  word-break: break-word !important;
+  hyphens: auto !important;
+}
+
+.filter-grayscale {
+  filter: grayscale(100%) !important;
+}
+
+.transform-0-50-origin {
+  transform-origin: 0 50%;
+}
+
+.transform-50-100-origin {
+  transform-origin: 50% 100%;
+}
+
+.transform-3d {
+  transform-style: preserve-3d;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.transform-45deg-3d {
+  flex: 0 auto;
+  justify-content: space-between;
+  transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg) translate(-14vw, -23vh);
+  transform-origin: 0% 50%;
+}
+
+.translate-3d-0-0-1 {
+  transform: translate3d(0px, 0px, 1px);
+}
+
+.translate-3d-0-0-5 {
+  transform: translate3d(0px, 0px, 5px);
+}
+
+.translate-3d-0-0-9 {
+  transform: translate3d(0px, 0px, 9px);
+}

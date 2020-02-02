@@ -1,0 +1,50 @@
+@import "../util";
+
+@mixin definePercentagesClassList($class-name, $css-property, $negative: false) {
+  @include defineLoopingClassList($class-name, $css-property, 20, 5, 0, '%', 1, $negative);
+}
+
+@mixin defineClassList($list, $class-name, $css-property, $unit: null) {
+  @each $element in $list {
+    $name: str_replace(unquote($class-name + "" + $element), ' ', '-');
+    @include defineClass($name, $css-property, $element, $unit);
+  }
+}
+
+
+@mixin defineClassWithEvents($class-name, $css-property, $value, $unit : null) {
+  @include defineClass($class-name, $css-property, $value, $unit);
+  @include defineClass(unquote("hover\\:"+$class-name+":hover"), $css-property, $value, $unit);
+  @include defineClass(unquote("focus\\:"+$class-name+":focus"), $css-property, $value, $unit);
+  @include defineClass(unquote("group:focus ."+$screen-type-tag+"group-focus\\:"+$class-name), $css-property, $value, $unit);
+}
+
+
+@mixin defineClassListUsingMap($class-map) {
+
+  @each $label,
+  $map in $class-map {
+    @include defineClass($label, map-get($map, property), map-get($map, value));
+  }
+}
+
+
+@mixin remSizesGenerator($list, $class-name, $css-property, $negative:false) {
+
+  @each $size in $list {
+    $val: $size * 0.5;
+
+    @if (notNegativeZero(negativeValue($size, $negative), $negative)) {
+      @include defineClass(unquote(negativeClassName($class-name, $negative)+"-"+$size), $css-property, negativeValue($val, $negative), 'rem');
+    }
+  }
+}
+
+@mixin defineLoopingClassList($class-name, $css-property, $iterations, $step, $from: 0, $unit: null, $name-multiplier: 1, $negative: false) {
+  @for $i from $from through $iterations {
+    $val: $i * $step;
+    @if (notNegativeZero(negativeValue($i, $negative), $negative)) {
+      @include defineClass(unquote($class-name+"-"+($val * $name-multiplier)), $css-property, negativeValue($val, $negative), $unit);
+    }
+  }
+}

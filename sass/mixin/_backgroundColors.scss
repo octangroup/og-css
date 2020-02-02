@@ -1,0 +1,18 @@
+@import '../variables/colors';
+
+@import 'functions';
+
+
+
+@mixin backgroundColors(){
+    @each $color,
+    $map in $colors-map {
+        @include defineClass(unquote("bg-"+$color+"-darkest"), background-color, darken(map-get($map, value),30));
+        @include defineClass(unquote("bg-"+$color+"-darker"), background-color, darken(map-get($map, value),20));
+        @include defineClass(unquote("bg-"+$color+"-dark"), background-color, darken(map-get($map, value),10));
+        @include defineClass(unquote("bg-"+$color), background-color, map-get($map, value));
+        @include defineClass(unquote("bg-"+$color+"-light"), background-color, lighten(map-get($map, value),10));
+        @include defineClass(unquote("bg-"+$color+"-lighter"), background-color, lighten(map-get($map, value),20));
+        @include defineClass(unquote("bg-"+$color+"-lightest"), background-color, lighten(map-get($map, value),30));
+    }
+}
