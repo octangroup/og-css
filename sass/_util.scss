@@ -31,3 +31,7 @@
 
     @return $string;
 }
+
+@function list($arguments...){
+    @return $arguments;
+}

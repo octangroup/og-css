@@ -60,16 +60,9 @@
 
 @mixin insetClasses{
   // on X axis
-  @include defineClass(inset-x, left, auto);
-  @include defineClass(inset-auto, left, auto);
+  @include defineOnMultipleClasses("inset-x" "inset-auto", left, auto);
+  @include defineOnMultipleClasses("inset-x" "inset-auto", right, auto);
 
-  @include defineClass(inset-x, right, auto);
-  @include defineClass(inset-auto, right, auto);
-
-  // on Y axis
-  @include defineClass(inset-y, top, auto);
-  @include defineClass(inset-auto, top, auto);
-
-  @include defineClass(inset-y, bottom, 0);
-  @include defineClass(inset-auto, bottom, 0);
+  @include defineOnMultipleClasses("inset-y" "inset-auto", top, auto);
+  @include defineOnMultipleClasses("inset-y" "inset-auto", bottom, auto);
 }

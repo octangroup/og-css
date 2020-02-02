@@ -7,6 +7,7 @@
   @include lineHeights;
   @include break-words;
   @include whitespaces;
+  @include extra;
 }
 
 
@@ -24,9 +25,7 @@
 
 
 @mixin textAlignment {
-  $list: 'center', 'justify', 'left', 'right';
-
-  @include defineClassList($list, text-, text-align);
+  @include defineClassList(list('center', 'justify', 'left', 'right'), text-, text-align);
 }
 
 @mixin textStyle {
@@ -98,10 +97,12 @@
 }
 
 @mixin whitespaces {
-
-  $list: 'normal', 'pre', 'pre-line', 'pre-wrap';
-
-  @include defineClassList($list, whitespace-, whitespace);
+  @include defineClassList(list('normal', 'pre', 'pre-line', 'pre-wrap'), whitespace-, whitespace);
   @include defineClass(whitespace-no-wrap, whitespace, nowrap);
 
+}
+
+@mixin extra{
+  @include defineClass(text-muted, color, #6c757d);
+  @include defineClass(inherit-color, color, inherit);
 }

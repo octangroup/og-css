@@ -1,0 +1,36 @@
+@import "functions";
+
+
+@mixin backgroundProperties {
+  @include positions;
+  @include attachments;
+  @include repeats;
+  @include sizes;
+}
+
+@mixin positions {
+  @include defineClassList(list(
+                  'bottom',
+                  'left',
+                  'center',
+                  'left bottom',
+                  'left top',
+                  'right',
+                  'right bottom',
+                  'right top',
+                  'top'
+  ), bg-, background-position);
+}
+
+@mixin attachments {
+  @include defineClassList(list('fixed', 'local', 'scroll'), bg-, background-attachment);
+}
+
+@mixin repeats {
+  @include defineClassList(list('repeat', 'no-repeat', 'repeat-x', 'repeat-y'), bg-, background-repeat);
+  @include defineClassList(list('round', 'space'), bg-repeat, background-repeat);
+}
+
+@mixin sizes {
+  @include defineClassList(list('auto', 'cover', 'contain'), bg-, background-size);
+}

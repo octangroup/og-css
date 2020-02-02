@@ -1,1148 +1,127 @@
-.sm\:t-auto {
-  top: auto !important;
-}
-
-.sm\:-t-2 {
-  top: -2% !important;
-}
-
-.sm\:t-2 {
-  top: 2% !important;
-}
-
-.sm\:t-0 {
-  top: 0 !important;
-}
-
-.sm\:t-5 {
-  top: 5% !important;
-}
-
-.sm\:t-10 {
-  top: 10% !important;
-}
-
-.sm\:t-15 {
-  top: 15% !important;
-}
-
-.sm\:t-20 {
-  top: 20% !important;
-}
-
-.sm\:t-25 {
-  top: 25% !important;
-}
-
-.sm\:t-30 {
-  top: 30% !important;
-}
-
-.sm\:t-35 {
-  top: 35% !important;
-}
-
-.sm\:t-40 {
-  top: 40% !important;
-}
-
-.sm\:t-45 {
-  top: 45% !important;
-}
-
-.sm\:t-50 {
-  top: 50% !important;
-}
-
-.sm\:t-55 {
-  top: 55% !important;
-}
-
-.sm\:t-60 {
-  top: 60% !important;
-}
-
-.sm\:t-65 {
-  top: 65% !important;
-}
-
-.sm\:t-70 {
-  top: 70% !important;
-}
-
-.sm\:t-75 {
-  top: 75% !important;
-}
-
-.sm\:t-80 {
-  top: 80% !important;
-}
-
-.sm\:t-85 {
-  top: 85% !important;
-}
-
-.sm\:t-90 {
-  top: 90% !important;
-}
-
-.sm\:t-95 {
-  top: 95% !important;
-}
-
-.sm\:t-100 {
-  top: 100% !important;
-}
-
-.sm\:-t-5 {
-  top: -5% !important;
-}
-
-.sm\:-t-10 {
-  top: -10% !important;
-}
-
-.sm\:-t-15 {
-  top: -15% !important;
-}
-
-.sm\:-t-20 {
-  top: -20% !important;
-}
-
-.sm\:-t-25 {
-  top: -25% !important;
-}
-
-.sm\:-t-30 {
-  top: -30% !important;
-}
-
-.sm\:-t-35 {
-  top: -35% !important;
-}
-
-.sm\:-t-40 {
-  top: -40% !important;
-}
-
-.sm\:-t-45 {
-  top: -45% !important;
-}
-
-.sm\:-t-50 {
-  top: -50% !important;
-}
-
-.sm\:-t-55 {
-  top: -55% !important;
-}
-
-.sm\:-t-60 {
-  top: -60% !important;
-}
-
-.sm\:-t-65 {
-  top: -65% !important;
-}
-
-.sm\:-t-70 {
-  top: -70% !important;
-}
-
-.sm\:-t-75 {
-  top: -75% !important;
-}
-
-.sm\:-t-80 {
-  top: -80% !important;
-}
-
-.sm\:-t-85 {
-  top: -85% !important;
-}
-
-.sm\:-t-90 {
-  top: -90% !important;
-}
-
-.sm\:-t-95 {
-  top: -95% !important;
-}
-
-.sm\:-t-100 {
-  top: -100% !important;
-}
-
-.sm\:r-auto {
-  right: auto !important;
-}
-
-.sm\:-r-2 {
-  right: -2% !important;
-}
-
-.sm\:r-2 {
-  right: 2% !important;
-}
-
-.sm\:r-0 {
-  right: 0 !important;
-}
-
-.sm\:r-5 {
-  right: 5% !important;
-}
-
-.sm\:r-10 {
-  right: 10% !important;
-}
-
-.sm\:r-15 {
-  right: 15% !important;
-}
-
-.sm\:r-20 {
-  right: 20% !important;
-}
-
-.sm\:r-25 {
-  right: 25% !important;
-}
-
-.sm\:r-30 {
-  right: 30% !important;
-}
-
-.sm\:r-35 {
-  right: 35% !important;
-}
-
-.sm\:r-40 {
-  right: 40% !important;
-}
-
-.sm\:r-45 {
-  right: 45% !important;
-}
-
-.sm\:r-50 {
-  right: 50% !important;
-}
-
-.sm\:r-55 {
-  right: 55% !important;
-}
-
-.sm\:r-60 {
-  right: 60% !important;
-}
-
-.sm\:r-65 {
-  right: 65% !important;
-}
-
-.sm\:r-70 {
-  right: 70% !important;
-}
-
-.sm\:r-75 {
-  right: 75% !important;
-}
-
-.sm\:r-80 {
-  right: 80% !important;
-}
-
-.sm\:r-85 {
-  right: 85% !important;
-}
-
-.sm\:r-90 {
-  right: 90% !important;
-}
-
-.sm\:r-95 {
-  right: 95% !important;
-}
-
-.sm\:r-100 {
-  right: 100% !important;
-}
-
-.sm\:-r-5 {
-  right: -5% !important;
-}
-
-.sm\:-r-10 {
-  right: -10% !important;
-}
-
-.sm\:-r-15 {
-  right: -15% !important;
-}
-
-.sm\:-r-20 {
-  right: -20% !important;
-}
-
-.sm\:-r-25 {
-  right: -25% !important;
-}
-
-.sm\:-r-30 {
-  right: -30% !important;
-}
-
-.sm\:-r-35 {
-  right: -35% !important;
-}
-
-.sm\:-r-40 {
-  right: -40% !important;
-}
-
-.sm\:-r-45 {
-  right: -45% !important;
-}
-
-.sm\:-r-50 {
-  right: -50% !important;
-}
-
-.sm\:-r-55 {
-  right: -55% !important;
-}
-
-.sm\:-r-60 {
-  right: -60% !important;
-}
-
-.sm\:-r-65 {
-  right: -65% !important;
-}
-
-.sm\:-r-70 {
-  right: -70% !important;
-}
-
-.sm\:-r-75 {
-  right: -75% !important;
-}
-
-.sm\:-r-80 {
-  right: -80% !important;
-}
-
-.sm\:-r-85 {
-  right: -85% !important;
-}
-
-.sm\:-r-90 {
-  right: -90% !important;
-}
-
-.sm\:-r-95 {
-  right: -95% !important;
-}
-
-.sm\:-r-100 {
-  right: -100% !important;
-}
-
-.sm\:b-auto {
-  bottom: auto !important;
-}
-
-.sm\:-b-2 {
-  bottom: -2% !important;
-}
-
-.sm\:b-2 {
-  bottom: 2% !important;
-}
-
-.sm\:b-0 {
-  bottom: 0 !important;
-}
-
-.sm\:b-5 {
-  bottom: 5% !important;
-}
-
-.sm\:b-10 {
-  bottom: 10% !important;
-}
-
-.sm\:b-15 {
-  bottom: 15% !important;
-}
-
-.sm\:b-20 {
-  bottom: 20% !important;
-}
-
-.sm\:b-25 {
-  bottom: 25% !important;
-}
-
-.sm\:b-30 {
-  bottom: 30% !important;
-}
-
-.sm\:b-35 {
-  bottom: 35% !important;
-}
-
-.sm\:b-40 {
-  bottom: 40% !important;
-}
-
-.sm\:b-45 {
-  bottom: 45% !important;
-}
-
-.sm\:b-50 {
-  bottom: 50% !important;
-}
-
-.sm\:b-55 {
-  bottom: 55% !important;
-}
-
-.sm\:b-60 {
-  bottom: 60% !important;
-}
-
-.sm\:b-65 {
-  bottom: 65% !important;
-}
-
-.sm\:b-70 {
-  bottom: 70% !important;
-}
-
-.sm\:b-75 {
-  bottom: 75% !important;
-}
-
-.sm\:b-80 {
-  bottom: 80% !important;
-}
-
-.sm\:b-85 {
-  bottom: 85% !important;
-}
-
-.sm\:b-90 {
-  bottom: 90% !important;
-}
-
-.sm\:b-95 {
-  bottom: 95% !important;
-}
-
-.sm\:b-100 {
-  bottom: 100% !important;
-}
-
-.sm\:-b-5 {
-  bottom: -5% !important;
-}
-
-.sm\:-b-10 {
-  bottom: -10% !important;
-}
-
-.sm\:-b-15 {
-  bottom: -15% !important;
-}
-
-.sm\:-b-20 {
-  bottom: -20% !important;
-}
-
-.sm\:-b-25 {
-  bottom: -25% !important;
-}
-
-.sm\:-b-30 {
-  bottom: -30% !important;
-}
-
-.sm\:-b-35 {
-  bottom: -35% !important;
-}
-
-.sm\:-b-40 {
-  bottom: -40% !important;
-}
-
-.sm\:-b-45 {
-  bottom: -45% !important;
-}
-
-.sm\:-b-50 {
-  bottom: -50% !important;
-}
-
-.sm\:-b-55 {
-  bottom: -55% !important;
-}
-
-.sm\:-b-60 {
-  bottom: -60% !important;
-}
-
-.sm\:-b-65 {
-  bottom: -65% !important;
-}
-
-.sm\:-b-70 {
-  bottom: -70% !important;
-}
-
-.sm\:-b-75 {
-  bottom: -75% !important;
-}
-
-.sm\:-b-80 {
-  bottom: -80% !important;
-}
-
-.sm\:-b-85 {
-  bottom: -85% !important;
-}
-
-.sm\:-b-90 {
-  bottom: -90% !important;
-}
-
-.sm\:-b-95 {
-  bottom: -95% !important;
-}
-
-.sm\:-b-100 {
-  bottom: -100% !important;
-}
-
-.sm\:l-auto {
-  left: auto !important;
-}
-
-.sm\:-l-2 {
-  left: -2% !important;
-}
-
-.sm\:l-2 {
-  left: 2% !important;
-}
-
-.sm\:l-0 {
-  left: 0 !important;
-}
-
-.sm\:l-5 {
-  left: 5% !important;
-}
-
-.sm\:l-10 {
-  left: 10% !important;
-}
-
-.sm\:l-15 {
-  left: 15% !important;
-}
-
-.sm\:l-20 {
-  left: 20% !important;
-}
-
-.sm\:l-25 {
-  left: 25% !important;
-}
-
-.sm\:l-30 {
-  left: 30% !important;
-}
-
-.sm\:l-35 {
-  left: 35% !important;
-}
-
-.sm\:l-40 {
-  left: 40% !important;
-}
-
-.sm\:l-45 {
-  left: 45% !important;
-}
-
-.sm\:l-50 {
-  left: 50% !important;
-}
-
-.sm\:l-55 {
-  left: 55% !important;
-}
-
-.sm\:l-60 {
-  left: 60% !important;
-}
-
-.sm\:l-65 {
-  left: 65% !important;
-}
-
-.sm\:l-70 {
-  left: 70% !important;
-}
-
-.sm\:l-75 {
-  left: 75% !important;
-}
-
-.sm\:l-80 {
-  left: 80% !important;
-}
-
-.sm\:l-85 {
-  left: 85% !important;
-}
-
-.sm\:l-90 {
-  left: 90% !important;
-}
-
-.sm\:l-95 {
-  left: 95% !important;
-}
-
-.sm\:l-100 {
-  left: 100% !important;
-}
-
-.sm\:-l-5 {
-  left: -5% !important;
-}
-
-.sm\:-l-10 {
-  left: -10% !important;
-}
-
-.sm\:-l-15 {
-  left: -15% !important;
-}
-
-.sm\:-l-20 {
-  left: -20% !important;
-}
-
-.sm\:-l-25 {
-  left: -25% !important;
-}
-
-.sm\:-l-30 {
-  left: -30% !important;
-}
-
-.sm\:-l-35 {
-  left: -35% !important;
-}
-
-.sm\:-l-40 {
-  left: -40% !important;
-}
-
-.sm\:-l-45 {
-  left: -45% !important;
-}
-
-.sm\:-l-50 {
-  left: -50% !important;
-}
-
-.sm\:-l-55 {
-  left: -55% !important;
-}
-
-.sm\:-l-60 {
-  left: -60% !important;
-}
-
-.sm\:-l-65 {
-  left: -65% !important;
-}
-
-.sm\:-l-70 {
-  left: -70% !important;
-}
-
-.sm\:-l-75 {
-  left: -75% !important;
-}
-
-.sm\:-l-80 {
-  left: -80% !important;
-}
-
-.sm\:-l-85 {
-  left: -85% !important;
-}
-
-.sm\:-l-90 {
-  left: -90% !important;
-}
-
-.sm\:-l-95 {
-  left: -95% !important;
-}
-
-.sm\:-l-100 {
-  left: -100% !important;
-}
-
-.sm\:absolute {
-  position: absolute !important;
-}
-
-.sm\:relative {
-  position: relative !important;
-}
-
-.sm\:fixed {
-  position: fixed !important;
-}
-
-.sm\:static {
-  position: static !important;
-}
-
-.sm\:sticky {
-  position: -webkit-sticky !important;
-  position: sticky !important;
-}
-
-.sm\:rotate-0deg {
-  -webkit-transform: rotate(0deg) !important;
-     -moz-transform: rotate(0deg) !important;
-      -ms-transform: rotate(0deg) !important;
-       -o-transform: rotate(0deg) !important;
-          transform: rotate(0deg) !important;
-}
-
-.sm\:rotate-15deg {
-  -webkit-transform: rotate(15deg) !important;
-     -moz-transform: rotate(15deg) !important;
-      -ms-transform: rotate(15deg) !important;
-       -o-transform: rotate(15deg) !important;
-          transform: rotate(15deg) !important;
-}
-
-.sm\:rotate-30deg {
-  -webkit-transform: rotate(30deg) !important;
-     -moz-transform: rotate(30deg) !important;
-      -ms-transform: rotate(30deg) !important;
-       -o-transform: rotate(30deg) !important;
-          transform: rotate(30deg) !important;
-}
-
-.sm\:rotate-45deg {
-  -webkit-transform: rotate(45deg) !important;
-     -moz-transform: rotate(45deg) !important;
-      -ms-transform: rotate(45deg) !important;
-       -o-transform: rotate(45deg) !important;
-          transform: rotate(45deg) !important;
-}
-
-.sm\:rotate-60deg {
-  -webkit-transform: rotate(60deg) !important;
-     -moz-transform: rotate(60deg) !important;
-      -ms-transform: rotate(60deg) !important;
-       -o-transform: rotate(60deg) !important;
-          transform: rotate(60deg) !important;
-}
-
-.sm\:rotate-75deg {
-  -webkit-transform: rotate(75deg) !important;
-     -moz-transform: rotate(75deg) !important;
-      -ms-transform: rotate(75deg) !important;
-       -o-transform: rotate(75deg) !important;
-          transform: rotate(75deg) !important;
-}
-
-.sm\:rotate-90deg {
-  -webkit-transform: rotate(90deg) !important;
-     -moz-transform: rotate(90deg) !important;
-      -ms-transform: rotate(90deg) !important;
-       -o-transform: rotate(90deg) !important;
-          transform: rotate(90deg) !important;
-}
-
-.sm\:rotate-105deg {
-  -webkit-transform: rotate(105deg) !important;
-     -moz-transform: rotate(105deg) !important;
-      -ms-transform: rotate(105deg) !important;
-       -o-transform: rotate(105deg) !important;
-          transform: rotate(105deg) !important;
-}
-
-.sm\:rotate-120deg {
-  -webkit-transform: rotate(120deg) !important;
-     -moz-transform: rotate(120deg) !important;
-      -ms-transform: rotate(120deg) !important;
-       -o-transform: rotate(120deg) !important;
-          transform: rotate(120deg) !important;
-}
-
-.sm\:rotate-135deg {
-  -webkit-transform: rotate(135deg) !important;
-     -moz-transform: rotate(135deg) !important;
-      -ms-transform: rotate(135deg) !important;
-       -o-transform: rotate(135deg) !important;
-          transform: rotate(135deg) !important;
-}
-
-.sm\:rotate-150deg {
-  -webkit-transform: rotate(150deg) !important;
-     -moz-transform: rotate(150deg) !important;
-      -ms-transform: rotate(150deg) !important;
-       -o-transform: rotate(150deg) !important;
-          transform: rotate(150deg) !important;
-}
-
-.sm\:rotate-165deg {
-  -webkit-transform: rotate(165deg) !important;
-     -moz-transform: rotate(165deg) !important;
-      -ms-transform: rotate(165deg) !important;
-       -o-transform: rotate(165deg) !important;
-          transform: rotate(165deg) !important;
-}
-
-.sm\:rotate-180deg {
-  -webkit-transform: rotate(180deg) !important;
-     -moz-transform: rotate(180deg) !important;
-      -ms-transform: rotate(180deg) !important;
-       -o-transform: rotate(180deg) !important;
-          transform: rotate(180deg) !important;
-}
-
-.sm\:rotate-195deg {
-  -webkit-transform: rotate(195deg) !important;
-     -moz-transform: rotate(195deg) !important;
-      -ms-transform: rotate(195deg) !important;
-       -o-transform: rotate(195deg) !important;
-          transform: rotate(195deg) !important;
-}
-
-.sm\:rotate-210deg {
-  -webkit-transform: rotate(210deg) !important;
-     -moz-transform: rotate(210deg) !important;
-      -ms-transform: rotate(210deg) !important;
-       -o-transform: rotate(210deg) !important;
-          transform: rotate(210deg) !important;
-}
-
-.sm\:rotate-225deg {
-  -webkit-transform: rotate(225deg) !important;
-     -moz-transform: rotate(225deg) !important;
-      -ms-transform: rotate(225deg) !important;
-       -o-transform: rotate(225deg) !important;
-          transform: rotate(225deg) !important;
-}
-
-.sm\:rotate-240deg {
-  -webkit-transform: rotate(240deg) !important;
-     -moz-transform: rotate(240deg) !important;
-      -ms-transform: rotate(240deg) !important;
-       -o-transform: rotate(240deg) !important;
-          transform: rotate(240deg) !important;
-}
-
-.sm\:rotate-255deg {
-  -webkit-transform: rotate(255deg) !important;
-     -moz-transform: rotate(255deg) !important;
-      -ms-transform: rotate(255deg) !important;
-       -o-transform: rotate(255deg) !important;
-          transform: rotate(255deg) !important;
-}
-
-.sm\:rotate-270deg {
-  -webkit-transform: rotate(270deg) !important;
-     -moz-transform: rotate(270deg) !important;
-      -ms-transform: rotate(270deg) !important;
-       -o-transform: rotate(270deg) !important;
-          transform: rotate(270deg) !important;
-}
-
-.sm\:rotate-285deg {
-  -webkit-transform: rotate(285deg) !important;
-     -moz-transform: rotate(285deg) !important;
-      -ms-transform: rotate(285deg) !important;
-       -o-transform: rotate(285deg) !important;
-          transform: rotate(285deg) !important;
-}
-
-.sm\:rotate-300deg {
-  -webkit-transform: rotate(300deg) !important;
-     -moz-transform: rotate(300deg) !important;
-      -ms-transform: rotate(300deg) !important;
-       -o-transform: rotate(300deg) !important;
-          transform: rotate(300deg) !important;
-}
-
-.sm\:rotate-315deg {
-  -webkit-transform: rotate(315deg) !important;
-     -moz-transform: rotate(315deg) !important;
-      -ms-transform: rotate(315deg) !important;
-       -o-transform: rotate(315deg) !important;
-          transform: rotate(315deg) !important;
-}
-
-.sm\:rotate-330deg {
-  -webkit-transform: rotate(330deg) !important;
-     -moz-transform: rotate(330deg) !important;
-      -ms-transform: rotate(330deg) !important;
-       -o-transform: rotate(330deg) !important;
-          transform: rotate(330deg) !important;
-}
-
-.sm\:rotate-345deg {
-  -webkit-transform: rotate(345deg) !important;
-     -moz-transform: rotate(345deg) !important;
-      -ms-transform: rotate(345deg) !important;
-       -o-transform: rotate(345deg) !important;
-          transform: rotate(345deg) !important;
-}
-
-.sm\:-rotate-15deg {
-  -webkit-transform: rotate(-15deg) !important;
-     -moz-transform: rotate(-15deg) !important;
-      -ms-transform: rotate(-15deg) !important;
-       -o-transform: rotate(-15deg) !important;
-          transform: rotate(-15deg) !important;
-}
-
-.sm\:-rotate-30deg {
-  -webkit-transform: rotate(-30deg) !important;
-     -moz-transform: rotate(-30deg) !important;
-      -ms-transform: rotate(-30deg) !important;
-       -o-transform: rotate(-30deg) !important;
-          transform: rotate(-30deg) !important;
-}
-
-.sm\:-rotate-45deg {
-  -webkit-transform: rotate(-45deg) !important;
-     -moz-transform: rotate(-45deg) !important;
-      -ms-transform: rotate(-45deg) !important;
-       -o-transform: rotate(-45deg) !important;
-          transform: rotate(-45deg) !important;
-}
-
-.sm\:-rotate-60deg {
-  -webkit-transform: rotate(-60deg) !important;
-     -moz-transform: rotate(-60deg) !important;
-      -ms-transform: rotate(-60deg) !important;
-       -o-transform: rotate(-60deg) !important;
-          transform: rotate(-60deg) !important;
-}
-
-.sm\:-rotate-75deg {
-  -webkit-transform: rotate(-75deg) !important;
-     -moz-transform: rotate(-75deg) !important;
-      -ms-transform: rotate(-75deg) !important;
-       -o-transform: rotate(-75deg) !important;
-          transform: rotate(-75deg) !important;
-}
-
-.sm\:-rotate-90deg {
-  -webkit-transform: rotate(-90deg) !important;
-     -moz-transform: rotate(-90deg) !important;
-      -ms-transform: rotate(-90deg) !important;
-       -o-transform: rotate(-90deg) !important;
-          transform: rotate(-90deg) !important;
-}
-
-.sm\:-rotate-105deg {
-  -webkit-transform: rotate(-105deg) !important;
-     -moz-transform: rotate(-105deg) !important;
-      -ms-transform: rotate(-105deg) !important;
-       -o-transform: rotate(-105deg) !important;
-          transform: rotate(-105deg) !important;
-}
-
-.sm\:-rotate-120deg {
-  -webkit-transform: rotate(-120deg) !important;
-     -moz-transform: rotate(-120deg) !important;
-      -ms-transform: rotate(-120deg) !important;
-       -o-transform: rotate(-120deg) !important;
-          transform: rotate(-120deg) !important;
-}
-
-.sm\:-rotate-135deg {
-  -webkit-transform: rotate(-135deg) !important;
-     -moz-transform: rotate(-135deg) !important;
-      -ms-transform: rotate(-135deg) !important;
-       -o-transform: rotate(-135deg) !important;
-          transform: rotate(-135deg) !important;
-}
-
-.sm\:-rotate-150deg {
-  -webkit-transform: rotate(-150deg) !important;
-     -moz-transform: rotate(-150deg) !important;
-      -ms-transform: rotate(-150deg) !important;
-       -o-transform: rotate(-150deg) !important;
-          transform: rotate(-150deg) !important;
-}
-
-.sm\:-rotate-165deg {
-  -webkit-transform: rotate(-165deg) !important;
-     -moz-transform: rotate(-165deg) !important;
-      -ms-transform: rotate(-165deg) !important;
-       -o-transform: rotate(-165deg) !important;
-          transform: rotate(-165deg) !important;
-}
-
-.sm\:-rotate-180deg {
-  -webkit-transform: rotate(-180deg) !important;
-     -moz-transform: rotate(-180deg) !important;
-      -ms-transform: rotate(-180deg) !important;
-       -o-transform: rotate(-180deg) !important;
-          transform: rotate(-180deg) !important;
-}
-
-.sm\:-rotate-195deg {
-  -webkit-transform: rotate(-195deg) !important;
-     -moz-transform: rotate(-195deg) !important;
-      -ms-transform: rotate(-195deg) !important;
-       -o-transform: rotate(-195deg) !important;
-          transform: rotate(-195deg) !important;
-}
-
-.sm\:-rotate-210deg {
-  -webkit-transform: rotate(-210deg) !important;
-     -moz-transform: rotate(-210deg) !important;
-      -ms-transform: rotate(-210deg) !important;
-       -o-transform: rotate(-210deg) !important;
-          transform: rotate(-210deg) !important;
-}
-
-.sm\:-rotate-225deg {
-  -webkit-transform: rotate(-225deg) !important;
-     -moz-transform: rotate(-225deg) !important;
-      -ms-transform: rotate(-225deg) !important;
-       -o-transform: rotate(-225deg) !important;
-          transform: rotate(-225deg) !important;
-}
-
-.sm\:-rotate-240deg {
-  -webkit-transform: rotate(-240deg) !important;
-     -moz-transform: rotate(-240deg) !important;
-      -ms-transform: rotate(-240deg) !important;
-       -o-transform: rotate(-240deg) !important;
-          transform: rotate(-240deg) !important;
-}
-
-.sm\:-rotate-255deg {
-  -webkit-transform: rotate(-255deg) !important;
-     -moz-transform: rotate(-255deg) !important;
-      -ms-transform: rotate(-255deg) !important;
-       -o-transform: rotate(-255deg) !important;
-          transform: rotate(-255deg) !important;
-}
-
-.sm\:-rotate-270deg {
-  -webkit-transform: rotate(-270deg) !important;
-     -moz-transform: rotate(-270deg) !important;
-      -ms-transform: rotate(-270deg) !important;
-       -o-transform: rotate(-270deg) !important;
-          transform: rotate(-270deg) !important;
-}
-
-.sm\:-rotate-285deg {
-  -webkit-transform: rotate(-285deg) !important;
-     -moz-transform: rotate(-285deg) !important;
-      -ms-transform: rotate(-285deg) !important;
-       -o-transform: rotate(-285deg) !important;
-          transform: rotate(-285deg) !important;
-}
-
-.sm\:-rotate-300deg {
-  -webkit-transform: rotate(-300deg) !important;
-     -moz-transform: rotate(-300deg) !important;
-      -ms-transform: rotate(-300deg) !important;
-       -o-transform: rotate(-300deg) !important;
-          transform: rotate(-300deg) !important;
-}
-
-.sm\:-rotate-315deg {
-  -webkit-transform: rotate(-315deg) !important;
-     -moz-transform: rotate(-315deg) !important;
-      -ms-transform: rotate(-315deg) !important;
-       -o-transform: rotate(-315deg) !important;
-          transform: rotate(-315deg) !important;
-}
-
-.sm\:-rotate-330deg {
-  -webkit-transform: rotate(-330deg) !important;
-     -moz-transform: rotate(-330deg) !important;
-      -ms-transform: rotate(-330deg) !important;
-       -o-transform: rotate(-330deg) !important;
-          transform: rotate(-330deg) !important;
-}
-
-.sm\:-rotate-345deg {
-  -webkit-transform: rotate(-345deg) !important;
-     -moz-transform: rotate(-345deg) !important;
-      -ms-transform: rotate(-345deg) !important;
-       -o-transform: rotate(-345deg) !important;
-          transform: rotate(-345deg) !important;
-}
-
-.sm\:pin-x {
-  left: 0 !important;
-}
-
-.sm\:pin-x {
-  right: 0 !important;
-}
-
-.sm\:pin-y {
-  top: 0 !important;
-}
-
-.sm\:pin-y {
-  bottom: 0 !important;
-}
-
-.sm\:inset-x {
-  left: auto !important;
-}
-
-.sm\:inset-auto {
-  left: auto !important;
-}
-
-.sm\:inset-x {
-  right: auto !important;
-}
-
-.sm\:inset-auto {
-  right: auto !important;
-}
-
-.sm\:inset-y {
-  top: auto !important;
-}
-
-.sm\:inset-auto {
-  top: auto !important;
-}
-
-.sm\:inset-y {
-  bottom: 0 !important;
-}
-
-.sm\:inset-auto {
-  bottom: 0 !important;
+.sm\:order-0 {
+  -webkit-box-ordinal-group: 1 !important;
+  -webkit-order: 0 !important;
+     -moz-box-ordinal-group: 1 !important;
+      -ms-flex-order: 0 !important;
+          order: 0 !important;
+}
+
+.sm\:order-1 {
+  -webkit-box-ordinal-group: 2 !important;
+  -webkit-order: 1 !important;
+     -moz-box-ordinal-group: 2 !important;
+      -ms-flex-order: 1 !important;
+          order: 1 !important;
+}
+
+.sm\:order-2 {
+  -webkit-box-ordinal-group: 3 !important;
+  -webkit-order: 2 !important;
+     -moz-box-ordinal-group: 3 !important;
+      -ms-flex-order: 2 !important;
+          order: 2 !important;
+}
+
+.sm\:order-3 {
+  -webkit-box-ordinal-group: 4 !important;
+  -webkit-order: 3 !important;
+     -moz-box-ordinal-group: 4 !important;
+      -ms-flex-order: 3 !important;
+          order: 3 !important;
+}
+
+.sm\:order-4 {
+  -webkit-box-ordinal-group: 5 !important;
+  -webkit-order: 4 !important;
+     -moz-box-ordinal-group: 5 !important;
+      -ms-flex-order: 4 !important;
+          order: 4 !important;
+}
+
+.sm\:order-5 {
+  -webkit-box-ordinal-group: 6 !important;
+  -webkit-order: 5 !important;
+     -moz-box-ordinal-group: 6 !important;
+      -ms-flex-order: 5 !important;
+          order: 5 !important;
+}
+
+.sm\:order-6 {
+  -webkit-box-ordinal-group: 7 !important;
+  -webkit-order: 6 !important;
+     -moz-box-ordinal-group: 7 !important;
+      -ms-flex-order: 6 !important;
+          order: 6 !important;
+}
+
+.sm\:order-7 {
+  -webkit-box-ordinal-group: 8 !important;
+  -webkit-order: 7 !important;
+     -moz-box-ordinal-group: 8 !important;
+      -ms-flex-order: 7 !important;
+          order: 7 !important;
+}
+
+.sm\:order-8 {
+  -webkit-box-ordinal-group: 9 !important;
+  -webkit-order: 8 !important;
+     -moz-box-ordinal-group: 9 !important;
+      -ms-flex-order: 8 !important;
+          order: 8 !important;
+}
+
+.sm\:order-9 {
+  -webkit-box-ordinal-group: 10 !important;
+  -webkit-order: 9 !important;
+     -moz-box-ordinal-group: 10 !important;
+      -ms-flex-order: 9 !important;
+          order: 9 !important;
+}
+
+.sm\:order-10 {
+  -webkit-box-ordinal-group: 11 !important;
+  -webkit-order: 10 !important;
+     -moz-box-ordinal-group: 11 !important;
+      -ms-flex-order: 10 !important;
+          order: 10 !important;
+}
+
+.sm\:order-11 {
+  -webkit-box-ordinal-group: 12 !important;
+  -webkit-order: 11 !important;
+     -moz-box-ordinal-group: 12 !important;
+      -ms-flex-order: 11 !important;
+          order: 11 !important;
+}
+
+.sm\:order-12 {
+  -webkit-box-ordinal-group: 13 !important;
+  -webkit-order: 12 !important;
+     -moz-box-ordinal-group: 13 !important;
+      -ms-flex-order: 12 !important;
+          order: 12 !important;
+}
+
+.sm\:order-none {
+  -webkit-box-ordinal-group: 1 !important;
+  -webkit-order: 0 !important;
+     -moz-box-ordinal-group: 1 !important;
+      -ms-flex-order: 0 !important;
+          order: 0 !important;
+}
+
+.sm\:order-first {
+  -webkit-box-ordinal-group: -9998 !important;
+  -webkit-order: -9999 !important;
+     -moz-box-ordinal-group: -9998 !important;
+      -ms-flex-order: -9999 !important;
+          order: -9999 !important;
+}
+
+.sm\:order-last {
+  -webkit-box-ordinal-group: 10000 !important;
+  -webkit-order: 9999 !important;
+     -moz-box-ordinal-group: 10000 !important;
+      -ms-flex-order: 9999 !important;
+          order: 9999 !important;
 }

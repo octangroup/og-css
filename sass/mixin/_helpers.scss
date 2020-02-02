@@ -4,10 +4,14 @@
   @include defineLoopingClassList($class-name, $css-property, 20, 5, 0, '%', 1, $negative);
 }
 
-@mixin defineClassList($list, $class-name, $css-property, $unit: null) {
+@mixin defineClassList($list, $class-name, $css-property, $unit: null,$with-events: false) {
   @each $element in $list {
     $name: str_replace(unquote($class-name + "" + $element), ' ', '-');
-    @include defineClass($name, $css-property, $element, $unit);
+    @if $with-events{
+      @include defineClassWithEvents($name, $css-property, $element, $unit);
+    }@else{
+      @include defineClass($name, $css-property, $element, $unit);
+    }
   }
 }
 
@@ -40,11 +44,17 @@
   }
 }
 
-@mixin defineLoopingClassList($class-name, $css-property, $iterations, $step, $from: 0, $unit: null, $name-multiplier: 1, $negative: false) {
+@mixin defineLoopingClassList($class-name, $css-property, $iterations, $step: 1, $from: 0, $unit: null, $name-multiplier: 1, $negative: false) {
   @for $i from $from through $iterations {
     $val: $i * $step;
     @if (notNegativeZero(negativeValue($i, $negative), $negative)) {
       @include defineClass(unquote($class-name+"-"+($val * $name-multiplier)), $css-property, negativeValue($val, $negative), $unit);
     }
+  }
+}
+
+@mixin defineOnMultipleClasses($list, $css-property, $value, $unit : null,$important: true) {
+  @each $class-name in $list {
+    @include defineClass($class-name, $css-property, $value, $unit, $important);
   }
 }

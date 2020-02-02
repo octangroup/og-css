@@ -44,3 +44,26 @@
 .translate-3d-0-0-9 {
   transform: translate3d(0px, 0px, 9px);
 }
+
+.fill-current {
+  fill: currentColor !important;
+}
+
+.stroke-current {
+  stroke: currentColor !important;
+}
+
+img.clip-full {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.list-type-0 {
+  list-style-type: none !important;
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+}

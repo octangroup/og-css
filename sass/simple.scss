@@ -2,6 +2,8 @@ $screen-type-tag: sm\:;
 
 @import "variables";
 @import "mixin/positions";
+@import "mixin/borders";
+@import "mixin/background";
 @import "mixin/backgroundColors";
 @import "mixin/dimensions";
 @import "mixin/alignments";
@@ -10,7 +12,7 @@ $screen-type-tag: sm\:;
 @import "mixin/utilities";
 
 // @include displayStyle();
- @include positions();
+// @include positions();
 // @include flex();
 // @include alignments();
 //@include opacities();
@@ -19,3 +21,6 @@ $screen-type-tag: sm\:;
 //@include visibility();
 //@include typography();
 //@include verticalAlignments;
+//@include borderWidths;
+//@include overflowProperties;
+@include orders;
