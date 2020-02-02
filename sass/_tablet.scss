@@ -2,6 +2,7 @@
  * Copyright (c) 2018. Octan Grp. All Rights Reserved.
  * This code is proprietary and the property of Octan Grp.
  */
+$screen-type-tag: md\:;
 @import "variables";
 
 @media screen and (min-width: 768px) and (max-width: 1023.9px) {
@@ -35,4 +36,5 @@
 	.invalid-feedback {
 		width: 100%;
 	}
+	@import 'responsive';
 }

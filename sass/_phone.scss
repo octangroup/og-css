@@ -1,3 +1,4 @@
+$screen-type-tag: xs\:;
 @import "variables";
 
 @media screen and (max-width: 639px) {
@@ -44,7 +45,15 @@
     font-size: 16px !important;
   }
 
-
+  @import 'responsive';
   @media screen and (max-width: 350px) {
+    $screen-type-tag: xxs\:;
+    @include borders;
+    @include dimensions;
+
+    @include display;
+
+    @include typography;
+    @include positions;
   }
 }

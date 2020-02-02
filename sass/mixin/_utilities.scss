@@ -28,7 +28,7 @@
 
 
 @mixin transitions {
-  @include defineClassList(list('250ms', '500ms', '750ms', '1s', '1.5s', '2s', '3s', '4s', '5s'), transition-, transition-duration);
+  @include defineClassList(list('250ms', '500ms', '750ms', '1s', '2s', '3s', '4s', '5s'), transition-, transition-duration);
 }
 
 @mixin zIndexes {

@@ -18,13 +18,11 @@ mix.sass('sass/_style.scss', 'dist/style.css')
     .sass('sass/_mobile.scss', 'dist/mobile.css')
     .sass('sass/_tablet.scss', 'dist/tablet.css')
     .sass('sass/og.scss', 'dist/')
-    .sass('sass/simple.scss', 'dist/')
     .options({
         processCssUrls: false,
         postCss: [
             require('postcss-sorting')({
                 'properties-order': 'alphabetical'
-            }),
-            tailwindcss('tailwind.config.js'),
+            })
         ]
     }).setPublicPath('dist');

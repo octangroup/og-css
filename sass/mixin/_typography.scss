@@ -2,6 +2,7 @@
 @import "functions";
 
 @mixin typography {
+  @include fonts;
   @include textAlignment;
   @include textSize;
   @include lineHeights;

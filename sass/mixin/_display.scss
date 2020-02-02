@@ -2,10 +2,10 @@
 @import "flex";
 
 @mixin display {
-  @include displayStyle();
-  @include flex();
-  @include tables();
-  @include visibility();
+  @include displayStyle;
+  @include flex;
+  @include tables;
+  @include visibility;
   @include float;
 }
 

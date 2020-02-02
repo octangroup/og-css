@@ -1,8 +1,8 @@
 {
   "name": "og-css",
   "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
-  "version": "3.0.0",
-  "version_short": "3.0",
+  "version": "3.0.0-alpha.1",
+  "version_short": "3.0-alpha.1",
   "author": "Octan Group (https://octangrp.com)",
   "keywords": [
     "css",
@@ -48,6 +48,8 @@
     "stylelint": "^12.0.1"
   },
   "browserslist": [
-    "cover 99.5%"
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
   ]
 }

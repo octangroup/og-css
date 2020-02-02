@@ -1,5 +1,5 @@
 @import 'laptop';
-
+$screen-type-tag: lg\:;
 
 @media (min-width: 1280px) {
 	html {
@@ -27,4 +27,5 @@
 	.invalid-feedback {
 		width: 100%;
 	}
+	@import 'responsive';
 }

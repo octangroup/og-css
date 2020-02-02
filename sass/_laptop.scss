@@ -2,6 +2,7 @@
  * Copyright (c) 2018. Octan Grp. All Rights Reserved.
  * This code is proprietary and the property of Octan Grp.
  */
+$screen-type-tag: lg\:;
 @import "variables";
 
 
@@ -31,4 +32,5 @@
 	.invalid-feedback {
 		width: 100%;
 	}
+	@import 'responsive';
 }
