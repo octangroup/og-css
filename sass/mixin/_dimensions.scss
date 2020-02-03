@@ -9,6 +9,7 @@
 
 @mixin widths {
 
+    @include defineClass(w-px, width, 1, 'px');
     @include definePercentagesClassList(w, width);
     @include definePercentagesClassList(min-w, min-width);
     @include definePercentagesClassList(max-w, max-width);
@@ -29,6 +30,7 @@
 
 @mixin heights {
 
+    @include defineClass(h-px, width, 1, 'px');
     @include definePercentagesClassList(min-h, min-height);
     @include definePercentagesClassList(h, height);
     @include definePercentagesClassList(max-h, max-height);
@@ -39,13 +41,13 @@
 
     @include defineDimensionInPixels(h-px, height);
     @include defineDimensionInPixels(min-h-px, min-height);
-    @include defineDimensionInPixels(max-h-px, max-height); 
-    
+    @include defineDimensionInPixels(max-h-px, max-height);
+
     @include genericHeightClasses();
 }
 
 @mixin defineDimensionInRem($class-name, $css-property) {
-    $list: 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 16, 18, 20, 24, 27, 28, 30, 32, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 64, 66, 74, 84, 86, 88;
+    $list: 1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 16, 18, 20, 24, 27, 28, 30, 32, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 64, 66, 74, 84, 86, 88;
 
     @include remSizesGenerator($list, $class-name, $css-property);
 }

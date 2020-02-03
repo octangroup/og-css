@@ -69,7 +69,7 @@
 }
 
 @mixin flexWrap {
-  @include defineClassList(list('wrap', 'wrap-reverse'), flex,flex-wrap);
+  @include defineClassList(list('wrap', 'wrap-reverse'), flex-,flex-wrap);
   @include defineClass('flex-no-wrap', flex-wrap, nowrap);
 }
 

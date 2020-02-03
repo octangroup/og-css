@@ -36,7 +36,7 @@
 @mixin remSizesGenerator($list, $class-name, $css-property, $negative:false) {
 
   @each $size in $list {
-    $val: $size * 0.5;
+    $val: $size * 0.25;
 
     @if (notNegativeZero(negativeValue($size, $negative), $negative)) {
       @include defineClass(unquote(negativeClassName($class-name, $negative)+"-"+$size), $css-property, negativeValue($val, $negative), 'rem');
