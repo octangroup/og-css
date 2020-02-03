@@ -5608,6 +5608,10 @@
     width: 14rem !important;
   }
 
+  .lg\:w-rem-58 {
+    width: 14.5rem !important;
+  }
+
   .lg\:w-rem-64 {
     width: 16rem !important;
   }
@@ -5748,6 +5752,10 @@
     min-width: 14rem !important;
   }
 
+  .lg\:min-w-rem-58 {
+    min-width: 14.5rem !important;
+  }
+
   .lg\:min-w-rem-64 {
     min-width: 16rem !important;
   }
@@ -5886,6 +5894,10 @@
 
   .lg\:max-w-rem-56 {
     max-width: 14rem !important;
+  }
+
+  .lg\:max-w-rem-58 {
+    max-width: 14.5rem !important;
   }
 
   .lg\:max-w-rem-64 {
@@ -6606,6 +6618,10 @@
     height: 14rem !important;
   }
 
+  .lg\:h-rem-58 {
+    height: 14.5rem !important;
+  }
+
   .lg\:h-rem-64 {
     height: 16rem !important;
   }
@@ -6746,6 +6762,10 @@
     min-height: 14rem !important;
   }
 
+  .lg\:min-h-rem-58 {
+    min-height: 14.5rem !important;
+  }
+
   .lg\:min-h-rem-64 {
     min-height: 16rem !important;
   }
@@ -6884,6 +6904,10 @@
 
   .lg\:max-h-rem-56 {
     max-height: 14rem !important;
+  }
+
+  .lg\:max-h-rem-58 {
+    max-height: 14.5rem !important;
   }
 
   .lg\:max-h-rem-64 {
@@ -9454,6 +9478,18 @@
 
   .lg\:z-1000 {
     z-index: 1000 !important;
+  }
+
+  .lg\:z-auto99 {
+    z-index: 99 !important;
+  }
+
+  .lg\:z-auto999 {
+    z-index: 999 !important;
+  }
+
+  .lg\:z-auto9999 {
+    z-index: 9999 !important;
   }
 
   .lg\:z-auto {
@@ -15247,6 +15283,10 @@
     width: 14rem !important;
   }
 
+  .xl\:w-rem-58 {
+    width: 14.5rem !important;
+  }
+
   .xl\:w-rem-64 {
     width: 16rem !important;
   }
@@ -15387,6 +15427,10 @@
     min-width: 14rem !important;
   }
 
+  .xl\:min-w-rem-58 {
+    min-width: 14.5rem !important;
+  }
+
   .xl\:min-w-rem-64 {
     min-width: 16rem !important;
   }
@@ -15525,6 +15569,10 @@
 
   .xl\:max-w-rem-56 {
     max-width: 14rem !important;
+  }
+
+  .xl\:max-w-rem-58 {
+    max-width: 14.5rem !important;
   }
 
   .xl\:max-w-rem-64 {
@@ -16245,6 +16293,10 @@
     height: 14rem !important;
   }
 
+  .xl\:h-rem-58 {
+    height: 14.5rem !important;
+  }
+
   .xl\:h-rem-64 {
     height: 16rem !important;
   }
@@ -16385,6 +16437,10 @@
     min-height: 14rem !important;
   }
 
+  .xl\:min-h-rem-58 {
+    min-height: 14.5rem !important;
+  }
+
   .xl\:min-h-rem-64 {
     min-height: 16rem !important;
   }
@@ -16523,6 +16579,10 @@
 
   .xl\:max-h-rem-56 {
     max-height: 14rem !important;
+  }
+
+  .xl\:max-h-rem-58 {
+    max-height: 14.5rem !important;
   }
 
   .xl\:max-h-rem-64 {
@@ -19093,6 +19153,18 @@
 
   .xl\:z-1000 {
     z-index: 1000 !important;
+  }
+
+  .xl\:z-auto99 {
+    z-index: 99 !important;
+  }
+
+  .xl\:z-auto999 {
+    z-index: 999 !important;
+  }
+
+  .xl\:z-auto9999 {
+    z-index: 9999 !important;
   }
 
   .xl\:z-auto {

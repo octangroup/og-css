@@ -35,6 +35,7 @@
   @include defineLoopingClassList(z, z-index, 9, 1);
   @include defineLoopingClassList(z, z-index, 10, 10, 1);
   @include defineLoopingClassList(z, z-index, 10, 100, 2);
+  @include defineClassList(list(99, 999, 9999), z-auto, z-index);
   @include defineClass(z-auto, z-index, auto);
 }
 
