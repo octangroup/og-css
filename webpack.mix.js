@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-const tailwindcss = require('tailwindcss')
 
 /*
  |--------------------------------------------------------------------------
@@ -23,7 +22,6 @@ mix.sass('sass/_style.scss', 'dist/style.css')
         postCss: [
             require('postcss-sorting')({
                 'properties-order': 'alphabetical'
-            }),
-            tailwindcss('tailwind.config.js'),
+            })
         ]
     }).setPublicPath('dist');

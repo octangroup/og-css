@@ -351,16 +351,16 @@ a.btn:focus {
 }
 
 .btn-outline-accent {
-	border-color: $accent !important;
+	border-color: $color-accent !important;
 	background: transparent;
-	color: $accent;
+	color: $color-accent;
 }
 
 .btn-outline-accent:hover,
 .btn-outline-accent:focus {
-	background: $accent;
+	background: $color-accent;
 	color: white;
-	border-color: $accent;
+	border-color: $color-accent;
 }
 
 .btn-outline-white {
@@ -370,7 +370,7 @@ a.btn:focus {
 }
 
 .btn-accent {
-	background: $accent;
+	background: $color-accent;
 	color: white;
 }
 
@@ -396,21 +396,21 @@ a.btn:focus {
 
 .btn-outline-success {
 	background: white;
-	border-color: $green;
+	border-color: $color-green;
 	color: #50c787;
 }
 
 .btn-outline-success:hover,
 .btn-outline-success:focus {
-	background: $green;
+	background: $color-green;
 	color: white;
-	border-color: $green;
+	border-color: $color-green;
 }
 
 .btn-outline-primary {
 	background: white;
-	border-color: $primary;
-	color: $primary;
+	border-color: $color-primary;
+	color: $color-primary;
 }
 
 .btn-outline-danger {
@@ -499,8 +499,8 @@ a.btn:focus {
 }
 
 .btn-success {
-	background: $green;
-	border-color: $green;
+	background: $color-green;
+	border-color: $color-green;
 	color: white;
 }
 
@@ -529,15 +529,15 @@ a.btn:focus {
 }
 
 .btn-primary {
-	background: $primary;
-	border-color: $primary;
+	background: $color-primary;
+	border-color: $color-primary;
 	color: white;
 }
 
 .btn-primary:hover {
-	background: $primary-dark;
-	border-color: $primary-dark;
-	color: white;
+	background: darken($color-primary, 30);
+	border-color: darken($color-primary, 30);
+	color: $color-white;
 }
 
 
@@ -614,7 +614,7 @@ a.btn:focus {
 
 .panel-primary,
 .card-primary {
-	background: $primary;
+	background: $color-primary;
 	color: white;
 }
 
@@ -777,7 +777,7 @@ a.badge:focus {
 
 .badge-white {
 	background-color: #FFF;
-	color: $primary;
+	color: $color-primary;
 }
 
 .badge-dark {
@@ -785,16 +785,10 @@ a.badge:focus {
 	color: #fff;
 }
 
-.badge-ts {
-	background-color: $primary;
+.badge {
+	background-color: $color-primary;
 }
 
-.rate-badge {
-	background: $blue;
-	height: 40px;
-	padding: 10px 5px;
-	width: 40px;
-}
 
 .label-default {
 	background-color: #777;
@@ -955,7 +949,7 @@ a.label:focus {
 
 /* When the radio button is checked, add a blue background */
 .radiocontainer input:checked ~ .radiomark {
-	background-color: $primary;
+	background-color: $color-primary;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -1005,8 +999,8 @@ a.label:focus {
 .lds-ring-sm div,
 .lds-ring-xs div {
 	animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-	border: 6px solid $primary;
-	border-color: $primary transparent transparent transparent;
+	border: 6px solid $color-primary;
+	border-color: $color-primary transparent transparent transparent;
 	border-radius: 50%;
 	box-sizing: border-box;
 	display: block;
@@ -1368,7 +1362,7 @@ ul.inline-list li {
 .page-link {
 	background-color: #fff;
 	border: 1px solid #dee2e6;
-	color: $primary;
+	color: $color-primary;
 	display: block;
 	line-height: 1.25;
 	margin-left: -1px;
@@ -1407,8 +1401,8 @@ ul.inline-list li {
 }
 
 .page-item.active .page-link {
-	background-color: $primary;
-	border-color: $primary;
+	background-color: $color-primary;
+	border-color: $color-primary;
 	color: #fff;
 	z-index: 1;
 }
@@ -1514,7 +1508,7 @@ ul.inline-block li {
 	counter-increment: step;
 	width: 32px;
 	height: 32px;
-	background-color: $primary;
+	background-color: $color-primary;
 	line-height: 32px;
 	border-radius: 32px;
 	font-size: 16px;
@@ -1529,7 +1523,7 @@ ul.inline-block li {
 	content: '';
 	width: 100%;
 	height: 2px;
-	background-color: $primary;
+	background-color: $color-primary;
 	position: absolute;
 	left: -50%;
 	top: 15px;
@@ -1537,7 +1531,7 @@ ul.inline-block li {
 }
 
 .steps li.active:after {
-	background-color: $primary;
+	background-color: $color-primary;
 }
 
 .steps li.active ~ li:before,
@@ -1796,7 +1790,7 @@ $animation-duration: 0.4s;
 }
 
 .form-field-bar {
-	border-bottom: 2px solid $primary;
+	border-bottom: 2px solid $color-primary;
 	bottom: 0;
 	content: "";
 	display: block;
@@ -1839,12 +1833,12 @@ $animation-duration: 0.4s;
 
 	&:focus {
 		~ .form-field-label {
-			color: $primary;
+			color: $color-primary;
 			@include label-active();
 		}
 
 		~ .form-field-bar {
-			border-bottom: 2px solid $primary;
+			border-bottom: 2px solid $color-primary;
 			transform: scaleX(150);
 		}
 	}
@@ -1911,11 +1905,11 @@ $animation-duration: 0.4s;
 }
 
 input:checked + .input-slider {
-	background-color: $primary;
+	background-color: $color-primary;
 }
 
 input:focus + .input-slider {
-	box-shadow: 0 0 1px $primary-darker;
+	box-shadow: 0 0 1px $color-primary-darker;
 }
 
 input:checked + .input-slider:before {
@@ -1941,7 +1935,7 @@ input:checked + .input-slider:before {
 
 .double-bounce1, .double-bounce2 {
 	animation: sk-bounce 2.0s infinite ease-in-out;
-	background-color: $primary;
+	background-color: $color-primary;
 	border-radius: 50%;
 	height: 100%;
 	left: 0;
@@ -2010,7 +2004,7 @@ input:checked + .input-slider:before {
 /* When the checkbox is checked, add a blue background */
 .checkcontainer input:checked ~ .checkmark,
 .check-container input:checked ~ .check-mark {
-	background-color: $primary;
+	background-color: $color-primary;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */

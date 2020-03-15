@@ -1,0 +1,34 @@
+@import "../variables";
+@import "functions";
+
+@mixin shadows {
+  $map: (
+          shadow:(
+                  property: box-shadow,
+                  value: $shadow
+          ), shadow-md:(
+                  property: box-shadow,
+                  value: $shadow-md
+          ), shadow-lg:(
+                  property: box-shadow,
+                  value: $shadow-lg
+          ), shadow-xl:(
+                  property: box-shadow,
+                  value: $shadow-xl
+          ), shadow-2xl:(
+                  property: box-shadow,
+                  value: $shadow-2xl
+          ), shadow-inner:(
+                  property: box-shadow,
+                  value: $shadow-inner
+          ), shadow-outline:(
+                  property: box-shadow,
+                  value: $shadow-outline
+          ), shadow-none:(
+                  property: box-shadow,
+                  value: none
+          )
+  );
+
+  @include defineClassListUsingMap($map);
+}

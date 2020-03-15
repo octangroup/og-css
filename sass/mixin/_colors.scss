@@ -1,0 +1,40 @@
+
+
+@import '../variables/colors';
+@import '../toolkits/colors';
+@import 'functions';
+
+@mixin colors{
+  @include backgroundColors;
+  @include textColors;
+  @include borderColors;
+}
+
+@mixin backgroundColors {
+  @include baseColorGenerator(bg, background-color);
+}
+
+@mixin textColors {
+  @include baseColorGenerator(text, color);
+}
+
+@mixin borderColors {
+  @include baseColorGenerator(border, border-color);
+}
+
+@mixin baseColorGenerator($class-name,$property) {
+  @each $color,
+  $map in $colors-map {
+    @include defineClass(unquote($class-name+"-"+$color), $property, map-get($map, value));
+
+    $multiple: map-get($map, multiple);
+    @if $multiple {
+      @include defineClass(unquote($class-name+"-"+$color+"-darkest"), $property, colorDarkest(map-get($map, value)) );
+      @include defineClass(unquote($class-name+"-"+$color+"-darker"), $property, colorDarker(map-get($map, value)));
+      @include defineClass(unquote($class-name+"-"+$color+"-dark"), $property, colorDark(map-get($map, value)));
+      @include defineClass(unquote($class-name+"-"+$color+"-light"), $property, colorLight(map-get($map, value)));
+      @include defineClass(unquote($class-name+"-"+$color+"-lighter"), $property, colorLighter(map-get($map, value)));
+      @include defineClass(unquote($class-name+"-"+$color+"-lightest"), $property,  colorLightest(map-get($map, value)));
+    }
+  }
+}

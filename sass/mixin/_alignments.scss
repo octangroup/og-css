@@ -1,0 +1,80 @@
+@import "functions";
+
+$size-list: 0,
+1,
+2,
+3,
+4,
+5,
+6,
+8,
+10,
+12,
+16,
+18,
+20,
+24,
+32,
+40,
+48,
+56,
+66,
+74,
+84,
+86,
+88;
+
+@mixin alignments() {
+    @include verticalAlignments;
+    @include margin;
+    @include padding;
+}
+
+@mixin verticalAlignments {
+    $list: 'baseline', 'top', 'middle', 'bottom', 'text-bottom', 'text-top';
+    @include defineClassList($list, align-, vertical-align);
+}
+
+@mixin margin {
+    @include baseGenerator(m, margin);
+    @include baseGenerator(m, margin, true);
+
+
+    // auto positioning
+    @include defineClass("m-auto", margin, auto);
+    @include defineOnMultipleClasses(list("my-auto", "mt-auto"), margin-top, auto);
+    @include defineOnMultipleClasses(list("my-auto", "mb-auto"), margin-bottom, auto);
+    @include defineOnMultipleClasses(list("mx-auto", "mr-auto"), margin-right, auto);
+    @include defineOnMultipleClasses(list("mx-auto", "ml-auto"), margin-left, auto);
+}
+
+@mixin padding {
+    @include baseGenerator(p, padding);
+    @include baseGenerator(p, padding, true);
+}
+
+
+@mixin baseGenerator($class-name, $property, $negative: false) {
+
+
+    // define a 1px on all axis
+    @include defineClass(unquote(negativeClassName($class-name, $negative)+"-px-1"), $property, negativeValue(1, $negative), 'px');
+    //for all axis
+    @include remSizesGenerator($size-list, $class-name, $property);
+
+    // for the top and y axis
+    @include remSizesGenerator($size-list, unquote($class-name+"t"), unquote($property+"-top"), $negative);
+    @include remSizesGenerator($size-list, unquote($class-name+"y"), unquote($property+"-top"), $negative);
+
+    // for the bottom and y axis
+    @include remSizesGenerator($size-list, unquote($class-name+"b"), unquote($property+"-bottom"), $negative);
+    @include remSizesGenerator($size-list, unquote($class-name+"y"), unquote($property+"-bottom"), $negative);
+
+    // for the left and x axis
+    @include remSizesGenerator($size-list, unquote($class-name+"x"), unquote($property+"-left"), $negative);
+    @include remSizesGenerator($size-list, unquote($class-name+"l"), unquote($property+"-left"), $negative);
+
+    // for the right and x axis
+    @include remSizesGenerator($size-list, unquote($class-name+"x"), unquote($property+"-right"), $negative);
+    @include remSizesGenerator($size-list, unquote($class-name+"r"), unquote($property+"-right"), $negative);
+}

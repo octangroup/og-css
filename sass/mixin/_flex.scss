@@ -1,0 +1,116 @@
+@import "functions";
+
+@mixin flex{
+  @include flexProperties;
+  @include flexDirections;
+  @include flexWrap;
+  @include justify;
+  @include alignContent;
+  @include alignItems;
+  @include alignSelf;
+}
+
+//  a mixin defined for flex properties
+@mixin flexProperties {
+
+  @include definePercentagesClassList(flex, flex);
+
+  // each flex size class must has have a maximum width to prevent overlapping
+  @include definePercentagesClassList(flex, max-width);
+
+  $map: (
+          flex-1:(
+                  property: flex,
+                  value: 1 1 0%
+          ), flex-auto:(
+                  property: flex,
+                  value: 1 1 auto
+          ), flex-initial:(
+                  property: flex,
+                  value: 0 1 auto
+          ), flex-none:(
+                  property: flex,
+                  value: none
+          ), flex-grow-0:(
+                  property: flex-grow,
+                  value: 0
+          ), flex-grow:(
+                  property: flex-grow,
+                  value: 1
+          ), flex-shrink-0:(
+                  property: flex-shrink,
+                  value: 0
+          ), flex-shrink:(
+                  property: flex-shrink,
+                  value: 1
+          )
+  );
+  @include defineClassListUsingMap($map);
+}
+
+@mixin flexDirections {
+
+  $map: (
+          flex-row:(
+                  property: flex-direction,
+                  value: row
+          ), flex-row-reverse:(
+                  property: flex-direction,
+                  value: row-reverse
+          ), flex-col:(
+                  property: flex-direction,
+                  value: column
+          ), flex-col-reverse:(
+                  property: flex-direction,
+                  value: column-reverse
+          )
+  );
+  @include defineClassListUsingMap($map);
+}
+
+@mixin flexWrap {
+  @include defineClassList(list('wrap', 'wrap-reverse'), flex-,flex-wrap);
+  @include defineClass('flex-no-wrap', flex-wrap, nowrap);
+}
+
+@mixin justify {
+  @include baseAlignmentGenerator(justify, justify-content);
+  @include defineClass(justify-between, justify-content, space-between);
+  @include defineClass(justify-around, justify-content, space-around);
+}
+
+@mixin alignContent {
+  @include baseAlignmentGenerator(content, align-content);
+  @include defineClass(content-between, align-content, space-between);
+  @include defineClass(content-around, align-content, space-around);
+  @include defineClass(content-stretch, align-content, stretch);
+}
+
+@mixin alignSelf {
+  @include baseAlignmentGenerator(self, align-self);
+  @include defineClass(self-auto, align-self, auto);
+  @include defineClass(self-stretch, align-self, stretch);
+}
+
+@mixin alignItems {
+  @include baseAlignmentGenerator(items, align-items);
+  @include defineClass(items-baseline, align-items, baseline);
+  @include defineClass(items-stretch, align-items, stretch);
+}
+
+@mixin baseAlignmentGenerator($class-name, $property) {
+
+  $map: (
+          unquote($class-name+'-start'):(
+                  property: $property,
+                  value: flex-start
+          ), unquote($class-name+'-end'):(
+                  property: $property,
+                  value: flex-end
+          ), unquote($class-name+'-center'):(
+                  property: $property,
+                  value: center
+          )
+  );
+  @include defineClassListUsingMap($map);
+}
