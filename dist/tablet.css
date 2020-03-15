@@ -7977,51 +7977,51 @@
   }
 
   .md\:text-2xl {
-    font-size: 1.375rem !important;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.5rem !important;
-  }
-
-  .md\:text-4xl {
     font-size: 1.625rem !important;
   }
 
-  .md\:text-5xl {
-    font-size: 1.75rem !important;
-  }
-
-  .md\:text-6xl {
-    font-size: 1.875rem !important;
-  }
-
-  .md\:text-8xl {
+  .md\:text-3xl {
     font-size: 2rem !important;
   }
 
-  .md\:text-9xl {
-    font-size: 2.125rem !important;
-  }
-
-  .md\:text-10xl {
-    font-size: 2.25rem !important;
-  }
-
-  .md\:text-11xl {
+  .md\:text-4xl {
     font-size: 2.375rem !important;
   }
 
+  .md\:text-5xl {
+    font-size: 2.75rem !important;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.125rem !important;
+  }
+
+  .md\:text-8xl {
+    font-size: 3.5rem !important;
+  }
+
+  .md\:text-9xl {
+    font-size: 3.875rem !important;
+  }
+
+  .md\:text-10xl {
+    font-size: 4.25rem !important;
+  }
+
+  .md\:text-11xl {
+    font-size: 4.625rem !important;
+  }
+
   .md\:text-12xl {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
 
   .md\:text-13xl {
-    font-size: 2.625rem !important;
+    font-size: 5.375rem !important;
   }
 
   .md\:text-14xl {
-    font-size: 2.75rem !important;
+    font-size: 5.75rem !important;
   }
 
   .md\:leading-none {

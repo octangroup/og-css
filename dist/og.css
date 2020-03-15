@@ -8256,51 +8256,51 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-2xl {
-  font-size: 1.375rem !important;
-}
-
-.text-3xl {
-  font-size: 1.5rem !important;
-}
-
-.text-4xl {
   font-size: 1.625rem !important;
 }
 
-.text-5xl {
-  font-size: 1.75rem !important;
-}
-
-.text-6xl {
-  font-size: 1.875rem !important;
-}
-
-.text-8xl {
+.text-3xl {
   font-size: 2rem !important;
 }
 
-.text-9xl {
-  font-size: 2.125rem !important;
-}
-
-.text-10xl {
-  font-size: 2.25rem !important;
-}
-
-.text-11xl {
+.text-4xl {
   font-size: 2.375rem !important;
 }
 
+.text-5xl {
+  font-size: 2.75rem !important;
+}
+
+.text-6xl {
+  font-size: 3.125rem !important;
+}
+
+.text-8xl {
+  font-size: 3.5rem !important;
+}
+
+.text-9xl {
+  font-size: 3.875rem !important;
+}
+
+.text-10xl {
+  font-size: 4.25rem !important;
+}
+
+.text-11xl {
+  font-size: 4.625rem !important;
+}
+
 .text-12xl {
-  font-size: 2.5rem !important;
+  font-size: 5rem !important;
 }
 
 .text-13xl {
-  font-size: 2.625rem !important;
+  font-size: 5.375rem !important;
 }
 
 .text-14xl {
-  font-size: 2.75rem !important;
+  font-size: 5.75rem !important;
 }
 
 .leading-none {
@@ -19821,51 +19821,51 @@ input:checked + .input-slider:before {
   }
 
   .lg\:text-2xl {
-    font-size: 1.375rem !important;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.5rem !important;
-  }
-
-  .lg\:text-4xl {
     font-size: 1.625rem !important;
   }
 
-  .lg\:text-5xl {
-    font-size: 1.75rem !important;
-  }
-
-  .lg\:text-6xl {
-    font-size: 1.875rem !important;
-  }
-
-  .lg\:text-8xl {
+  .lg\:text-3xl {
     font-size: 2rem !important;
   }
 
-  .lg\:text-9xl {
-    font-size: 2.125rem !important;
-  }
-
-  .lg\:text-10xl {
-    font-size: 2.25rem !important;
-  }
-
-  .lg\:text-11xl {
+  .lg\:text-4xl {
     font-size: 2.375rem !important;
   }
 
+  .lg\:text-5xl {
+    font-size: 2.75rem !important;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.125rem !important;
+  }
+
+  .lg\:text-8xl {
+    font-size: 3.5rem !important;
+  }
+
+  .lg\:text-9xl {
+    font-size: 3.875rem !important;
+  }
+
+  .lg\:text-10xl {
+    font-size: 4.25rem !important;
+  }
+
+  .lg\:text-11xl {
+    font-size: 4.625rem !important;
+  }
+
   .lg\:text-12xl {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
 
   .lg\:text-13xl {
-    font-size: 2.625rem !important;
+    font-size: 5.375rem !important;
   }
 
   .lg\:text-14xl {
-    font-size: 2.75rem !important;
+    font-size: 5.75rem !important;
   }
 
   .lg\:leading-none {
@@ -29532,51 +29532,51 @@ input:checked + .input-slider:before {
   }
 
   .xl\:text-2xl {
-    font-size: 1.375rem !important;
-  }
-
-  .xl\:text-3xl {
-    font-size: 1.5rem !important;
-  }
-
-  .xl\:text-4xl {
     font-size: 1.625rem !important;
   }
 
-  .xl\:text-5xl {
-    font-size: 1.75rem !important;
-  }
-
-  .xl\:text-6xl {
-    font-size: 1.875rem !important;
-  }
-
-  .xl\:text-8xl {
+  .xl\:text-3xl {
     font-size: 2rem !important;
   }
 
-  .xl\:text-9xl {
-    font-size: 2.125rem !important;
-  }
-
-  .xl\:text-10xl {
-    font-size: 2.25rem !important;
-  }
-
-  .xl\:text-11xl {
+  .xl\:text-4xl {
     font-size: 2.375rem !important;
   }
 
+  .xl\:text-5xl {
+    font-size: 2.75rem !important;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.125rem !important;
+  }
+
+  .xl\:text-8xl {
+    font-size: 3.5rem !important;
+  }
+
+  .xl\:text-9xl {
+    font-size: 3.875rem !important;
+  }
+
+  .xl\:text-10xl {
+    font-size: 4.25rem !important;
+  }
+
+  .xl\:text-11xl {
+    font-size: 4.625rem !important;
+  }
+
   .xl\:text-12xl {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
 
   .xl\:text-13xl {
-    font-size: 2.625rem !important;
+    font-size: 5.375rem !important;
   }
 
   .xl\:text-14xl {
-    font-size: 2.75rem !important;
+    font-size: 5.75rem !important;
   }
 
   .xl\:leading-none {
@@ -39248,51 +39248,51 @@ input:checked + .input-slider:before {
   }
 
   .md\:text-2xl {
-    font-size: 1.375rem !important;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.5rem !important;
-  }
-
-  .md\:text-4xl {
     font-size: 1.625rem !important;
   }
 
-  .md\:text-5xl {
-    font-size: 1.75rem !important;
-  }
-
-  .md\:text-6xl {
-    font-size: 1.875rem !important;
-  }
-
-  .md\:text-8xl {
+  .md\:text-3xl {
     font-size: 2rem !important;
   }
 
-  .md\:text-9xl {
-    font-size: 2.125rem !important;
-  }
-
-  .md\:text-10xl {
-    font-size: 2.25rem !important;
-  }
-
-  .md\:text-11xl {
+  .md\:text-4xl {
     font-size: 2.375rem !important;
   }
 
+  .md\:text-5xl {
+    font-size: 2.75rem !important;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.125rem !important;
+  }
+
+  .md\:text-8xl {
+    font-size: 3.5rem !important;
+  }
+
+  .md\:text-9xl {
+    font-size: 3.875rem !important;
+  }
+
+  .md\:text-10xl {
+    font-size: 4.25rem !important;
+  }
+
+  .md\:text-11xl {
+    font-size: 4.625rem !important;
+  }
+
   .md\:text-12xl {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
 
   .md\:text-13xl {
-    font-size: 2.625rem !important;
+    font-size: 5.375rem !important;
   }
 
   .md\:text-14xl {
-    font-size: 2.75rem !important;
+    font-size: 5.75rem !important;
   }
 
   .md\:leading-none {
@@ -48977,51 +48977,51 @@ textarea {
   }
 
   .sm\:text-2xl {
-    font-size: 1.375rem !important;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.5rem !important;
-  }
-
-  .sm\:text-4xl {
     font-size: 1.625rem !important;
   }
 
-  .sm\:text-5xl {
-    font-size: 1.75rem !important;
-  }
-
-  .sm\:text-6xl {
-    font-size: 1.875rem !important;
-  }
-
-  .sm\:text-8xl {
+  .sm\:text-3xl {
     font-size: 2rem !important;
   }
 
-  .sm\:text-9xl {
-    font-size: 2.125rem !important;
-  }
-
-  .sm\:text-10xl {
-    font-size: 2.25rem !important;
-  }
-
-  .sm\:text-11xl {
+  .sm\:text-4xl {
     font-size: 2.375rem !important;
   }
 
+  .sm\:text-5xl {
+    font-size: 2.75rem !important;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.125rem !important;
+  }
+
+  .sm\:text-8xl {
+    font-size: 3.5rem !important;
+  }
+
+  .sm\:text-9xl {
+    font-size: 3.875rem !important;
+  }
+
+  .sm\:text-10xl {
+    font-size: 4.25rem !important;
+  }
+
+  .sm\:text-11xl {
+    font-size: 4.625rem !important;
+  }
+
   .sm\:text-12xl {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
 
   .sm\:text-13xl {
-    font-size: 2.625rem !important;
+    font-size: 5.375rem !important;
   }
 
   .sm\:text-14xl {
-    font-size: 2.75rem !important;
+    font-size: 5.75rem !important;
   }
 
   .sm\:leading-none {
@@ -58702,51 +58702,51 @@ textarea {
   }
 
   .xs\:text-2xl {
-    font-size: 1.375rem !important;
-  }
-
-  .xs\:text-3xl {
-    font-size: 1.5rem !important;
-  }
-
-  .xs\:text-4xl {
     font-size: 1.625rem !important;
   }
 
-  .xs\:text-5xl {
-    font-size: 1.75rem !important;
-  }
-
-  .xs\:text-6xl {
-    font-size: 1.875rem !important;
-  }
-
-  .xs\:text-8xl {
+  .xs\:text-3xl {
     font-size: 2rem !important;
   }
 
-  .xs\:text-9xl {
-    font-size: 2.125rem !important;
-  }
-
-  .xs\:text-10xl {
-    font-size: 2.25rem !important;
-  }
-
-  .xs\:text-11xl {
+  .xs\:text-4xl {
     font-size: 2.375rem !important;
   }
 
+  .xs\:text-5xl {
+    font-size: 2.75rem !important;
+  }
+
+  .xs\:text-6xl {
+    font-size: 3.125rem !important;
+  }
+
+  .xs\:text-8xl {
+    font-size: 3.5rem !important;
+  }
+
+  .xs\:text-9xl {
+    font-size: 3.875rem !important;
+  }
+
+  .xs\:text-10xl {
+    font-size: 4.25rem !important;
+  }
+
+  .xs\:text-11xl {
+    font-size: 4.625rem !important;
+  }
+
   .xs\:text-12xl {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
 
   .xs\:text-13xl {
-    font-size: 2.625rem !important;
+    font-size: 5.375rem !important;
   }
 
   .xs\:text-14xl {
-    font-size: 2.75rem !important;
+    font-size: 5.75rem !important;
   }
 
   .xs\:leading-none {
@@ -63860,51 +63860,51 @@ textarea {
   }
 
   .xs\:text-2xl {
-    font-size: 1.375rem !important;
-  }
-
-  .xs\:text-3xl {
-    font-size: 1.5rem !important;
-  }
-
-  .xs\:text-4xl {
     font-size: 1.625rem !important;
   }
 
-  .xs\:text-5xl {
-    font-size: 1.75rem !important;
-  }
-
-  .xs\:text-6xl {
-    font-size: 1.875rem !important;
-  }
-
-  .xs\:text-8xl {
+  .xs\:text-3xl {
     font-size: 2rem !important;
   }
 
-  .xs\:text-9xl {
-    font-size: 2.125rem !important;
-  }
-
-  .xs\:text-10xl {
-    font-size: 2.25rem !important;
-  }
-
-  .xs\:text-11xl {
+  .xs\:text-4xl {
     font-size: 2.375rem !important;
   }
 
+  .xs\:text-5xl {
+    font-size: 2.75rem !important;
+  }
+
+  .xs\:text-6xl {
+    font-size: 3.125rem !important;
+  }
+
+  .xs\:text-8xl {
+    font-size: 3.5rem !important;
+  }
+
+  .xs\:text-9xl {
+    font-size: 3.875rem !important;
+  }
+
+  .xs\:text-10xl {
+    font-size: 4.25rem !important;
+  }
+
+  .xs\:text-11xl {
+    font-size: 4.625rem !important;
+  }
+
   .xs\:text-12xl {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
 
   .xs\:text-13xl {
-    font-size: 2.625rem !important;
+    font-size: 5.375rem !important;
   }
 
   .xs\:text-14xl {
-    font-size: 2.75rem !important;
+    font-size: 5.75rem !important;
   }
 
   .xs\:leading-none {
