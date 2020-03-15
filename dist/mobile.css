@@ -6260,6 +6260,42 @@ textarea {
     width: 100vw !important;
   }
 
+  .sm\:w-vh-1 {
+    width: 1vh !important;
+  }
+
+  .sm\:w-vh-2 {
+    width: 2vh !important;
+  }
+
+  .sm\:w-vh-4 {
+    width: 4vh !important;
+  }
+
+  .sm\:w-vh-5 {
+    width: 5vh !important;
+  }
+
+  .sm\:w-vh-8 {
+    width: 8vh !important;
+  }
+
+  .sm\:w-vh-20 {
+    width: 20vh !important;
+  }
+
+  .sm\:w-vh-40 {
+    width: 40vh !important;
+  }
+
+  .sm\:w-vh-50 {
+    width: 50vh !important;
+  }
+
+  .sm\:w-vh-100 {
+    width: 100vh !important;
+  }
+
   .sm\:h-px {
     width: 1px !important;
   }
@@ -7224,39 +7260,39 @@ textarea {
     max-height: auto !important;
   }
 
-  .sm\:w-vh-1 {
+  .sm\:h-vh-1 {
     height: 1vh !important;
   }
 
-  .sm\:w-vh-2 {
+  .sm\:h-vh-2 {
     height: 2vh !important;
   }
 
-  .sm\:w-vh-4 {
+  .sm\:h-vh-4 {
     height: 4vh !important;
   }
 
-  .sm\:w-vh-5 {
+  .sm\:h-vh-5 {
     height: 5vh !important;
   }
 
-  .sm\:w-vh-8 {
+  .sm\:h-vh-8 {
     height: 8vh !important;
   }
 
-  .sm\:w-vh-20 {
+  .sm\:h-vh-20 {
     height: 20vh !important;
   }
 
-  .sm\:w-vh-40 {
+  .sm\:h-vh-40 {
     height: 40vh !important;
   }
 
-  .sm\:w-vh-50 {
+  .sm\:h-vh-50 {
     height: 50vh !important;
   }
 
-  .sm\:w-vh-100 {
+  .sm\:h-vh-100 {
     height: 100vh !important;
   }
 
@@ -9494,15 +9530,15 @@ textarea {
     z-index: 1000 !important;
   }
 
-  .sm\:z-auto99 {
+  .sm\:z-99 {
     z-index: 99 !important;
   }
 
-  .sm\:z-auto999 {
+  .sm\:z-999 {
     z-index: 999 !important;
   }
 
-  .sm\:z-auto9999 {
+  .sm\:z-9999 {
     z-index: 9999 !important;
   }
 
@@ -15949,6 +15985,42 @@ textarea {
     width: 100vw !important;
   }
 
+  .xs\:w-vh-1 {
+    width: 1vh !important;
+  }
+
+  .xs\:w-vh-2 {
+    width: 2vh !important;
+  }
+
+  .xs\:w-vh-4 {
+    width: 4vh !important;
+  }
+
+  .xs\:w-vh-5 {
+    width: 5vh !important;
+  }
+
+  .xs\:w-vh-8 {
+    width: 8vh !important;
+  }
+
+  .xs\:w-vh-20 {
+    width: 20vh !important;
+  }
+
+  .xs\:w-vh-40 {
+    width: 40vh !important;
+  }
+
+  .xs\:w-vh-50 {
+    width: 50vh !important;
+  }
+
+  .xs\:w-vh-100 {
+    width: 100vh !important;
+  }
+
   .xs\:h-px {
     width: 1px !important;
   }
@@ -16913,39 +16985,39 @@ textarea {
     max-height: auto !important;
   }
 
-  .xs\:w-vh-1 {
+  .xs\:h-vh-1 {
     height: 1vh !important;
   }
 
-  .xs\:w-vh-2 {
+  .xs\:h-vh-2 {
     height: 2vh !important;
   }
 
-  .xs\:w-vh-4 {
+  .xs\:h-vh-4 {
     height: 4vh !important;
   }
 
-  .xs\:w-vh-5 {
+  .xs\:h-vh-5 {
     height: 5vh !important;
   }
 
-  .xs\:w-vh-8 {
+  .xs\:h-vh-8 {
     height: 8vh !important;
   }
 
-  .xs\:w-vh-20 {
+  .xs\:h-vh-20 {
     height: 20vh !important;
   }
 
-  .xs\:w-vh-40 {
+  .xs\:h-vh-40 {
     height: 40vh !important;
   }
 
-  .xs\:w-vh-50 {
+  .xs\:h-vh-50 {
     height: 50vh !important;
   }
 
-  .xs\:w-vh-100 {
+  .xs\:h-vh-100 {
     height: 100vh !important;
   }
 
@@ -19183,15 +19255,15 @@ textarea {
     z-index: 1000 !important;
   }
 
-  .xs\:z-auto99 {
+  .xs\:z-99 {
     z-index: 99 !important;
   }
 
-  .xs\:z-auto999 {
+  .xs\:z-999 {
     z-index: 999 !important;
   }
 
-  .xs\:z-auto9999 {
+  .xs\:z-9999 {
     z-index: 9999 !important;
   }
 
@@ -21071,6 +21143,42 @@ textarea {
     width: 100vw !important;
   }
 
+  .xs\:w-vh-1 {
+    width: 1vh !important;
+  }
+
+  .xs\:w-vh-2 {
+    width: 2vh !important;
+  }
+
+  .xs\:w-vh-4 {
+    width: 4vh !important;
+  }
+
+  .xs\:w-vh-5 {
+    width: 5vh !important;
+  }
+
+  .xs\:w-vh-8 {
+    width: 8vh !important;
+  }
+
+  .xs\:w-vh-20 {
+    width: 20vh !important;
+  }
+
+  .xs\:w-vh-40 {
+    width: 40vh !important;
+  }
+
+  .xs\:w-vh-50 {
+    width: 50vh !important;
+  }
+
+  .xs\:w-vh-100 {
+    width: 100vh !important;
+  }
+
   .xs\:h-px {
     width: 1px !important;
   }
@@ -22035,39 +22143,39 @@ textarea {
     max-height: auto !important;
   }
 
-  .xs\:w-vh-1 {
+  .xs\:h-vh-1 {
     height: 1vh !important;
   }
 
-  .xs\:w-vh-2 {
+  .xs\:h-vh-2 {
     height: 2vh !important;
   }
 
-  .xs\:w-vh-4 {
+  .xs\:h-vh-4 {
     height: 4vh !important;
   }
 
-  .xs\:w-vh-5 {
+  .xs\:h-vh-5 {
     height: 5vh !important;
   }
 
-  .xs\:w-vh-8 {
+  .xs\:h-vh-8 {
     height: 8vh !important;
   }
 
-  .xs\:w-vh-20 {
+  .xs\:h-vh-20 {
     height: 20vh !important;
   }
 
-  .xs\:w-vh-40 {
+  .xs\:h-vh-40 {
     height: 40vh !important;
   }
 
-  .xs\:w-vh-50 {
+  .xs\:h-vh-50 {
     height: 50vh !important;
   }
 
-  .xs\:w-vh-100 {
+  .xs\:h-vh-100 {
     height: 100vh !important;
   }
 
