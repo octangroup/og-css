@@ -28,6 +28,7 @@ $color-pink: #f66d9b !default;
 // platform colors
 
 $color-primary: #38a89d !default;
+$color-button-text-primary: $color-white !default;
 
 $color-primary-darkest: colorDarkest($color-primary) !default;
 $color-primary-darker: colorDarker($color-primary) !default;
@@ -37,6 +38,7 @@ $color-primary-lighter: colorLighter($color-primary) !default;
 $color-primary-lightest: colorLightest($color-primary) !default;
 
 $color-accent: #de751f !default;
+$color-button-text-accent: $color-white !default;
 
 $color-accent-darkest: colorDarkest($color-accent) !default;
 $color-accent-darker: colorDarker($color-accent) !default;

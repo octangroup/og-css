@@ -2,7 +2,7 @@
 
 @import '../variables/colors';
 @import '../toolkits/colors';
-@import '../toolkits/functions';
+@import "../toolkits/helpers";
 
 @mixin colors{
   @include backgroundColors;

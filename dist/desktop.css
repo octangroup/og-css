@@ -11418,19 +11418,19 @@
   }
 
   .lg\:whitespace-normal {
-    whitespace: normal !important;
+    white-space: normal !important;
   }
 
   .lg\:whitespace-pre {
-    whitespace: pre !important;
+    white-space: pre !important;
   }
 
   .lg\:whitespace-pre-line {
-    whitespace: pre-line !important;
+    white-space: pre-line !important;
   }
 
   .lg\:whitespace-pre-wrap {
-    whitespace: pre-wrap !important;
+    white-space: pre-wrap !important;
   }
 
   .lg\:whitespace-no-wrap {
@@ -24477,19 +24477,19 @@
   }
 
   .xl\:whitespace-normal {
-    whitespace: normal !important;
+    white-space: normal !important;
   }
 
   .xl\:whitespace-pre {
-    whitespace: pre !important;
+    white-space: pre !important;
   }
 
   .xl\:whitespace-pre-line {
-    whitespace: pre-line !important;
+    white-space: pre-line !important;
   }
 
   .xl\:whitespace-pre-wrap {
-    whitespace: pre-wrap !important;
+    white-space: pre-wrap !important;
   }
 
   .xl\:whitespace-no-wrap {

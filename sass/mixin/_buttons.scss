@@ -1,0 +1,90 @@
+@import '../variables/buttonColors';
+@import '../toolkits/colors';
+@import "../toolkits/helpers";
+
+@mixin buttons {
+  @include baseButton();
+  @include baseGenerator('btn');
+}
+
+
+@mixin baseGenerator($class-name) {
+  @each $color,
+  $map in $button-colors-map {
+    @include fullColorButton(unquote($class-name + "-" + $color),map-get($map, value), map-get($map, text));
+    @include outlineButton(unquote($class-name + "-outline-" + $color),map-get($map, value), map-get($map, text));
+  }
+}
+
+@mixin fullColorButton($class-name, $color,$text-color, $important: false) {
+  @include class($class-name) {
+    @include setProperty(border-color, $color, $important);
+    @include setProperty(background-color, $color, $important);
+    @include setProperty(color, $text-color, $important);
+
+    &:hover,
+    &:focus {
+      @include setProperty(background-color, darken($color, 30), $important);
+      @include setProperty(border-color, darken($color, 30), $important);
+      @include setProperty(color, $text-color, $important);
+    }
+  }
+}
+
+@mixin outlineButton($class-name, $color, $text-color, $important: false) {
+  @include class($class-name) {
+    @include setProperty(border-color, $color, $important);
+    @include setProperty(background, transparent, $important);
+    @include setProperty(color, $text-color, $important);
+    &:hover,
+    &:focus {
+      @include setProperty(border-color, $color, $important);
+      @include setProperty(background, $color, $important);
+      @include setProperty(color, $text-color, $important);
+    }
+  }
+}
+
+@mixin baseButton(){
+  .btn {
+    white-space: nowrap;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 0;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+    outline: none;
+    padding: 0.625em 1.25em;
+    text-align: center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-box-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+
+    /*min-width: 140px;*/
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-box-pack: center;
+  }
+
+  a.btn:hover,
+  a.btn:focus {
+    text-decoration: none;
+  }
+
+  .btn:focus, .btn:active {
+    outline: none;
+  }
+
+  .btn[disabled] {
+    cursor: not-allowed;
+  }
+
+  .btn strong {
+    color: inherit;
+  }
+}

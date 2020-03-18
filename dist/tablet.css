@@ -11419,19 +11419,19 @@
   }
 
   .md\:whitespace-normal {
-    whitespace: normal !important;
+    white-space: normal !important;
   }
 
   .md\:whitespace-pre {
-    whitespace: pre !important;
+    white-space: pre !important;
   }
 
   .md\:whitespace-pre-line {
-    whitespace: pre-line !important;
+    white-space: pre-line !important;
   }
 
   .md\:whitespace-pre-wrap {
-    whitespace: pre-wrap !important;
+    white-space: pre-wrap !important;
   }
 
   .md\:whitespace-no-wrap {

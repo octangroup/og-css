@@ -1,5 +1,25 @@
 @import "util";
 
+@mixin class($class-name) {
+  .#{$screen-type-tag}#{$class-name} {
+    @content;
+  }
+}
+
+@mixin defineClass($class-name, $css-property, $value, $unit : null, $important: true) {
+  @if $value==0 {
+    $unit: null;
+  }
+
+  @include class($class-name) {
+    @include setProperty($css-property, unquote($value+""+$unit),$important);
+  }
+}
+
+@mixin setProperty($property, $value, $important: true) {
+  #{$property}: #{$value} #{if($important, '!important', null)};
+}
+
 @mixin definePercentagesClassList($class-name, $css-property, $negative: false) {
   @include defineLoopingClassList($class-name, $css-property, 20, 5, 0, '%', 1, $negative);
 }
@@ -58,3 +78,4 @@
     @include defineClass($class-name, $css-property, $value, $unit, $important);
   }
 }
+
