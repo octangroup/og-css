@@ -13375,12 +13375,12 @@ a.btn:focus {
 }
 
 .btn-grey {
-  background: #b8c2cc;
+  background-color: #b8c2cc;
   border-color: #b8c2cc;
   color: #22292f;
 }
 .btn-grey:hover, .btn-grey:focus {
-  background: #627689;
+  background-color: #627689;
   border-color: #627689;
   color: #22292f;
 }
@@ -13397,12 +13397,12 @@ a.btn:focus {
 }
 
 .btn-red {
-  background: #e3342f;
+  background-color: #e3342f;
   border-color: #e3342f;
   color: #ffffff;
 }
 .btn-red:hover, .btn-red:focus {
-  background: #6b110e;
+  background-color: #6b110e;
   border-color: #6b110e;
   color: #ffffff;
 }
@@ -13419,12 +13419,12 @@ a.btn:focus {
 }
 
 .btn-white {
-  background: #ffffff;
+  background-color: #ffffff;
   border-color: #ffffff;
   color: #22292f;
 }
 .btn-white:hover, .btn-white:focus {
-  background: #b3b3b3;
+  background-color: #b3b3b3;
   border-color: #b3b3b3;
   color: #22292f;
 }
@@ -13441,12 +13441,12 @@ a.btn:focus {
 }
 
 .btn-black {
-  background: #22292f;
+  background-color: #22292f;
   border-color: #22292f;
   color: #ffffff;
 }
 .btn-black:hover, .btn-black:focus {
-  background: black;
+  background-color: black;
   border-color: black;
   color: #ffffff;
 }
@@ -13463,12 +13463,12 @@ a.btn:focus {
 }
 
 .btn-orange {
-  background: #f6993f;
+  background-color: #f6993f;
   border-color: #f6993f;
   color: #22292f;
 }
 .btn-orange:hover, .btn-orange:focus {
-  background: #954d07;
+  background-color: #954d07;
   border-color: #954d07;
   color: #22292f;
 }
@@ -13485,12 +13485,12 @@ a.btn:focus {
 }
 
 .btn-yellow {
-  background: #ffed4a;
+  background-color: #ffed4a;
   border-color: #ffed4a;
   color: #22292f;
 }
 .btn-yellow:hover, .btn-yellow:focus {
-  background: #b09e00;
+  background-color: #b09e00;
   border-color: #b09e00;
   color: #22292f;
 }
@@ -13507,12 +13507,12 @@ a.btn:focus {
 }
 
 .btn-green {
-  background: #38c172;
+  background-color: #38c172;
   border-color: #38c172;
   color: #22292f;
 }
 .btn-green:hover, .btn-green:focus {
-  background: #164a2c;
+  background-color: #164a2c;
   border-color: #164a2c;
   color: #22292f;
 }
@@ -13529,12 +13529,12 @@ a.btn:focus {
 }
 
 .btn-blue {
-  background: #3490dc;
+  background-color: #3490dc;
   border-color: #3490dc;
   color: #ffffff;
 }
 .btn-blue:hover, .btn-blue:focus {
-  background: #124066;
+  background-color: #124066;
   border-color: #124066;
   color: #ffffff;
 }
@@ -13551,12 +13551,12 @@ a.btn:focus {
 }
 
 .btn-pink {
-  background: #f66d9b;
+  background-color: #f66d9b;
   border-color: #f66d9b;
   color: #22292f;
 }
 .btn-pink:hover, .btn-pink:focus {
-  background: #be0c48;
+  background-color: #be0c48;
   border-color: #be0c48;
   color: #22292f;
 }
@@ -13573,12 +13573,12 @@ a.btn:focus {
 }
 
 .btn-teal {
-  background: #4dc0b5;
+  background-color: #4dc0b5;
   border-color: #4dc0b5;
   color: #22292f;
 }
 .btn-teal:hover, .btn-teal:focus {
-  background: #1e5650;
+  background-color: #1e5650;
   border-color: #1e5650;
   color: #22292f;
 }
@@ -13595,12 +13595,12 @@ a.btn:focus {
 }
 
 .btn-indigo {
-  background: #6574cd;
+  background-color: #6574cd;
   border-color: #6574cd;
   color: #ffffff;
 }
 .btn-indigo:hover, .btn-indigo:focus {
-  background: #263174;
+  background-color: #263174;
   border-color: #263174;
   color: #ffffff;
 }
@@ -13617,12 +13617,12 @@ a.btn:focus {
 }
 
 .btn-purple {
-  background: #9561e2;
+  background-color: #9561e2;
   border-color: #9561e2;
   color: #22292f;
 }
 .btn-purple:hover, .btn-purple:focus {
-  background: #4a1a90;
+  background-color: #4a1a90;
   border-color: #4a1a90;
   color: #22292f;
 }
@@ -13639,12 +13639,12 @@ a.btn:focus {
 }
 
 .btn-primary {
-  background: #38a89d;
+  background-color: #38a89d;
   border-color: #38a89d;
   color: #ffffff;
 }
 .btn-primary:hover, .btn-primary:focus {
-  background: #123532;
+  background-color: #123532;
   border-color: #123532;
   color: #ffffff;
 }
@@ -13661,12 +13661,12 @@ a.btn:focus {
 }
 
 .btn-accent {
-  background: #de751f;
+  background-color: #de751f;
   border-color: #de751f;
   color: #ffffff;
 }
 .btn-accent:hover, .btn-accent:focus {
-  background: #582e0c;
+  background-color: #582e0c;
   border-color: #582e0c;
   color: #ffffff;
 }

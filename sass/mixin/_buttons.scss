@@ -19,12 +19,12 @@
 @mixin fullColorButton($class-name, $color,$text-color, $important: false) {
   @include class($class-name) {
     @include setProperty(border-color, $color, $important);
-    @include setProperty(background, $color, $important);
+    @include setProperty(background-color, $color, $important);
     @include setProperty(color, $text-color, $important);
 
     &:hover,
     &:focus {
-      @include setProperty(background, darken($color, 30), $important);
+      @include setProperty(background-color, darken($color, 30), $important);
       @include setProperty(border-color, darken($color, 30), $important);
       @include setProperty(color, $text-color, $important);
     }
