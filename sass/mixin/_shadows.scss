@@ -1,5 +1,5 @@
 @import "../variables";
-@import "functions";
+@import "../toolkits/functions";
 
 @mixin shadows {
   $map: (
