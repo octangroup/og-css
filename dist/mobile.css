@@ -11432,19 +11432,19 @@ textarea {
   }
 
   .sm\:whitespace-normal {
-    whitespace: normal !important;
+    white-space: normal !important;
   }
 
   .sm\:whitespace-pre {
-    whitespace: pre !important;
+    white-space: pre !important;
   }
 
   .sm\:whitespace-pre-line {
-    whitespace: pre-line !important;
+    white-space: pre-line !important;
   }
 
   .sm\:whitespace-pre-wrap {
-    whitespace: pre-wrap !important;
+    white-space: pre-wrap !important;
   }
 
   .sm\:whitespace-no-wrap {
@@ -24505,19 +24505,19 @@ textarea {
   }
 
   .xs\:whitespace-normal {
-    whitespace: normal !important;
+    white-space: normal !important;
   }
 
   .xs\:whitespace-pre {
-    whitespace: pre !important;
+    white-space: pre !important;
   }
 
   .xs\:whitespace-pre-line {
-    whitespace: pre-line !important;
+    white-space: pre-line !important;
   }
 
   .xs\:whitespace-pre-wrap {
-    whitespace: pre-wrap !important;
+    white-space: pre-wrap !important;
   }
 
   .xs\:whitespace-no-wrap {
@@ -29663,19 +29663,19 @@ textarea {
   }
 
   .xs\:whitespace-normal {
-    whitespace: normal !important;
+    white-space: normal !important;
   }
 
   .xs\:whitespace-pre {
-    whitespace: pre !important;
+    white-space: pre !important;
   }
 
   .xs\:whitespace-pre-line {
-    whitespace: pre-line !important;
+    white-space: pre-line !important;
   }
 
   .xs\:whitespace-pre-wrap {
-    whitespace: pre-wrap !important;
+    white-space: pre-wrap !important;
   }
 
   .xs\:whitespace-no-wrap {

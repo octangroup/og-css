@@ -1,5 +1,5 @@
 @import "fonts";
-@import "../toolkits/functions";
+@import "../toolkits/helpers";
 
 @mixin typography {
         @include fonts;
@@ -92,7 +92,7 @@
 }
 
 @mixin whitespaces {
-        @include defineClassList(list('normal', 'pre', 'pre-line', 'pre-wrap'), whitespace-, whitespace);
+        @include defineClassList(list('normal', 'pre', 'pre-line', 'pre-wrap'), whitespace-, white-space);
         @include defineClass(whitespace-no-wrap, whitespace, nowrap);
 
 }
