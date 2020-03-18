@@ -8256,51 +8256,51 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-2xl {
-  font-size: 1.375rem !important;
-}
-
-.text-3xl {
-  font-size: 1.5rem !important;
-}
-
-.text-4xl {
   font-size: 1.625rem !important;
 }
 
-.text-5xl {
-  font-size: 1.75rem !important;
-}
-
-.text-6xl {
-  font-size: 1.875rem !important;
-}
-
-.text-8xl {
+.text-3xl {
   font-size: 2rem !important;
 }
 
-.text-9xl {
-  font-size: 2.125rem !important;
-}
-
-.text-10xl {
-  font-size: 2.25rem !important;
-}
-
-.text-11xl {
+.text-4xl {
   font-size: 2.375rem !important;
 }
 
+.text-5xl {
+  font-size: 2.75rem !important;
+}
+
+.text-6xl {
+  font-size: 3.125rem !important;
+}
+
+.text-8xl {
+  font-size: 3.5rem !important;
+}
+
+.text-9xl {
+  font-size: 3.875rem !important;
+}
+
+.text-10xl {
+  font-size: 4.25rem !important;
+}
+
+.text-11xl {
+  font-size: 4.625rem !important;
+}
+
 .text-12xl {
-  font-size: 2.5rem !important;
+  font-size: 5rem !important;
 }
 
 .text-13xl {
-  font-size: 2.625rem !important;
+  font-size: 5.375rem !important;
 }
 
 .text-14xl {
-  font-size: 2.75rem !important;
+  font-size: 5.75rem !important;
 }
 
 .leading-none {
