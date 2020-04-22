@@ -44,7 +44,7 @@
   "dependencies": {
     "cross-env": "^7.0.2",
     "postcss-sorting": "^5.0.1",
-    "stylelint": "^13.3.2"
+    "stylelint": "^13.3.3"
   },
   "browserslist": [
     "> 1%",
