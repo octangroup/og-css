@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2018. Octan Grp. All Rights Reserved.
+ * Copyright (c) 2019. Octan Grp. All Rights Reserved.
  * This code is proprietary and the property of Octan Grp.
  */
 @media screen and (min-width: 768px) and (max-width: 1023.9px) {
@@ -33,6 +33,14 @@
     width: 100%;
   }
 
+  /*!
+   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
+   * This code is proprietary and the property of Octan Grp.
+   */
+  /*!
+   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
+   * This code is proprietary and the property of Octan Grp.
+   */
   .md\:align-baseline {
     vertical-align: baseline !important;
   }
