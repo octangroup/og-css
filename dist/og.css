@@ -1,12 +1,4 @@
-/*! og--css v8.0.1 | MIT License | https://github.com/octangrp/og-css */
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
+/*! OG-CSS v3.0.4 | MIT License | https://github.com/octangrp/og-css */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -650,22 +642,10 @@ img, video {
   font-size: 1rem;
 }
 
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif !important;
 }
 
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -13695,10 +13675,6 @@ h1, h2, h3, h4, h5, h6 {
   resize: both !important;
 }
 
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
 .btn {
   -ms-flex-align: center;
       align-items: center;
@@ -14770,10 +14746,6 @@ ul.inline-block li {
   width: 6px;
 }
 
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   html {
     background-color: white;
@@ -14804,14 +14776,6 @@ ul.inline-block li {
     width: 100%;
   }
 
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
   .lg\:align-baseline {
     vertical-align: baseline !important;
   }
@@ -27871,14 +27835,6 @@ ul.inline-block li {
     width: 100%;
   }
 
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
   .xl\:align-baseline {
     vertical-align: baseline !important;
   }
@@ -40908,10 +40864,6 @@ ul.inline-block li {
     resize: both !important;
   }
 }
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
 @media screen and (min-width: 768px) and (max-width: 1023.9px) {
   html {
     background-color: white;
@@ -40943,14 +40895,6 @@ ul.inline-block li {
     width: 100%;
   }
 
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
   .md\:align-baseline {
     vertical-align: baseline !important;
   }
@@ -53980,10 +53924,6 @@ ul.inline-block li {
     resize: both !important;
   }
 }
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
 @media screen and (min-width: 576px) and (max-width: 767px) {
   html {
     background-color: white;
@@ -54032,14 +53972,6 @@ textarea {
     max-width: 576px;
   }
 
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
   .sm\:align-baseline {
     vertical-align: baseline !important;
   }
@@ -67069,10 +67001,6 @@ textarea {
     resize: both !important;
   }
 }
-/*!
- * Copyright (c) 2019. Octan Grp. All Rights Reserved.
- * This code is proprietary and the property of Octan Grp.
- */
 @media screen and (max-width: 639px) {
   html {
     background-color: white;
@@ -67117,14 +67045,6 @@ textarea {
     font-size: 16px !important;
   }
 
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
-  /*!
-   * Copyright (c) 2019. Octan Grp. All Rights Reserved.
-   * This code is proprietary and the property of Octan Grp.
-   */
   .xs\:align-baseline {
     vertical-align: baseline !important;
   }
