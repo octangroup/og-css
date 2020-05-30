@@ -1,54 +1,54 @@
 @import "../toolkits/helpers";
 
 @mixin borders{
-  @include borderWidths;
-  @include borderRadius;
-  @include borderStyles;
+	@include borderWidths;
+	@include borderRadius;
+	@include borderStyles;
 }
 
 @mixin borderStyles{
-  @include defineClassList(list('solid','dashed','dotted','none'), border-, border-style, null, true);
-  @include defineClassList(list('collapse','separate'), border-, border-collapse);
+	@include defineClassList(list('solid','dashed','dotted','none'), border-, border-style, null, true);
+	@include defineClassList(list('collapse','separate'), border-, border-collapse);
 }
 
 
 @mixin borderWidths {
-  @include defineLoopingClassList('border', border-width, 4, 2, 0, 'px');
+	@include defineLoopingClassList('border', border-width, 4, 2, 0, 'px');
 
-  @include defineLoopingClassList('border-t', border-top-width, 4, 2, 0, 'px');
-  @include defineLoopingClassList('border-b', border-bottom-width, 4, 2, 0, 'px');
-  @include defineLoopingClassList('border-l', border-left-width, 4, 2, 0, 'px');
-  @include defineLoopingClassList('border-r', border-right-width, 4, 2, 0, 'px');
+	@include defineLoopingClassList('border-t', border-top-width, 4, 2, 0, 'px');
+	@include defineLoopingClassList('border-b', border-bottom-width, 4, 2, 0, 'px');
+	@include defineLoopingClassList('border-l', border-left-width, 4, 2, 0, 'px');
+	@include defineLoopingClassList('border-r', border-right-width, 4, 2, 0, 'px');
 
-  // for the 1px
-  @include defineOnMultipleClasses(list("border-1", "border"), border-width, 1, 'px');
+	// for the 1px
+	@include defineOnMultipleClasses(list("border-1", "border"), border-width, 1, 'px');
 
-  @include defineOnMultipleClasses(list("border-t-1", "border-t"), border-top-width, 1, 'px');
-  @include defineOnMultipleClasses(list("border-b-1", "border-b"), border-bottom-width, 1, 'px');
-  @include defineOnMultipleClasses(list("border-l-1", "border-l"), border-left-width, 1, 'px');
-  @include defineOnMultipleClasses(list("border-r-1", "border-r"), border-right-width, 1, 'px');
+	@include defineOnMultipleClasses(list("border-t-1", "border-t"), border-top-width, 1, 'px');
+	@include defineOnMultipleClasses(list("border-b-1", "border-b"), border-bottom-width, 1, 'px');
+	@include defineOnMultipleClasses(list("border-l-1", "border-l"), border-left-width, 1, 'px');
+	@include defineOnMultipleClasses(list("border-r-1", "border-r"), border-right-width, 1, 'px');
 }
 
 @mixin borderRadius {
-  $radius-size-list: '-none', '-sm', '', '-lg', '-xl', '-2xl', '-3xl', '-4xl';
-  $k: 1;
-  $inc: 0;
-  @for $i from 0 through length($radius-size-list) - 1 {
-    $size: nth($radius-size-list, $i + 1);
-    $value: $inc * $k;
-      @include genericRoundedGenerator($size,$value);
-    $inc: 0.0625;
-    $k: $k*2;
-  }
-  @include genericRoundedGenerator('-full',9999,'px');
+	$radius-size-list: '-none', '-sm', '', '-lg', '-xl', '-2xl', '-3xl', '-4xl';
+	$k: 1;
+	$inc: 0;
+	@for $i from 0 through length($radius-size-list) - 1 {
+		$size: nth($radius-size-list, $i + 1);
+		$value: $inc * $k;
+		@include genericRoundedGenerator($size,$value);
+		$inc: 0.0625;
+		$k: $k*2;
+	}
+	@include genericRoundedGenerator('-full',9999,'px');
 }
 
 @mixin genericRoundedGenerator($size,$value, $unit: 'rem') {
-  @include defineClass(unquote("rounded"+$size), border-radius, $value, $unit);
+	@include defineClass(unquote("rounded"+$size), border-radius, $value, $unit);
 
-  @include defineOnMultipleClasses(list(unquote("rounded-t"+$size), unquote("rounded-tl"+$size), unquote("rounded-l"+$size)), border-top-left-radius, $value, 'rem');
-  @include defineOnMultipleClasses(list(unquote("rounded-t"+$size), unquote("rounded-tr"+$size), unquote("rounded-r"+$size)), border-top-right-radius, $value, 'rem');
+	@include defineOnMultipleClasses(list(unquote("rounded-t"+$size), unquote("rounded-tl"+$size), unquote("rounded-l"+$size)), border-top-left-radius, $value, 'rem');
+	@include defineOnMultipleClasses(list(unquote("rounded-t"+$size), unquote("rounded-tr"+$size), unquote("rounded-r"+$size)), border-top-right-radius, $value, 'rem');
 
-  @include defineOnMultipleClasses(list(unquote("rounded-b"+$size), unquote("rounded-bl"+$size), unquote("rounded-l"+$size)), border-bottom-left-radius, $value, 'rem');
-  @include defineOnMultipleClasses(list(unquote("rounded-b"+$size), unquote("rounded-br"+$size), unquote("rounded-r"+$size)), border-bottom-right-radius, $value, 'rem');
+	@include defineOnMultipleClasses(list(unquote("rounded-b"+$size), unquote("rounded-bl"+$size), unquote("rounded-l"+$size)), border-bottom-left-radius, $value, 'rem');
+	@include defineOnMultipleClasses(list(unquote("rounded-b"+$size), unquote("rounded-br"+$size), unquote("rounded-r"+$size)), border-bottom-right-radius, $value, 'rem');
 }

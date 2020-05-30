@@ -1,83 +1,81 @@
 @import "../toolkits/helpers";
 
 @mixin generic {
-  $map: (
-          filter-grayscale:(
-                  property: filter,
-                  value: grayscale(100%)
-          ),
-          transform-0-50-origin:(
-                  property:transform-origin,
-                  value: 0 50%
-          ),
-          transform-50-100-origin:(
-                  property:transform-origin,
-                  value: 50% 100%
-          ),
-          transform-3d:(
-                  property: transform-style,
-                  value: preserve-3d
-          ),
-          transform-style-3d:(
-                  property: transform-style,
-                  value: preserve-3d
-          ),
-          fill-current:(
-                  property: fill,
-                  value: currentColor
-          ),
-          stroke-current:(
-                  property: stroke,
-                  value: currentColor
-          ),
-          list-style-none:(
-                  property: list-style-type,
-                  value: none
-          )
-  );
-  @include defineClassListUsingMap($map);
+	$map: (
+	filter-grayscale:(
+		property: filter,
+		value: grayscale(100%)
+	),
+	transform-0-50-origin:(
+		property:transform-origin,
+		value: 0 50%
+	),
+	transform-50-100-origin:(
+		property:transform-origin,
+		value: 50% 100%
+	),
+	transform-3d:(
+		property: transform-style,
+		value: preserve-3d
+	),
+	transform-style-3d:(
+		property: transform-style,
+		value: preserve-3d
+	),
+	fill-current:(
+		property: fill,
+		value: currentColor
+	),
+	stroke-current:(
+		property: stroke,
+		value: currentColor
+	),
+	list-style-none:(
+		property: list-style-type,
+		value: none
+	)
+);
+	@include defineClassListUsingMap($map);
 
-  @include class(translate-3d-0-0-1) {
-    transform: translate3d(0px, 0px, 1px);
-  }
+	@include class(translate-3d-0-0-1) {
+		transform: translate3d(0px, 0px, 1px);
+	}
 
-  @include class(translate-3d-0-0-5) {
-    transform: translate3d(0px, 0px, 5px);
-  }
+	@include class(translate-3d-0-0-5) {
+		transform: translate3d(0px, 0px, 5px);
+	}
 
-  @include class(translate-3d-0-0-9) {
-    transform: translate3d(0px, 0px, 9px);
-  }
+	@include class(translate-3d-0-0-9) {
+		transform: translate3d(0px, 0px, 9px);
+	}
 
-  @include class(no-break-out) {
-    overflow-wrap: break-word !important;
-    word-wrap: break-word !important;
-    word-break: break-all !important;
-    word-break: break-word !important;
-    hyphens: auto !important;
-  }
+	@include class(no-break-out) {
+		overflow-wrap: break-word !important;
+		word-wrap: break-word !important;
+		word-break: break-all !important;
+		word-break: break-word !important;
+		hyphens: auto !important;
+	}
 
-  @include class(transform-45deg-3d) {
-    flex: 0 auto;
-    justify-content: space-between;
-    transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg) translate(-14vw, -23vh);
-    transform-origin: 0 50%;
-  }
-  @include class('clip-full') {
-    height: 100% !important;
-    width: 100% !important;
-    object-fit: cover !important;
-  }
-  @include class('clearfix:after') {
-    content: "" !important;
-    display: table !important;
-    clear: both !important;
-  }
-  @include class(list-reset) {
-    list-style: none;
-    padding: 0;
-  }
+	@include class(transform-45deg-3d) {
+		flex: 0 auto;
+		justify-content: space-between;
+		transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg) translate(-14vw, -23vh);
+		transform-origin: 0 50%;
+	}
+	@include class('clip-full') {
+		height: 100% !important;
+		width: 100% !important;
+		object-fit: cover !important;
+	}
+	@include class('clearfix:after') {
+		content: "" !important;
+		display: table !important;
+		clear: both !important;
+	}
+	@include class(list-reset) {
+		list-style: none;
+		padding: 0;
+	}
 }
-
-
 

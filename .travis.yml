@@ -9,4 +9,4 @@ cache:
 
 script:
   - npm install
-  - npm run stylelint
+  - npm run lint

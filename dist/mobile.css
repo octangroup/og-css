@@ -4,8 +4,8 @@
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    min-width: 300px;
     -webkit-overflow-scrolling: touch;
+    min-width: 300px;
     overflow-x: hidden;
     overflow-y: scroll;
     text-rendering: optimizeLegibility;
@@ -11519,6 +11519,22 @@ textarea {
     text-transform: none !important;
   }
 
+  .sm\:underline {
+    text-decoration: underline !important;
+  }
+
+  .sm\:hover\:underline:hover {
+    text-decoration: underline !important;
+  }
+
+  .sm\:focus\:underline:focus {
+    text-decoration: underline !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:underline {
+    text-decoration: underline !important;
+  }
+
   .sm\:line-through {
     text-decoration: line-through !important;
   }
@@ -11614,13 +11630,13 @@ textarea {
   }
 
   .sm\:no-break-out {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    word-break: break-word !important;
     -webkit-hyphens: auto !important;
         -ms-hyphens: auto !important;
             hyphens: auto !important;
-    overflow-wrap: break-word !important;
-    word-break: break-all !important;
-    word-break: break-word !important;
-    word-wrap: break-word !important;
   }
 
   .sm\:transform-45deg-3d {
@@ -11638,15 +11654,15 @@ textarea {
 
   .sm\:clip-full {
     height: 100% !important;
+    width: 100% !important;
     -o-object-fit: cover !important;
        object-fit: cover !important;
-    width: 100% !important;
   }
 
   .sm\:clearfix:after {
-    clear: both !important;
     content: "" !important;
     display: table !important;
+    clear: both !important;
   }
 
   .sm\:list-reset {
@@ -13272,6 +13288,27 @@ textarea {
   .sm\:resize {
     resize: both !important;
   }
+
+  .sm\:select-none {
+    -webkit-user-select: none !important;
+       -moz-user-select: none !important;
+        -ms-user-select: none !important;
+            user-select: none !important;
+  }
+
+  .sm\:select-auto {
+    -webkit-user-select: auto !important;
+       -moz-user-select: auto !important;
+        -ms-user-select: auto !important;
+            user-select: auto !important;
+  }
+
+  .sm\:select-all {
+    -webkit-user-select: all !important;
+       -moz-user-select: all !important;
+        -ms-user-select: all !important;
+            user-select: all !important;
+  }
 }
 @media screen and (max-width: 639px) {
   html {
@@ -13279,8 +13316,8 @@ textarea {
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    min-width: 300px;
     -webkit-overflow-scrolling: touch;
+    min-width: 300px;
     overflow-x: hidden;
     overflow-y: scroll;
     text-rendering: optimizeLegibility;
@@ -24790,6 +24827,22 @@ textarea {
     text-transform: none !important;
   }
 
+  .xs\:underline {
+    text-decoration: underline !important;
+  }
+
+  .xs\:hover\:underline:hover {
+    text-decoration: underline !important;
+  }
+
+  .xs\:focus\:underline:focus {
+    text-decoration: underline !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:underline {
+    text-decoration: underline !important;
+  }
+
   .xs\:line-through {
     text-decoration: line-through !important;
   }
@@ -24885,13 +24938,13 @@ textarea {
   }
 
   .xs\:no-break-out {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    word-break: break-word !important;
     -webkit-hyphens: auto !important;
         -ms-hyphens: auto !important;
             hyphens: auto !important;
-    overflow-wrap: break-word !important;
-    word-break: break-all !important;
-    word-break: break-word !important;
-    word-wrap: break-word !important;
   }
 
   .xs\:transform-45deg-3d {
@@ -24909,15 +24962,15 @@ textarea {
 
   .xs\:clip-full {
     height: 100% !important;
+    width: 100% !important;
     -o-object-fit: cover !important;
        object-fit: cover !important;
-    width: 100% !important;
   }
 
   .xs\:clearfix:after {
-    clear: both !important;
     content: "" !important;
     display: table !important;
+    clear: both !important;
   }
 
   .xs\:list-reset {
@@ -26542,6 +26595,27 @@ textarea {
 
   .xs\:resize {
     resize: both !important;
+  }
+
+  .xs\:select-none {
+    -webkit-user-select: none !important;
+       -moz-user-select: none !important;
+        -ms-user-select: none !important;
+            user-select: none !important;
+  }
+
+  .xs\:select-auto {
+    -webkit-user-select: auto !important;
+       -moz-user-select: auto !important;
+        -ms-user-select: auto !important;
+            user-select: auto !important;
+  }
+
+  .xs\:select-all {
+    -webkit-user-select: all !important;
+       -moz-user-select: all !important;
+        -ms-user-select: all !important;
+            user-select: all !important;
   }
 }
 @media screen and (max-width: 639px) and (max-width: 350px) {
@@ -30144,6 +30218,22 @@ textarea {
 
   .xs\:group:focus .xs\:group-focus\:normal-case {
     text-transform: none !important;
+  }
+
+  .xs\:underline {
+    text-decoration: underline !important;
+  }
+
+  .xs\:hover\:underline:hover {
+    text-decoration: underline !important;
+  }
+
+  .xs\:focus\:underline:focus {
+    text-decoration: underline !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:underline {
+    text-decoration: underline !important;
   }
 
   .xs\:line-through {

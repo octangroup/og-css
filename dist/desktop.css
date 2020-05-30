@@ -11501,6 +11501,22 @@
     text-transform: none !important;
   }
 
+  .lg\:underline {
+    text-decoration: underline !important;
+  }
+
+  .lg\:hover\:underline:hover {
+    text-decoration: underline !important;
+  }
+
+  .lg\:focus\:underline:focus {
+    text-decoration: underline !important;
+  }
+
+  .lg\:group:focus .lg\:group-focus\:underline {
+    text-decoration: underline !important;
+  }
+
   .lg\:line-through {
     text-decoration: line-through !important;
   }
@@ -11596,13 +11612,13 @@
   }
 
   .lg\:no-break-out {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    word-break: break-word !important;
     -webkit-hyphens: auto !important;
         -ms-hyphens: auto !important;
             hyphens: auto !important;
-    overflow-wrap: break-word !important;
-    word-break: break-all !important;
-    word-break: break-word !important;
-    word-wrap: break-word !important;
   }
 
   .lg\:transform-45deg-3d {
@@ -11620,15 +11636,15 @@
 
   .lg\:clip-full {
     height: 100% !important;
+    width: 100% !important;
     -o-object-fit: cover !important;
        object-fit: cover !important;
-    width: 100% !important;
   }
 
   .lg\:clearfix:after {
-    clear: both !important;
     content: "" !important;
     display: table !important;
+    clear: both !important;
   }
 
   .lg\:list-reset {
@@ -13253,6 +13269,27 @@
 
   .lg\:resize {
     resize: both !important;
+  }
+
+  .lg\:select-none {
+    -webkit-user-select: none !important;
+       -moz-user-select: none !important;
+        -ms-user-select: none !important;
+            user-select: none !important;
+  }
+
+  .lg\:select-auto {
+    -webkit-user-select: auto !important;
+       -moz-user-select: auto !important;
+        -ms-user-select: auto !important;
+            user-select: auto !important;
+  }
+
+  .lg\:select-all {
+    -webkit-user-select: all !important;
+       -moz-user-select: all !important;
+        -ms-user-select: all !important;
+            user-select: all !important;
   }
 }
 @media (min-width: 1280px) {
@@ -24758,6 +24795,22 @@
     text-transform: none !important;
   }
 
+  .xl\:underline {
+    text-decoration: underline !important;
+  }
+
+  .xl\:hover\:underline:hover {
+    text-decoration: underline !important;
+  }
+
+  .xl\:focus\:underline:focus {
+    text-decoration: underline !important;
+  }
+
+  .xl\:group:focus .xl\:group-focus\:underline {
+    text-decoration: underline !important;
+  }
+
   .xl\:line-through {
     text-decoration: line-through !important;
   }
@@ -24853,13 +24906,13 @@
   }
 
   .xl\:no-break-out {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    word-break: break-word !important;
     -webkit-hyphens: auto !important;
         -ms-hyphens: auto !important;
             hyphens: auto !important;
-    overflow-wrap: break-word !important;
-    word-break: break-all !important;
-    word-break: break-word !important;
-    word-wrap: break-word !important;
   }
 
   .xl\:transform-45deg-3d {
@@ -24877,15 +24930,15 @@
 
   .xl\:clip-full {
     height: 100% !important;
+    width: 100% !important;
     -o-object-fit: cover !important;
        object-fit: cover !important;
-    width: 100% !important;
   }
 
   .xl\:clearfix:after {
-    clear: both !important;
     content: "" !important;
     display: table !important;
+    clear: both !important;
   }
 
   .xl\:list-reset {
@@ -26510,5 +26563,26 @@
 
   .xl\:resize {
     resize: both !important;
+  }
+
+  .xl\:select-none {
+    -webkit-user-select: none !important;
+       -moz-user-select: none !important;
+        -ms-user-select: none !important;
+            user-select: none !important;
+  }
+
+  .xl\:select-auto {
+    -webkit-user-select: auto !important;
+       -moz-user-select: auto !important;
+        -ms-user-select: auto !important;
+            user-select: auto !important;
+  }
+
+  .xl\:select-all {
+    -webkit-user-select: all !important;
+       -moz-user-select: all !important;
+        -ms-user-select: all !important;
+            user-select: all !important;
   }
 }

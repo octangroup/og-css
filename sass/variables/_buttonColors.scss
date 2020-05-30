@@ -1,58 +1,58 @@
 @import "../variables";
 
 $button-colors-map: (
-        'grey':(
-                value: $color-grey,
-                text: $color-black
-        ),
-        'red': (
-                value: $color-red,
-                text: $color-white
-        ),
-        'white': (
-                value: $color-white,
-                text: $color-black
-        ),
-        'black': (
-                value: $color-black,
-                text: $color-white
-        ),
-        'orange': (
-                value: $color-orange,
-                text: $color-black
-        ),
-        'yellow': (
-                value: $color-yellow,
-                text: $color-black
-        ),
-        'green': (
-                value: $color-green,
-                text: $color-black
-        ),
-        'blue': (
-                value: $color-blue,
-                text: $color-white
-        ),
-        'pink': (
-                value: $color-pink,
-                text: $color-black
-        ),
-        'teal': (
-                value: $color-teal,
-                text: $color-black
-        ),
-        'indigo': (
-                value: $color-indigo,
-                text: $color-white
-        ),
-        'purple': (
-                value: $color-purple,
-                text: $color-black
-        ),'primary': (
-                value: $color-primary,
-                text: $color-button-text-primary
-        ),'accent': (
-                value: $color-accent,
-                text: $color-button-text-accent
-        )
+'grey':(
+	value: $color-grey,
+	text: $color-black
+),
+'red': (
+	value: $color-red,
+	text: $color-white
+),
+'white': (
+	value: $color-white,
+	text: $color-black
+),
+'black': (
+	value: $color-black,
+	text: $color-white
+),
+'orange': (
+	value: $color-orange,
+	text: $color-black
+),
+'yellow': (
+	value: $color-yellow,
+	text: $color-black
+),
+'green': (
+	value: $color-green,
+	text: $color-black
+),
+'blue': (
+	value: $color-blue,
+	text: $color-white
+),
+'pink': (
+	value: $color-pink,
+	text: $color-black
+),
+'teal': (
+	value: $color-teal,
+	text: $color-black
+),
+'indigo': (
+	value: $color-indigo,
+	text: $color-white
+),
+'purple': (
+	value: $color-purple,
+	text: $color-black
+),'primary': (
+	value: $color-primary,
+	text: $color-button-text-primary
+),'accent': (
+	value: $color-accent,
+	text: $color-button-text-accent
+)
 );

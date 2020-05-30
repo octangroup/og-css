@@ -1,78 +1,78 @@
 @import "../toolkits/helpers";
 
 @mixin utilities{
-  @include cursors;
-  @include objectFit;
-  @include objectPosition;
-  @include transitions;
-  @include zIndexes;
-  @include opacities;
-  @include overflowProperties;
-  @include extra;
-  @include selections;
+	@include cursors;
+	@include objectFit;
+	@include objectPosition;
+	@include transitions;
+	@include zIndexes;
+	@include opacities;
+	@include overflowProperties;
+	@include extra;
+	@include selections;
 }
 
 @mixin cursors {
-  @include defineClassList(list('auto', 'default', 'pointer', 'wait', 'move', 'not-allowed', 'text'), cursor-, cursor);
+	@include defineClassList(list('auto', 'default', 'pointer', 'wait', 'move', 'not-allowed', 'text'), cursor-, cursor);
 }
 
 
 @mixin objectFit {
-  @include defineClassList(list('contain', 'cover', 'fill', 'none', 'scale-down'), object-, object-fit);
+	@include defineClassList(list('contain', 'cover', 'fill', 'none', 'scale-down'), object-, object-fit);
 }
 
 
 @mixin objectPosition {
-  @include defineClassList(list('bottom', 'center', 'left', 'left top', 'left bottom', 'right', 'right bottom', 'right top', 'top'), object-, object-position);
+	@include defineClassList(list('bottom', 'center', 'left', 'left top', 'left bottom', 'right', 'right bottom', 'right top', 'top'), object-, object-position);
 
 }
 
 
 @mixin transitions {
-  @include defineClassList(list('250ms', '500ms', '750ms', '1s', '2s', '3s', '4s', '5s'), transition-, transition-duration);
+	@include defineClassList(list('250ms', '500ms', '750ms', '1s', '2s', '3s', '4s', '5s'), transition-, transition-duration);
 }
 
 @mixin zIndexes {
-  @include defineLoopingClassList(z, z-index, 9, 1);
-  @include defineLoopingClassList(z, z-index, 10, 10, 1);
-  @include defineLoopingClassList(z, z-index, 10, 100, 2);
-  @include defineClassList(list(99, 999, 9999), z-, z-index);
-  @include defineClass(z-auto, z-index, auto);
+	@include defineLoopingClassList(z, z-index, 9, 1);
+	@include defineLoopingClassList(z, z-index, 10, 10, 1);
+	@include defineLoopingClassList(z, z-index, 10, 100, 2);
+	@include defineClassList(list(99, 999, 9999), z-, z-index);
+	@include defineClass(z-auto, z-index, auto);
 }
 
 @mixin orders {
-  @include defineLoopingClassList(order, order, 12);
-  @include defineClass(order-none, order, 0);
-  @include defineClass(order-first, order, -9999);
-  @include defineClass(order-last, order, 9999);
+	@include defineLoopingClassList(order, order, 12);
+	@include defineClass(order-none, order, 0);
+	@include defineClass(order-first, order, -9999);
+	@include defineClass(order-last, order, 9999);
 }
 
 @mixin opacities {
-  @include defineLoopingClassList(opacity, opacity, 20, 0.05, 0, null, 100);
+	@include defineLoopingClassList(opacity, opacity, 20, 0.05, 0, null, 100);
 }
 
 @mixin overflowProperties {
-  $list: list('auto', 'hidden', 'visible', 'scroll');
-  @include defineClassList($list, overflow-, overflow);
-  @include defineClassList($list, overflow-x-, overflow-x);
-  @include defineClassList($list, overflow-y-, overflow-y);
+	$list: list('auto', 'hidden', 'visible', 'scroll');
+	@include defineClassList($list, overflow-, overflow);
+	@include defineClassList($list, overflow-x-, overflow-x);
+	@include defineClassList($list, overflow-y-, overflow-y);
 }
 
 @mixin extra {
-  @include defineClass(reverse, transform, scale(-1, 1));
-  @include defineClassWithEvents(outline-none, outline, none);
+	@include defineClass(reverse, transform, scale(-1, 1));
+	@include defineClassWithEvents(outline-none, outline, none);
 
-  @include defineClass(scrolling-touch, -webkit-overflow-scrolling, touch);
-  @include defineClass(scrolling-auto, -webkit-overflow-scrolling, auto);
-  @include defineClass(smooth-scrolling, scroll-behavior, smooth);
+	@include defineClass(scrolling-touch, -webkit-overflow-scrolling, touch);
+	@include defineClass(scrolling-auto, -webkit-overflow-scrolling, auto);
+	@include defineClass(smooth-scrolling, scroll-behavior, smooth);
 
-  // resize classes
-  @include defineClass(resize-none, resize, none);
-  @include defineClass(resize-y, resize, vertical);
-  @include defineClass(resize-x, resize, horizontal);
-  @include defineClass(resize, resize, both);
+	// resize classes
+	@include defineClass(resize-none, resize, none);
+	@include defineClass(resize-y, resize, vertical);
+	@include defineClass(resize-x, resize, horizontal);
+	@include defineClass(resize, resize, both);
 }
 
 @mixin selections{
-  @include defineClassList(list('none','auto','all'),select-,user-select);
+	@include defineClassList(list('none','auto','all'),select-,user-select);
 }
