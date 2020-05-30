@@ -2,35 +2,25 @@
 
 
 @mixin backgroundProperties {
-  @include backgroundPositions;
-  @include backgroundAttachments;
-  @include backgroundRepeats;
-  @include backgroundSizes;
+	@include backgroundPositions;
+	@include backgroundAttachments;
+	@include backgroundRepeats;
+	@include backgroundSizes;
 }
 
 @mixin backgroundPositions {
-  @include defineClassList(list(
-                  'bottom',
-                  'left',
-                  'center',
-                  'left bottom',
-                  'left top',
-                  'right',
-                  'right bottom',
-                  'right top',
-                  'top'
-  ), bg-, background-position);
+	@include defineClassList(list('bottom','left','center','left bottom','left top','right','right bottom','right top','top'), bg-, background-position);
 }
 
 @mixin backgroundAttachments {
-  @include defineClassList(list('fixed', 'local', 'scroll'), bg-, background-attachment);
+	@include defineClassList(list('fixed', 'local', 'scroll'), bg-, background-attachment);
 }
 
 @mixin backgroundRepeats {
-  @include defineClassList(list('repeat', 'no-repeat', 'repeat-x', 'repeat-y'), bg-, background-repeat);
-  @include defineClassList(list('round', 'space'), bg-repeat, background-repeat);
+	@include defineClassList(list('repeat', 'no-repeat', 'repeat-x', 'repeat-y'), bg-, background-repeat);
+	@include defineClassList(list('round', 'space'), bg-repeat, background-repeat);
 }
 
 @mixin backgroundSizes {
-  @include defineClassList(list('auto', 'cover', 'contain'), bg-, background-size);
+	@include defineClassList(list('auto', 'cover', 'contain'), bg-, background-size);
 }

@@ -1,25 +1,25 @@
 @use "sass:color";
 
 @function colorDarkest($color) {
-  @return color.scale($color, $lightness: -63.5%);
+	@return color.scale($color, $lightness: -63.5%);
 }
 
 @function colorDarker($color) {
-  @return color.scale($color, $lightness: -45.5%);
+	@return color.scale($color, $lightness: -45.5%);
 }
 
 @function colorDark($color) {
-  @return color.scale($color, $lightness: -26.5%);
+	@return color.scale($color, $lightness: -26.5%);
 }
 
 @function colorLight($color) {
-  @return color.scale($color, $lightness: 52.5%);
+	@return color.scale($color, $lightness: 52.5%);
 }
 
 @function colorLighter($color) {
-  @return color.scale($color, $lightness: 83%);
+	@return color.scale($color, $lightness: 83%);
 }
 
 @function colorLightest($color) {
-  @return color.scale($color, $lightness: 90%);
+	@return color.scale($color, $lightness: 90%);
 }

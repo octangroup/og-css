@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-  - "8"
-  - "10"
+  - "12.17.0"
 
 cache:
   directories:
@@ -9,4 +8,5 @@ cache:
 
 script:
   - npm install
-  - npm run stylelint
+  - npm run lint
+  - npm build

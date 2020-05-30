@@ -11502,6 +11502,22 @@
     text-transform: none !important;
   }
 
+  .md\:underline {
+    text-decoration: underline !important;
+  }
+
+  .md\:hover\:underline:hover {
+    text-decoration: underline !important;
+  }
+
+  .md\:focus\:underline:focus {
+    text-decoration: underline !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:underline {
+    text-decoration: underline !important;
+  }
+
   .md\:line-through {
     text-decoration: line-through !important;
   }
@@ -11597,13 +11613,13 @@
   }
 
   .md\:no-break-out {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    word-break: break-word !important;
     -webkit-hyphens: auto !important;
         -ms-hyphens: auto !important;
             hyphens: auto !important;
-    overflow-wrap: break-word !important;
-    word-break: break-all !important;
-    word-break: break-word !important;
-    word-wrap: break-word !important;
   }
 
   .md\:transform-45deg-3d {
@@ -11621,15 +11637,15 @@
 
   .md\:clip-full {
     height: 100% !important;
+    width: 100% !important;
     -o-object-fit: cover !important;
        object-fit: cover !important;
-    width: 100% !important;
   }
 
   .md\:clearfix:after {
-    clear: both !important;
     content: "" !important;
     display: table !important;
+    clear: both !important;
   }
 
   .md\:list-reset {
@@ -13254,5 +13270,26 @@
 
   .md\:resize {
     resize: both !important;
+  }
+
+  .md\:select-none {
+    -webkit-user-select: none !important;
+       -moz-user-select: none !important;
+        -ms-user-select: none !important;
+            user-select: none !important;
+  }
+
+  .md\:select-auto {
+    -webkit-user-select: auto !important;
+       -moz-user-select: auto !important;
+        -ms-user-select: auto !important;
+            user-select: auto !important;
+  }
+
+  .md\:select-all {
+    -webkit-user-select: all !important;
+       -moz-user-select: all !important;
+        -ms-user-select: all !important;
+            user-select: all !important;
   }
 }

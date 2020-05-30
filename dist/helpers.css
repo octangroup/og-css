@@ -11475,6 +11475,22 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none !important;
 }
 
+.underline {
+  text-decoration: underline !important;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline !important;
+}
+
+.focus\:underline:focus {
+  text-decoration: underline !important;
+}
+
+.group:focus .group-focus\:underline {
+  text-decoration: underline !important;
+}
+
 .line-through {
   text-decoration: line-through !important;
 }
@@ -11570,13 +11586,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .no-break-out {
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  word-break: break-all !important;
+  word-break: break-word !important;
   -webkit-hyphens: auto !important;
       -ms-hyphens: auto !important;
           hyphens: auto !important;
-  overflow-wrap: break-word !important;
-  word-break: break-all !important;
-  word-break: break-word !important;
-  word-wrap: break-word !important;
 }
 
 .transform-45deg-3d {
@@ -11594,15 +11610,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .clip-full {
   height: 100% !important;
+  width: 100% !important;
   -o-object-fit: cover !important;
      object-fit: cover !important;
-  width: 100% !important;
 }
 
 .clearfix:after {
-  clear: both !important;
   content: "" !important;
   display: table !important;
+  clear: both !important;
 }
 
 .list-reset {
@@ -13227,4 +13243,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .resize {
   resize: both !important;
+}
+
+.select-none {
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
+}
+
+.select-auto {
+  -webkit-user-select: auto !important;
+     -moz-user-select: auto !important;
+      -ms-user-select: auto !important;
+          user-select: auto !important;
+}
+
+.select-all {
+  -webkit-user-select: all !important;
+     -moz-user-select: all !important;
+      -ms-user-select: all !important;
+          user-select: all !important;
 }

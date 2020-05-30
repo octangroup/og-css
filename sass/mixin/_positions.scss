@@ -2,67 +2,67 @@
 
 @mixin positions {
 
-  @include setPositionClasses(t, top);
-  @include setPositionClasses(r, right);
-  @include setPositionClasses(b, bottom);
-  @include setPositionClasses(l, left);
+	@include setPositionClasses(t, top);
+	@include setPositionClasses(r, right);
+	@include setPositionClasses(b, bottom);
+	@include setPositionClasses(l, left);
 
-  @include positionTypes;
-  @include rotationAngles;
+	@include positionTypes;
+	@include rotationAngles;
 
-  @include pinClasses;
-  @include insetClasses;
+	@include pinClasses;
+	@include insetClasses;
 
 }
 
 @mixin positionTypes {
-  $list: 'absolute', 'relative', 'fixed', 'static', 'sticky';
-  @include defineClassList($list, null, position);
+	$list: 'absolute', 'relative', 'fixed', 'static', 'sticky';
+	@include defineClassList($list, null, position);
 }
 
 
 @mixin setPositionClasses($class-name, $css-property) {
 
-  @include defineClass(unquote($class-name+"-auto"), $css-property, auto);
+	@include defineClass(unquote($class-name+"-auto"), $css-property, auto);
 
-  @include defineClass(unquote("-"+$class-name+"-"+2), $css-property, -2, '%');
-  @include defineClass(unquote($class-name+"-"+2), $css-property, 2, '%');
+	@include defineClass(unquote("-"+$class-name+"-"+2), $css-property, -2, '%');
+	@include defineClass(unquote($class-name+"-"+2), $css-property, 2, '%');
 
-  @include definePercentagesClassList($class-name, $css-property);
-  @include definePercentagesClassList(unquote("-"+$class-name), $css-property, true);
+	@include definePercentagesClassList($class-name, $css-property);
+	@include definePercentagesClassList(unquote("-"+$class-name), $css-property, true);
 }
 
 @mixin rotationAngles {
-  @include generateRotationAngles(rotate,deg,23,15);
-  @include generateRotationAngles(-rotate, deg, 23, 15, true);
+	@include generateRotationAngles(rotate,deg,23,15);
+	@include generateRotationAngles(-rotate, deg, 23, 15, true);
 }
 
 
 @mixin generateRotationAngles($class-name,$unit: null, $iterations, $step, $negative: false) {
-  @for $i from 0 through $iterations {
-    $val: $i * $step;
-    @if (notNegativeZero(negativeValue($i, $negative), $negative)) {
-      @include defineClass(unquote($class-name+"-"+$val+""+$unit), transform, rotate(unquote(negativeValue($val, $negative)+""+$unit)));
-    }
-  }
+	@for $i from 0 through $iterations {
+		$val: $i * $step;
+		@if (notNegativeZero(negativeValue($i, $negative), $negative)) {
+			@include defineClass(unquote($class-name+"-"+$val+""+$unit), transform, rotate(unquote(negativeValue($val, $negative)+""+$unit)));
+		}
+	}
 }
 
 @mixin pinClasses{
-  // on X axis
-  @include defineClass(pin-x, left, 0);
-  @include defineClass(pin-x, right, 0);
+	// on X axis
+	@include defineClass(pin-x, left, 0);
+	@include defineClass(pin-x, right, 0);
 
-  // on Y axis
-  @include defineClass(pin-y, top, 0);
-  @include defineClass(pin-y, bottom, 0);
+	// on Y axis
+	@include defineClass(pin-y, top, 0);
+	@include defineClass(pin-y, bottom, 0);
 
 }
 
 @mixin insetClasses{
-  // on X axis
-  @include defineOnMultipleClasses("inset-x" "inset-auto", left, auto);
-  @include defineOnMultipleClasses("inset-x" "inset-auto", right, auto);
+	// on X axis
+	@include defineOnMultipleClasses("inset-x" "inset-auto", left, auto);
+	@include defineOnMultipleClasses("inset-x" "inset-auto", right, auto);
 
-  @include defineOnMultipleClasses("inset-y" "inset-auto", top, auto);
-  @include defineOnMultipleClasses("inset-y" "inset-auto", bottom, auto);
+	@include defineOnMultipleClasses("inset-y" "inset-auto", top, auto);
+	@include defineOnMultipleClasses("inset-y" "inset-auto", bottom, auto);
 }

@@ -1,0 +1,59 @@
+$screen-type-tag: xs\:;
+@import "variables";
+
+@media screen and (max-width: 639px) {
+	html {
+		background-color: white;
+		font-size: 16px;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-webkit-overflow-scrolling: touch;
+		min-width: 300px;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		text-rendering: optimizeLegibility;
+		-webkit-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		text-size-adjust: 100%;
+	}
+
+	body {
+		color: #4a4a4a;
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	input[type="color"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="email"],
+	input[type="month"],
+	input[type="number"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="text"],
+	input[type="time"],
+	input[type="url"],
+	input[type="week"],
+	select:focus,
+	textarea {
+		font-size: 16px !important;
+	}
+
+	@import 'responsive';
+	@media screen and (max-width: 350px) {
+		$screen-type-tag: xxs\:;
+		@include borders;
+		@include dimensions;
+
+		@include display;
+
+		@include typography;
+		@include positions;
+	}
+}
