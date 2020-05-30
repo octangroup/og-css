@@ -25,7 +25,7 @@
   },
   "scripts": {
     "dev": "webpack",
-    "production": "cross-env NODE_ENV=production webpack",
+    "build": "cross-env NODE_ENV=production webpack",
     "watch": "webpack --watch",
     "lint": "stylelint 'sass/**/*.scss'",
     "format": "stylelint --fix 'sass/**/*.scss'"
