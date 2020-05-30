@@ -11483,6 +11483,84 @@ textarea {
     letter-spacing: 0.1em !important;
   }
 
+  .sm\:italic {
+    font-style: italic !important;
+  }
+
+  .sm\:roman {
+    font-style: normal !important;
+  }
+
+  .sm\:uppercase {
+    text-transform: uppercase !important;
+  }
+
+  .sm\:lowercase {
+    text-transform: lowercase !important;
+  }
+
+  .sm\:capitalize {
+    text-transform: capitalize !important;
+  }
+
+  .sm\:normal-case {
+    text-transform: none !important;
+  }
+
+  .sm\:hover\:normal-case:hover {
+    text-transform: none !important;
+  }
+
+  .sm\:focus\:normal-case:focus {
+    text-transform: none !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:normal-case {
+    text-transform: none !important;
+  }
+
+  .sm\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .sm\:hover\:line-through:hover {
+    text-decoration: line-through !important;
+  }
+
+  .sm\:focus\:line-through:focus {
+    text-decoration: line-through !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .sm\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .sm\:hover\:no-underline:hover {
+    text-decoration: none !important;
+  }
+
+  .sm\:focus\:no-underline:focus {
+    text-decoration: none !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .sm\:antialiased {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+
+  .sm\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+  }
+
   .sm\:filter-grayscale {
     -webkit-filter: grayscale(100%) !important;
             filter: grayscale(100%) !important;
@@ -12589,7 +12667,37 @@ textarea {
             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
   }
 
+  .sm\:hover\:shadow:hover {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:focus\:shadow:focus {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
   .sm\:shadow-md {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:hover\:shadow-md:hover {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:focus\:shadow-md:focus {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow-md {
     -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
   }
@@ -12599,7 +12707,37 @@ textarea {
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   }
 
+  .sm\:hover\:shadow-lg:hover {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .sm\:focus\:shadow-lg:focus {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow-lg {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
   .sm\:shadow-xl {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .sm\:hover\:shadow-xl:hover {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .sm\:focus\:shadow-xl:focus {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow-xl {
     -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
   }
@@ -12609,7 +12747,37 @@ textarea {
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
   }
 
+  .sm\:hover\:shadow-2xl:hover {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .sm\:focus\:shadow-2xl:focus {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow-2xl {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
   .sm\:shadow-inner {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:hover\:shadow-inner:hover {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:focus\:shadow-inner:focus {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow-inner {
     -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
             box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
   }
@@ -12619,7 +12787,37 @@ textarea {
             box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
   }
 
+  .sm\:hover\:shadow-outline:hover {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
+  .sm\:focus\:shadow-outline:focus {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow-outline {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
   .sm\:shadow-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .sm\:hover\:shadow-none:hover {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .sm\:focus\:shadow-none:focus {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .sm\:group:focus .sm\:group-focus\:shadow-none {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
@@ -24556,6 +24754,84 @@ textarea {
     letter-spacing: 0.1em !important;
   }
 
+  .xs\:italic {
+    font-style: italic !important;
+  }
+
+  .xs\:roman {
+    font-style: normal !important;
+  }
+
+  .xs\:uppercase {
+    text-transform: uppercase !important;
+  }
+
+  .xs\:lowercase {
+    text-transform: lowercase !important;
+  }
+
+  .xs\:capitalize {
+    text-transform: capitalize !important;
+  }
+
+  .xs\:normal-case {
+    text-transform: none !important;
+  }
+
+  .xs\:hover\:normal-case:hover {
+    text-transform: none !important;
+  }
+
+  .xs\:focus\:normal-case:focus {
+    text-transform: none !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:normal-case {
+    text-transform: none !important;
+  }
+
+  .xs\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:hover\:line-through:hover {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:focus\:line-through:focus {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .xs\:hover\:no-underline:hover {
+    text-decoration: none !important;
+  }
+
+  .xs\:focus\:no-underline:focus {
+    text-decoration: none !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .xs\:antialiased {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+
+  .xs\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+  }
+
   .xs\:filter-grayscale {
     -webkit-filter: grayscale(100%) !important;
             filter: grayscale(100%) !important;
@@ -25662,7 +25938,37 @@ textarea {
             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
   }
 
+  .xs\:hover\:shadow:hover {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:focus\:shadow:focus {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
   .xs\:shadow-md {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:hover\:shadow-md:hover {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:focus\:shadow-md:focus {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow-md {
     -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
   }
@@ -25672,7 +25978,37 @@ textarea {
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   }
 
+  .xs\:hover\:shadow-lg:hover {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .xs\:focus\:shadow-lg:focus {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow-lg {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
   .xs\:shadow-xl {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .xs\:hover\:shadow-xl:hover {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .xs\:focus\:shadow-xl:focus {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow-xl {
     -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
   }
@@ -25682,7 +26018,37 @@ textarea {
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
   }
 
+  .xs\:hover\:shadow-2xl:hover {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .xs\:focus\:shadow-2xl:focus {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow-2xl {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
   .xs\:shadow-inner {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:hover\:shadow-inner:hover {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:focus\:shadow-inner:focus {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow-inner {
     -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
             box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
   }
@@ -25692,7 +26058,37 @@ textarea {
             box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
   }
 
+  .xs\:hover\:shadow-outline:hover {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
+  .xs\:focus\:shadow-outline:focus {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow-outline {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
   .xs\:shadow-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .xs\:hover\:shadow-none:hover {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .xs\:focus\:shadow-none:focus {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:shadow-none {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
@@ -29712,6 +30108,84 @@ textarea {
 
   .xs\:tracking-widest {
     letter-spacing: 0.1em !important;
+  }
+
+  .xs\:italic {
+    font-style: italic !important;
+  }
+
+  .xs\:roman {
+    font-style: normal !important;
+  }
+
+  .xs\:uppercase {
+    text-transform: uppercase !important;
+  }
+
+  .xs\:lowercase {
+    text-transform: lowercase !important;
+  }
+
+  .xs\:capitalize {
+    text-transform: capitalize !important;
+  }
+
+  .xs\:normal-case {
+    text-transform: none !important;
+  }
+
+  .xs\:hover\:normal-case:hover {
+    text-transform: none !important;
+  }
+
+  .xs\:focus\:normal-case:focus {
+    text-transform: none !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:normal-case {
+    text-transform: none !important;
+  }
+
+  .xs\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:hover\:line-through:hover {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:focus\:line-through:focus {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .xs\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .xs\:hover\:no-underline:hover {
+    text-decoration: none !important;
+  }
+
+  .xs\:focus\:no-underline:focus {
+    text-decoration: none !important;
+  }
+
+  .xs\:group:focus .xs\:group-focus\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .xs\:antialiased {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+
+  .xs\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 
   .xs\:t-auto {

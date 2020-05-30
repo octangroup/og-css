@@ -11466,6 +11466,84 @@
     letter-spacing: 0.1em !important;
   }
 
+  .md\:italic {
+    font-style: italic !important;
+  }
+
+  .md\:roman {
+    font-style: normal !important;
+  }
+
+  .md\:uppercase {
+    text-transform: uppercase !important;
+  }
+
+  .md\:lowercase {
+    text-transform: lowercase !important;
+  }
+
+  .md\:capitalize {
+    text-transform: capitalize !important;
+  }
+
+  .md\:normal-case {
+    text-transform: none !important;
+  }
+
+  .md\:hover\:normal-case:hover {
+    text-transform: none !important;
+  }
+
+  .md\:focus\:normal-case:focus {
+    text-transform: none !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:normal-case {
+    text-transform: none !important;
+  }
+
+  .md\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .md\:hover\:line-through:hover {
+    text-decoration: line-through !important;
+  }
+
+  .md\:focus\:line-through:focus {
+    text-decoration: line-through !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:line-through {
+    text-decoration: line-through !important;
+  }
+
+  .md\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .md\:hover\:no-underline:hover {
+    text-decoration: none !important;
+  }
+
+  .md\:focus\:no-underline:focus {
+    text-decoration: none !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:no-underline {
+    text-decoration: none !important;
+  }
+
+  .md\:antialiased {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+
+  .md\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+  }
+
   .md\:filter-grayscale {
     -webkit-filter: grayscale(100%) !important;
             filter: grayscale(100%) !important;
@@ -12572,7 +12650,37 @@
             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
   }
 
+  .md\:hover\:shadow:hover {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:focus\:shadow:focus {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
   .md\:shadow-md {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:hover\:shadow-md:hover {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:focus\:shadow-md:focus {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow-md {
     -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
   }
@@ -12582,7 +12690,37 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   }
 
+  .md\:hover\:shadow-lg:hover {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .md\:focus\:shadow-lg:focus {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow-lg {
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  }
+
   .md\:shadow-xl {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .md\:hover\:shadow-xl:hover {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .md\:focus\:shadow-xl:focus {
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow-xl {
     -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
   }
@@ -12592,7 +12730,37 @@
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
   }
 
+  .md\:hover\:shadow-2xl:hover {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .md\:focus\:shadow-2xl:focus {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow-2xl {
+    -webkit-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+
   .md\:shadow-inner {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:hover\:shadow-inner:hover {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:focus\:shadow-inner:focus {
+    -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow-inner {
     -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
             box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) !important;
   }
@@ -12602,7 +12770,37 @@
             box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
   }
 
+  .md\:hover\:shadow-outline:hover {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
+  .md\:focus\:shadow-outline:focus {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow-outline {
+    -webkit-box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+  }
+
   .md\:shadow-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .md\:hover\:shadow-none:hover {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .md\:focus\:shadow-none:focus {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  .md\:group:focus .md\:group-focus\:shadow-none {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }

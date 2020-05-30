@@ -9,6 +9,7 @@
   @include opacities;
   @include overflowProperties;
   @include extra;
+  @include selections;
 }
 
 @mixin cursors {

@@ -30,5 +30,5 @@
           )
   );
 
-  @include defineClassListUsingMap($map);
+  @include defineClassListUsingMap($map, true);
 }
