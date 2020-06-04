@@ -1,8 +1,8 @@
 {
   "name": "og-css",
   "description": "A css package built on top of tailwind.css with more utility classes.",
-  "version": "3.1.2",
-  "version_short": "3.0",
+  "version": "3.1.3",
+  "version_short": "3.1",
   "author": "Octan Group (https://octangrp.com)",
   "keywords": [
     "css",
@@ -39,6 +39,7 @@
     "css-loader": "^3.5.3",
     "extract-loader": "^5.1.0",
     "file-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "postcss-cli": "^7.1.1",
     "postcss-loader": "^3.0.0",
