@@ -33,12 +33,12 @@
 }
 
 @mixin rotationAngles {
-	@include generateRotationAngles(rotate,deg,23,15);
-	@include generateRotationAngles(-rotate, deg, 23, 15, true);
+	@include generateRotationAngles(rotate,23,15, deg);
+	@include generateRotationAngles(-rotate, 23, 15, deg, true);
 }
 
 
-@mixin generateRotationAngles($class-name,$unit: null, $iterations, $step, $negative: false) {
+@mixin generateRotationAngles($class-name, $iterations, $step, $unit: null, $negative: false) {
 	@for $i from 0 through $iterations {
 		$val: $i * $step;
 		@if (notNegativeZero(negativeValue($i, $negative), $negative)) {
