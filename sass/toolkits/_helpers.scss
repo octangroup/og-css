@@ -7,8 +7,8 @@
 }
 
 @mixin defineClass($class-name, $css-property, $value, $unit : null, $important: true) {
-	@if $value==0 {
-		$unit: null;
+	@if $value==0 or $unit==null {
+		$unit: "";
 	}
 
 	@include class($class-name) {
@@ -25,7 +25,17 @@
 }
 
 @mixin defineClassList($list, $class-name, $css-property, $unit: null, $with-events: false) {
+
+	@if $class-name == null {
+		$class-name: "";
+	}
+
 	@each $element in $list {
+
+		@if $element == null {
+			$element: "";
+		}
+
 		$name: str_replace(unquote($class-name + ""+ $element), ' ', '-');
 
 		@if $with-events {
@@ -40,10 +50,16 @@
 
 
 @mixin defineClassWithEvents($class-name, $css-property, $value, $unit : null) {
+	$screen-tag: "";
+
+	@if $screen-type-tag {
+		$screen-tag: $screen-type-tag;
+	}
+
 	@include defineClass($class-name, $css-property, $value, $unit);
 	@include defineClass(unquote("hover\\:"+$class-name+":hover"), $css-property, $value, $unit);
 	@include defineClass(unquote("focus\\:"+$class-name+":focus"), $css-property, $value, $unit);
-	@include defineClass(unquote("group:focus ."+$screen-type-tag+"group-focus\\:"+$class-name), $css-property, $value, $unit);
+	@include defineClass(unquote("group:focus ."+$screen-tag+"group-focus\\:"+$class-name), $css-property, $value, $unit);
 }
 
 
@@ -55,6 +71,7 @@
 		@if ($events) {
 			@include defineClassWithEvents($label, map-get($map, property), map-get($map, value));
 		}
+
 		@else {
 			@include defineClass($label, map-get($map, property), map-get($map, value));
 		}
