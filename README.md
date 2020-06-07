@@ -1,7 +1,7 @@
 <p>
     <a href="https://octangrp.com" target="_blank"><img width="350"
             src="https://octangrp.com/packages/og-css/og-css-logo.svg"></a><br><br>
-    A css package built on top of tailwind.css with more utility classes and flexibility.
+    A CSS package built on top of tailwind.css with more utility classes and enhanced flexibility.
 </p>
 <br>
 
