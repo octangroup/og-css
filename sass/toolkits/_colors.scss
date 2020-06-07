@@ -1,23 +1,23 @@
 @function colorDarkest($color) {
-	@return darken($color, 63.5%);
+	@return scale-color($color, $lightness: -63.5%);
 }
 
 @function colorDarker($color) {
-	@return darken($color, 45.5%);
+	@return scale-color($color, $lightness: -45.5%);
 }
 
 @function colorDark($color) {
-	@return darken($color, 26.5%);
+	@return scale-color($color, $lightness: -26.5%);
 }
 
 @function colorLight($color) {
-	@return lighten($color, 52.5%);
+	@return scale-color($color, $lightness: 52.5%);
 }
 
 @function colorLighter($color) {
-	@return lighten($color, 83%);
+	@return scale-color($color, $lightness: 83%);
 }
 
 @function colorLightest($color) {
-	@return lighten($color, 90%);
+	@return scale-color($color, $lightness: 90%);
 }
