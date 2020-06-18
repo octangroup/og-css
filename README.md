@@ -1,6 +1,6 @@
 <p>
-    <a href="https://octangrp.com" target="_blank"><img width="350"
-            src="https://octangrp.com/packages/og-css/og-css-logo.svg"></a><br><br>
+    <a href="https://octan.group" target="_blank"><img width="350"
+            src="https://octan.group/packages/og-css/og-css-logo.svg"></a><br><br>
     A CSS package built on top of tailwind.css with more utility classes and enhanced flexibility.
 </p>
 <br>
