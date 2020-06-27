@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.10.3",
-    "@babel/runtime-corejs2": "^7.10.2",
+    "@babel/runtime-corejs2": "^7.10.3",
     "autoprefixer": "^9.8.4",
     "babel-loader": "^8.0.0",
     "cross-env": "^7.0.2",
