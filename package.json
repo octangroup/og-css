@@ -31,7 +31,7 @@
     "format": "stylelint --fix 'sass/**/*.scss'"
   },
   "dependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.11.5",
     "@babel/runtime-corejs2": "^7.11.2",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.0.0",
